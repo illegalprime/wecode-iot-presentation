@@ -1,0 +1,1 @@
+../../cgi/admin/pt8051_settings.cgi

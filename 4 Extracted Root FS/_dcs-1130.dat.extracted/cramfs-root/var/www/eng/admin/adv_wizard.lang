@@ -1,0 +1,22 @@
+<body>
+	<internetSettings>internet connection settings</internetSettings>
+	<description1>In this section, you can setup the IP camera's wired network interface settings. If you are configuring this device for the first time, D-Link recommends that you select the Internet Connection Setup Wizard, and follow the instructions on screen. If you wish to modify or configure the IP camera settings manually, you may select the Manual Internet Connection Setup to input the network setting.</description1>
+	<description1wireless>In this section, you can setup the IP camera's network interface settings. If you are configuring this device for the first time, D-Link recommends that you select the Internet Connection Setup Wizard, and follow the instructions on screen. If you wish to modify or configure the IP camera settings manually, you may select the Manual Internet Connection Setup to input the network setting.</description1wireless>
+	<internetButton>Internet Connection Setup Wizard</internetButton>
+	<internetSetup>Manual Internet Connection Setup</internetSetup>
+	<motionSettings>IP camera motion detection settings</motionSettings>
+	<description2>In this section, you can setup the IP camera's Motion Detection settings. If you are configuring this device for the first time, D-Link recommends that you select the Motion Detection Setup Wizard, and follow the instructions on screen. If you wish to modify or configure the Motion Detection manually, select the Manual Motion Detection Setup.</description2>
+	<description3>Motion detection is disabled while camera is set to SXGA mode.</description3>
+	<description4>To enable motion detection, select VGA or XGA mode in </description4>
+	<description5> Audio And Video.</description5>
+	<motionButton>Motion Detection Setup Wizard</motionButton>
+	<motionSetup>Manual Motion Detection Setup</motionSetup>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>If you are an advanced user and have configured an Internet camera before, click 'Manual Internet Connection Setup' to input all settings manually.</description1>
+	<description2>If you consider yourself an advanced user and you want to manually set up motion detection settings, click 'Manual Motion Detection Setup' to input all the settings manually.</description2>
+</hint>
+<message>
+
+</message>

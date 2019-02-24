@@ -1,0 +1,38 @@
+<body>
+	<camera>Camera</camera>
+	<description1>This section shows your camera's live video. You can control your settings using the buttons below. </description1>
+	<description2>Current resolution is </description2>
+	<liveVideo>Live video</liveVideo>
+	<goTo>Go To</goTo>
+	<panSpeed>Pan Speed</panSpeed>
+	<tiltSpeed>Tilt Speed</tiltSpeed>
+	<language>Please select a language</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<selectOne>-- Select One --</selectOne>
+	<stop>Stop</stop>
+	<snapshot>Snapshot</snapshot>
+	<setPath>Set Storage Folder</setPath>
+	<recording>Recording</recording>
+	<stopRecording>Stop Recording</stopRecording>
+	<startSteamOut>Talk</startSteamOut>
+	<stopSteamOut>Stop Talking</stopSteamOut>
+	<listenOn>Listen</listenOn>
+	<listenOff>Stop Listening</listenOff>
+	<startGPOutput>Start Digital Output</startGPOutput>
+	<stopGPOutput>Stop Digital Output</stopGPOutput>
+	<ledOn>Led on</ledOn>
+	<ledOff>Led off</ledOff>
+	<fullScreen>Full Screen</fullScreen>
+	<diIndicator>Digital Input Indicator</diIndicator>
+	<moIndicator>Motion Trigger Indicator</moIndicator>
+	<reIndicator>Recording Indicator</reIndicator>
+	<talkNotify1>Audio device is not available.</talkNotify1>
+	<talkNotify2>Connect to server failed</talkNotify2>
+	<talkNotify3>Audio line is occupied, please try it later.</talkNotify3>
+	<autoPan>Pan</autoPan>
+	<autoPatrol>Patrol</autoPatrol>
+	<irOn>IR LED on</irOn>
+	<irOff>IR LED off</irOff>
+	<errRecord> is saving to storage device error, please check network or storage device state.</errRecord>
+</body>

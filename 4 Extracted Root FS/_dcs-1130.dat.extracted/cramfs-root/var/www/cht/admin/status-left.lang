@@ -1,0 +1,6 @@
+<leftPanel>
+	<deviceInfo>裝置資訊</deviceInfo>
+	<log>記錄</log>
+	<logout>登出</logout>
+	<titleStatus>STATUS</titleStatus>
+</leftPanel>

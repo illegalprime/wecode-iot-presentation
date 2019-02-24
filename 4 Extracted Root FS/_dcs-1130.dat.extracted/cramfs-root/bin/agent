@@ -1,0 +1,24 @@
+#!/bin/sh
+
+pipe=/tmp/agent
+log=/tmp/agent.log
+err=/tmp/agent.err
+
+[ -e $pipe ] && {
+	echo $pipe exist
+	[ -p $pipe ] || {
+		echo but not a pipe
+		rm -rf $pipe && mkfifo $pipe
+	}
+} || {
+	echo $pipe not exist
+	mkfifo $pipe
+}
+
+while sleep 1; do
+	read line < $pipe && {
+		sleep 3 &&
+		$line >> $log 2>> $err  
+	} || echo "read $pipe failed" >> $err
+done
+

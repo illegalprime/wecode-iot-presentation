@@ -1,0 +1,21 @@
+#!/bin/sh
+
+RESOLV_CONF=/etc/resolv.conf
+DDNS_SCRIPT=/etc/rc.d/init.d/ddnsUpdater.sh
+
+addBS() {
+	echo $1 | sed -re 's,\.,\\.,g'
+}
+
+addDNS() {
+	dns=$1
+	if [ "$dns" != "" ]; then
+		grep -q "nameserver *$(addBS $dns)" $RESOLV_CONF || echo "nameserver $dns" >> $RESOLV_CONF
+	fi
+}
+
+[ "$USEPEERDNS" = "1" ] || exit 0
+addDNS $DNS1
+addDNS $DNS2
+route add default dev ppp0
+[ -x "$DDNS_SCRIPT" ] && $DDNS_SCRIPT reload

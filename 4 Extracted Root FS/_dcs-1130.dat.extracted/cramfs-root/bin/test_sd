@@ -1,0 +1,26 @@
+#!/bin/sh
+
+msg_pattern="SD card test"
+mnt_path="/mnt/usb"
+
+mount -t vfat "/dev/scsi/host0/bus0/target0/lun0/part1" "$mnt_path" >/dev/null 2>/dev/null
+ret=$?
+if [ $ret = 0 ]; then
+    echo "$msg_pattern" > "$mnt_path/sd_card_test" 2>/dev/null
+    ret=$?
+    if [ $ret = 0 ]; then
+	msg=`cat "$mnt_path/sd_card_test"`
+	if [ "$msg" = "$msg_pattern" ]; then
+	    echo "ok"
+	fi
+
+	rm "$mnt_path/sd_card_test"
+    else
+	echo "write-protected?"
+	echo "failed"
+    fi
+
+    umount "$mnt_path" >/dev/null 2>/dev/null
+else
+    echo "failed"
+fi

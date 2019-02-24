@@ -1,0 +1,1 @@
+../../cgi/admin/vx1128_register.cgi

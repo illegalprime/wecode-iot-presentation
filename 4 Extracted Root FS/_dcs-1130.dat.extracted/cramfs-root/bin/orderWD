@@ -1,0 +1,38 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "orderWD [factory|ledStatus|wps] [enable|disable]"
+}
+
+func=$1
+action=$2
+end=$3
+
+[ $func ] || showUsage
+[ $action ] || showUsage
+[ $end ] && showUsage
+
+case $func in
+	factory)
+		{ [ $action = enable ] && cmd=628; } || { [ $action = disable ] && cmd=629; } || showUsage
+	;;
+	wps)
+		{ [ $action = enable ] && cmd=630; } || { [ $action = disable ] && cmd=631; } || showUsage
+	;;
+	ledStatus)
+		{ [ $action = enable ] && cmd=641; } || { [ $action = disable ] && cmd=642; } || showUsage
+	;;
+	fwupdate)
+		{ [ $action = enable ] && cmd=643; } || { [ $action = disable ] && cmd=644; } || showUsage
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+send_cmd watchdog $cmd > /dev/null 2> /dev/null

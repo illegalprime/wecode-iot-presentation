@@ -1,0 +1,36 @@
+<body>
+	<motionDetection>motion detection</motionDetection>
+	<description1>This section will allow you to enable or disable motion detection function, draw or erase motion area, as well as configure the sensitivity setting of your camera to detect movement. You must select the checkbox of 'Enable Video Motion' to turn on the feature. </description1>
+	<description2>Motion detection is disabled while camera is set to SXGA mode.</description2>
+	<description3>To enable motion detection, select VGA or XGA mode in </description3>
+	<description4> Audio And Video.</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<liveVideo>Live video</liveVideo>
+	<enableMotion>Enable Video Motion</enableMotion>
+	<enablePIR>Enable PIR</enablePIR>
+	<sense>Sensitivity</sense>
+	<drawingMode>Drawing Mode</drawingMode>
+	<drawMotion>Draw motion area</drawMotion>
+	<eraseMotion>Erase motion area</eraseMotion>
+	<clear>Clear</clear>
+	<numberError>Please input a number</numberError>
+	<rangeError>Please input a number between 0 and 100</rangeError>
+	<areaError>Please draw motion area</areaError>
+	<unselectRange>Draw motion area</unselectRange>
+	<unselectRange1> - Drag your mouse to add motion detection range.</unselectRange1>
+	<inverseRange>Erase motion area</inverseRange>
+	<inverseRange1> - Drag your mouse to erase motion detection range.</inverseRange1>
+	<showFirefoxText>To setup motion area, please use Windows Internet Explorer.</showFirefoxText>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1> - Set the sensitivity of camera to trigger motion detection. High sensitivity makes the motions easier to be detected.</description1>
+	<description2>High sensitivity makes the motions easier to be detected.</description2>
+	<description3>We suggest using a resolution of 176x120 at 5 FPS and 64k BPS to watch images on your cell phone or pda.</description3>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<updateFailed>configure with motion detection daemon failed</updateFailed>
+</message>

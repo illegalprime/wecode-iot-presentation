@@ -1,0 +1,1 @@
+../config/stream_info.cgi

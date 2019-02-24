@@ -1,0 +1,38 @@
+<body>
+	<description1>韌體會不定時的更新, 用以增強/修正網路攝影機的現有功能或新的功能。如果您執行網路攝影機特定的功能有發生問題時, 您可以按下 </description1>
+	<description2>"這裡" </description2>
+	<description3>連結至我們的技術支援網站確認是否有更新修正的韌體可以下載更新使用。</description3>
+	<description4>要更新您的網路攝影機韌體, 請從D-Link 支援網站下載最新的韌體, 並儲存在您的本機磁碟中。之後按下"瀏覽"按鈕, 搜尋並加入韌體檔案。最後按下"上傳"按鈕, 開始更新網路攝影機的韌體。*請注意為免韌體更新失敗, 更新攝影機韌體請透過有線網路更新, 並將電腦設定為固定IP位址, 韌體更新過程中, 切勿拔除網路攝影機或電腦的網路線, 電源。</description4>
+	<firmwareUpgrade>韌體更新</firmwareUpgrade>
+	<filePath>檔案路徑: </filePath>
+	<upload>上傳</upload>
+	<reboot1>網路攝影機需要重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<firmwareInfo>韌體資訊</firmwareInfo>
+	<firmwareVersion>目前的韌體版本:</firmwareVersion>
+	<firmwareProduct>目前的產品名稱:</firmwareProduct>
+	<updateConfirm>您是否要更新韌體版本?</updateConfirm>
+	<updatingText>請注意：韌體更新當中, 請勿關閉網頁或是拔除電源線。</updatingText>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>韌體會不定時的更新, 用以增強/修正網路攝影機的現有功能或新的功能。如果您執行網路攝影機特定的功能有發生問題時, 您可以按下 </description1>
+	<description2>"這裡"  </description2>
+	<description3>連結至我們的技術支援網站確認是否有更新修正的韌體可以下載更新使用。 </description3>
+</hint>
+<message>
+	<updateOK>更新成功</updateOK>
+	<uploadFail>更新失敗</uploadFail>
+	<examFail>更新的檔案損毀</examFail>
+	<infoFail>更新的檔案沒有資訊</infoFail>
+	<invalidImage>這個更新檔不適用在這個產品上</invalidImage>
+	<resetFail>回復工廠預設值失敗</resetFail>
+	<resetOK>回復工廠預設值完成</resetOK>
+	<rebootFail>重新開機失敗</rebootFail>
+	<rebootOK>重新開機完成</rebootOK>
+	<calibrationOK>標轉化成功</calibrationOK>
+	<importOK>設定檔還原成功,網路攝影機將會重新啟動</importOK>
+	<invalidDB>不合法的還原設定檔</invalidDB>
+	<noDB>沒有設定檔上傳</noDB>
+	<noimage>沒有更新的檔案文件.</noimage>
+</message>

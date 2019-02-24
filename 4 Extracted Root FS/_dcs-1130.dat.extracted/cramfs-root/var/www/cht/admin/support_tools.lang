@@ -1,0 +1,36 @@
+<body>
+	<helpMenu>使用說明</helpMenu>
+	<deviceManagement>管理</deviceManagement>
+	<backupAndRestore>系統</backupAndRestore>
+	<firmwareUpgrade>韌體更新</firmwareUpgrade>
+	<cameraName>網路攝影機名稱</cameraName>
+	<cameraName1> - 請在此輸入欲命名的攝影機名稱。</cameraName1>
+	<label>標籤</label>
+	<label1> - 請在此輸入欲命名的攝影機標籤(此標籤將顯示在攝影機的監視畫面上)。</label1>
+	<timeStamp>顯示時間</timeStamp>
+	<timeStamp1> - 勾選此項目將在影像截圖或監視畫面中顯示攝影機的時間資訊。</timeStamp1>
+	<adminPassword>管理者密碼設定</adminPassword>
+	<adminPassword1> - 請在此輸入管理者(admin)帳號的密碼, 密碼必須重複輸入兩次以確認輸入密碼無誤。</adminPassword1>
+	<addUser>增加使用者帳號</addUser>
+	<addUser1> - 新增一個使用者帳號僅供觀看攝影機影像使用。密碼必須重複輸入兩次以確認輸入密碼無誤。您可從user list中檢視您新增的帳號, 以方便您刪除帳號。</addUser1>
+	<deleteUser>使用者列表</deleteUser>
+	<deleteUser1> - 你可以在此從使用者清單中刪除使用者。</deleteUser1>
+	<backup>儲存設定到本端硬碟裝置</backup>
+	<backup1> – 按下"儲存設定檔"按鈕後, 您可以將攝影機現行的設定檔備份儲存至本機硬碟中。</backup1>
+	<restore>從本端硬碟裝置载入設定</restore>
+	<restore1> - 您可以在這邊瀏覽先前儲存的攝影機設定檔, 按下"載入設定檔"按鈕後, 攝影機將載入套用先前儲存的攝影機設定檔。</restore1>
+	<rebootSystem>重新啟動這個網路攝影機</rebootSystem>
+	<rebootSystem1> - 您可以透過這個項目將攝影機重新啟動, 而不需要插拔攝影機電源。</rebootSystem1>
+	<factoryDefaults>恢復工廠預設值</factoryDefaults>
+	<factoryDefaults1> - 透過這個項目您可以將攝影機的所有設定回復出廠預設值。請注意這將清空所有現行的攝影機設定值。</factoryDefaults1>
+	<calibrate>標準化這個網路攝影機</calibrate>
+	<calibrate1> - 重新校準攝影機位置到預設中央點。</calibrate1>
+	<firmwareInformation>韌體資訊</firmwareInformation>
+	<firmwareInformation1> - 此處將顯示現行韌體相關資訊。</firmwareInformation1>
+	<firmwareUpdate>韌體更新</firmwareUpdate>
+	<firmwareUpdate1> - 要更新您的網路攝影機韌體, 請從D-Link支援網站下載最新的韌體, 並儲存在您的本機磁碟中。之後按下"瀏覽"按鈕, 搜尋並加入韌體檔案。最後按下"上傳"按鈕, 開始更新網路攝影機的韌體。</firmwareUpdate1>
+	<enableOSD>啟動OSD</enableOSD>
+	<enableOSDl> - 勾選此項目可以開啟或關閉顯示在監視畫面中的資訊。</enableOSDl>
+	<led>LED 燈號</led>
+	<led1> - 使用者可勾選此項目開啟或關閉LED燈。</led1>
+</body>

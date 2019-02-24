@@ -1,0 +1,146 @@
+<body>
+	<systemSettings>時間與日期</systemSettings>
+	<description1>您可以設定這台網路攝影機目前的時間.</description1>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<manual>手動設定</manual>
+	<timeZoneSetting>時間設定</timeZoneSetting>
+	<timeZone>時區</timeZone>
+	<enableDST>啟動日光節約時間</enableDST>
+	<autoDST>自動日光節約時間</autoDST>
+	<offset>偏移量</offset>
+	<hours>時</hours>
+	<minutes>分</minutes>
+	<seconds>秒</seconds>
+	<month>月</month>
+	<week>週</week>
+	<dayOfWeek>第幾天</dayOfWeek>
+	<startTime>起始時間</startTime>
+	<endTime>結束時間</endTime>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<automaticTime>自動時間設定</automaticTime>
+	<synchronizeNTPServer>與 NTP 伺服器同步</synchronizeNTPServer>
+	<ntpServerUsed>NTP 伺服器使用</ntpServerUsed>
+	<selectNTP>選擇 NTP 伺服器</selectNTP>
+	<ntp1>ntp1.dlink.com</ntp1>
+	<ntp2>ntp.dlink.com.tw</ntp2>
+	<setDateManually>手動設定時間及日期</setDateManually>
+	<year>年</year>
+	<day>日</day>
+	<hour>時</hour>
+	<minute>分</minute>
+	<second>秒</second>
+	<computerTime>複製本機的時間設定</computerTime>
+	<asciiError>OSD標簽只能接受數字,英文字母,以及部份特殊符號</asciiError>
+	<hourError>不合法的小時</hourError>
+	<minuteError>不合法的分鐘</minuteError>
+	<secondError>不合法的秒數</secondError>
+	<parameterError>不合法的參數</parameterError>
+	<yearError>年份必須介於1970與2037之間</yearError>
+	<monError>月份必須介於1與12之間</monError>
+	<dayError1>日期必須介於1與31之間</dayError1>
+	<dayError2>不合法的日期</dayError2>
+	<dayError3>這年的2月只有29天</dayError3>
+	<dayError4>這年的2月只有28天</dayError4>
+	<cameraNameError>網路攝影機名稱不能為空白</cameraNameError>
+	<ntpError1>NTP伺服器不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</ntpError1>
+	<ntpError2>NTP伺服器位址不合法</ntpError2>
+	<timeZone1>(GMT-12:00) International Date Line West</timeZone1>
+	<timeZone2>(GMT-11:00) Midway Island, Samoa</timeZone2>
+	<timeZone3>(GMT-10:00) Hawaii</timeZone3>
+	<timeZone4>(GMT-09:00) Alaska</timeZone4>
+	<timeZone5>(GMT-08:00) Pacific Time (US &amp; Canada)</timeZone5>
+	<timeZone6>(GMT-08:00) Tijuana, Baja California</timeZone6>
+	<timeZone7>(GMT-07:00) Chihuahua, La Paz, Mazatlan</timeZone7>
+	<timeZone8>(GMT-07:00) Mountain Time (US &amp; Canada)</timeZone8>
+	<timeZone9>(GMT-07:00) Arizona</timeZone9>
+	<timeZone10>(GMT-06:00) Central America</timeZone10>
+	<timeZone11>(GMT-06:00) Guadalajara, Mexico City, Monterrey</timeZone11>
+	<timeZone12>(GMT-06:00) Saskatchewan</timeZone12>
+	<timeZone13>(GMT-06:00) Central Time (US &amp; Canada)</timeZone13>
+	<timeZone14>(GMT-05:00) Bogota, Lima, Quito, Rio Branco</timeZone14>
+	<timeZone15>(GMT-05:00) Eastern Time (US &amp; Canada)</timeZone15>
+	<timeZone16>(GMT-05:00) Indiana (East)</timeZone16>
+	<timeZone17>(GMT-04:00) Caracas, La Paz</timeZone17>
+	<timeZone18>(GMT-04:00) Atlantic Time (Canada)</timeZone18>
+	<timeZone19>(GMT-04:00) Santiago</timeZone19>
+	<timeZone20>(GMT-04:00) Manaus</timeZone20>
+	<timeZone21>(GMT-03:30) Newfoundland</timeZone21>
+	<timeZone22>(GMT-03:00) Buenos Aires, Georgetown</timeZone22>
+	<timeZone23>(GMT-03:00) Brasilia</timeZone23>
+	<timeZone24>(GMT-03:00) Greenland</timeZone24>
+	<timeZone25>(GMT-03:00) Montevideo</timeZone25>
+	<timeZone26>(GMT-02:00) Mid-Atlantic</timeZone26>
+	<timeZone27>(GMT-01:00) Azores</timeZone27>
+	<timeZone28>(GMT-01:00) Cape Verde Is.</timeZone28>
+	<timeZone29>(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</timeZone29>
+	<timeZone30>(GMT) Casablanca, Monrovia, Reykjavik</timeZone30>
+	<timeZone31>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</timeZone31>
+	<timeZone32>(GMT+01:00) West Central Africa</timeZone32>
+	<timeZone33>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</timeZone33>
+	<timeZone34>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</timeZone34>
+	<timeZone35>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</timeZone35>
+	<timeZone36>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</timeZone36>
+	<timeZone37>(GMT+02:00) Athens, Bucharest, Istanbul</timeZone37>
+	<timeZone38>(GMT+02:00) Beirut</timeZone38>
+	<timeZone39>(GMT+02:00) Harare, Pretoria</timeZone39>
+	<timeZone40>(GMT+02:00) Cairo</timeZone40>
+	<timeZone41>(GMT+02:00) Minsk</timeZone41>
+	<timeZone42>(GMT+02:00) Amman</timeZone42>
+	<timeZone43>(GMT+02:00) Windhoek</timeZone43>
+	<timeZone44>(GMT+02:00) Jerusalem</timeZone44>
+	<timeZone45>(GMT+03:00) Baghdad</timeZone45>
+	<timeZone46>(GMT+03:00) Moscow, St. Petersburg, Volgograd</timeZone46>
+	<timeZone47>(GMT+03:00) Tbilisi</timeZone47>
+	<timeZone48>(GMT+03:00) Nairobi</timeZone48>
+	<timeZone49>(GMT+03:00) Kuwait, Riyadh</timeZone49>
+	<timeZone50>(GMT+03:30) Tehran</timeZone50>
+	<timeZone51>(GMT+04:00) Baku</timeZone51>
+	<timeZone52>(GMT+04:00) Abu Dhabi, Muscat</timeZone52>
+	<timeZone53>(GMT+04:00) Yerevan</timeZone53>
+	<timeZone54>(GMT+04:30) Kabul</timeZone54>
+	<timeZone55>(GMT+05:00) Ekaterinburg</timeZone55>
+	<timeZone56>(GMT+05:00) Islamabad, Karachi, Tashkent</timeZone56>
+	<timeZone57>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</timeZone57>
+	<timeZone58>(GMT+05:30) Sri Jayawardenepura</timeZone58>
+	<timeZone59>(GMT+05:45) Kathmandu</timeZone59>
+	<timeZone60>(GMT+06:00) Astana, Dhaka</timeZone60>
+	<timeZone61>(GMT+06:00) Almaty, Novosibirsk</timeZone61>
+	<timeZone62>(GMT+06:30) Yangon (Rangoon)</timeZone62>
+	<timeZone63>(GMT+07:00) Krasnoyarsk</timeZone63>
+	<timeZone64>(GMT+07:00) Bangkok, Hanoi, Jakarta</timeZone64>
+	<timeZone65>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</timeZone65>
+	<timeZone66>(GMT+08:00) Taipei</timeZone66>
+	<timeZone67>(GMT+08:00) Irkutsk, Ulaan Bataar</timeZone67>
+	<timeZone68>(GMT+08:00) Perth</timeZone68>
+	<timeZone69>(GMT+08:00) Kuala Lumpur, Singapore</timeZone69>
+	<timeZone70>(GMT+09:00) Yakutsk</timeZone70>
+	<timeZone71>(GMT+09:00) Osaka, Sapporo, Tokyo</timeZone71>
+	<timeZone72>(GMT+09:00) Seoul</timeZone72>
+	<timeZone73>(GMT+09:30) Adelaide</timeZone73>
+	<timeZone74>(GMT+09:30) Darwin</timeZone74>
+	<timeZone75>(GMT+10:00) Hobart</timeZone75>
+	<timeZone76>(GMT+10:00) Brisbane</timeZone76>
+	<timeZone77>(GMT+10:00) Vladivostok</timeZone77>
+	<timeZone78>(GMT+10:00) Canberra, Melbourne, Sydney</timeZone78>
+	<timeZone79>(GMT+10:00) Guam, Port Moresby</timeZone79>
+	<timeZone80>(GMT+11:00) Magadan, Solomon Is., New Caledonia</timeZone80>
+	<timeZone81>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</timeZone81>
+	<timeZone82>(GMT+12:00) Auckland, Wellington</timeZone82>
+	<timeZone83>(GMT+13:00) Nuku'alofa</timeZone83>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>透過這邊設定現行的時間及時區, 以確保有正確的記錄資訊及符合排程設定錄影動作。</description1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<invalidParameter>其中一個參數是無效的</invalidParameter>
+	<updateFailed>改變設定失敗</updateFailed>
+</message>

@@ -1,0 +1,296 @@
+<body>
+	<setup>設定</setup>
+	<wizard>設定精靈</wizard>
+	<networkSetup>網路設定</networkSetup>
+	<dynamicDNS>動態DNS</dynamicDNS>
+	<wirelessSetup>無線網路設定</wirelessSetup>
+	<audioVideo>聲音與影像</audioVideo>
+	<imageSetup>影像設定</imageSetup>
+	<motionDetection>移動偵測</motionDetection>
+	<presetPosition>預設位置</presetPosition>
+	<recording>錄影設定</recording>
+	<snapshot>擷取畫面</snapshot>
+	<timeAndDate>時間與日期</timeAndDate>
+	<wizardInternetSettings>網際網路連線設定</wizardInternetSettings>
+	<wizardInternetSettings1> - 透過這個功能, 您可以進行網路攝影機有線網路介面相關設定。如果您是第一次使用這個網路攝影機,D-Link建議您按下"網際網路連線設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行網路攝影機設定(不透過設定精靈), 請按下"手動設定網際網路連線"按鈕, 以開始手動設定網路攝影機。</wizardInternetSettings1>
+	<wizardMotionSettings>網路攝影機移動偵測設定</wizardMotionSettings>
+	<wizardMotionSettings1> - 透過這個功能, 您可以進行網路攝影機的移動偵測相關設定。如果您是第一次使用這個網路攝影機,D-Link建議您按下"移動偵測設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行移動偵測設定(不透過設定精靈), 請按下"手動設定移動偵測"按鈕, 以開始手動進行移動偵測設定。</wizardMotionSettings1>
+	<lanSetting>區域網路設定</lanSetting>
+	<lanSetting1> - 您可以透過這個項目, 選擇固定IP 位址項目, 手動設定適合您網路組態的IP位址給網路攝影機使用。如果您的網路上有DHCP伺服器的話, 您可以選擇使用DHCP 連線項目, 讓網路攝影機從這些伺服器自動取得IP 位址使用。不過請先確定您的這些伺服器已經設定完成可以發配IP 位址給網路攝影機使用。</lanSetting1>
+	<lanSetting2>DNS(網域名稱系統)伺服器為一個在網際網路上提供網址轉譯(例如:www.dlink.com)為IP 位址(例如:192.168.0.20)服務的伺服器。DNS伺服器位址一般都會由您的網際網路服務提供者(ISP)所提供。</lanSetting2>
+	<lanSetting3>啟動UPnP</lanSetting3>
+	<lanSetting4> - 這選項用於讓電腦可以在Windows作業系統下的使用「網路芳鄰」裡透過 UPnP的通訊協定以尋找這一台攝影機。</lanSetting4>
+	<lanSetting5>啟動UPnP port轉遞</lanSetting5>
+	<lanSetting6> - 當你的攝影機安裝在寬頻路由器的LAN Port而此寬頻路由器是有支援啟動UPnP port轉遞時, 你將不需要到路由器做任何設定, 就可以直接從遠端來觀看攝影機的影像了。</lanSetting6>
+	<pppoeSetting>PPPoE 設定</pppoeSetting>
+	<pppoeSetting1> - 如果您的網路攝影機直接與DSL Modem 連結網際網路,不透過IP 分享器, 且您的DSL Modem 連結至網際網路時需要額外輸入帳號密碼的話; 您需要在這邊輸入正確的PPPoE 帳號及密碼。您如果不清楚這邊要輸入的帳號密碼為何的話, 請與您的ISP 聯絡。
+如果您的網路攝影機已經與您現有的IP 分享器連結的話, 您不需要做這邊的設定。</pppoeSetting1>
+	<portSetting>連接埠詳細設定</portSetting>
+	<portSetting1> - 允許您指定一個特殊連接埠供HTTP 及RTSP 串流使用。</portSetting1>
+	<httpPort>HTTP 連接埠</httpPort>
+	<httpPort1> - 為用以透過預設瀏覽器連接網路攝影機設定使用的連接埠。預設HTTP連接埠為80, 通訊埠的設定必須為一數值。如果網路攝影機介接在IP 分享器之後的話, 您必須在IP 分享器之中進行虛擬伺服器的設定。 </httpPort1>
+	<rtspPort>RTSP 連接埠</rtspPort>
+	<rtspPort1> - 為用以透過有支援串流媒體播放的移動裝置(例如3/3.5G 手機,PDA)連接觀看攝影機使用的連接埠。RTSP 連接埠預設值為554。</rtspPort1>
+	<dynamicDNS1> - 動態DNS 功能允許您使用一個網域名稱(Domain name), 例如www.yourdomain.com 來存取一個使用動態IP 位址的網路攝影機。大部分的寬頻網際網路服務提供商都只提供使用者動態IP 位址而已。一旦您使用了DDNS 服務, 您可以輸入您所設定好的網域名稱來連結網路攝影機, 而不需要再去透過不固定的動態IP位址。</dynamicDNS1>
+	<ddnsServerAddr>伺服器位址</ddnsServerAddr>
+	<ddnsServerAddr1> -  由下拉選單選擇您所使用的動態 DNS 提供者。</ddnsServerAddr1>
+	<ddnsTimeout>更新週期</ddnsTimeout>
+	<ddnsTimeout1> – 設定多久一次連線到所使用的動態DNS伺服器並更新你所註冊的動態網域跟目前網路攝影機的IP位址的關係。預設值為576小時</ddnsTimeout1>
+	<ddnsHostname>主機名稱</ddnsHostname>
+	<ddnsHostname1> - 輸入DDNS 伺服器的主機名稱。</ddnsHostname1>
+	<ddnsUsername>使用者名稱</ddnsUsername>
+	<ddnsUsername1> - 輸入您連線到 DDNS 主機的使用者名稱或是電子郵件信箱。</ddnsUsername1>
+	<ddnsPassword>密碼</ddnsPassword>
+	<ddnsPassword1> - 輸入您連線到的 DDNS 主機的密碼或是金鑰。</ddnsPassword1>
+	<siteSurvey>掃瞄無線網路</siteSurvey>
+	<siteSurvey1> - 一個下拉式選單顯示所有可用的無線網路。</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (無線網路名稱) - 為您的無線網路基地台的一個存取名稱, 例如Default, dlink, My network。</SSID1>
+	<wirelessMode>無線網路模式</wirelessMode>
+	<wirelessMode1> - 預設模式為"Infrastructure Mode", 這個模式允許網路攝影機與無線基地台或無線路由器無線連線。如果您的環境中沒有無線基地台或無線路由器的話, 選擇"Ad-Hoc Mode" 可以讓您與無線網路卡進行無線點對點連線。 </wirelessMode1>
+	<channel>頻道</channel>
+	<channel1> - 預設值為對應為Infrastructure Mode的自動選取。當無線網路模式為Ad-Hoc Mode時, 這邊的頻道才可以選擇變更。</channel1>
+	<authentication>加密驗證方式</authentication>
+	<authentication1>Open - 這個選項可以讓所有在無線網路內的裝置偵測到攝影機。</authentication1>
+	<authentication2>Shared - 允許其他有設定相同WEP 無線存取金鑰的無線裝置與攝影機無線連結。</authentication2>
+	<authentication3>WPA-PSK,WPA2-PSK - 這兩種加密模式都要求您必須在網路攝影機及無線基地台之中, 輸入一個相同的預先共用金鑰(pre-shared Key), 以供彼此無線連結使用。</authentication3>
+	<encryption>資料加密</encryption>
+	<encryption1>停用 - 不選擇使用無線網路加密。</encryption1>
+	<encryption2>WEP - 網路設定的過程當中會自動決定使用64 或128 位元hex 或ASCII 的WEP 無線加密方式。</encryption2>
+	<encryption3>TKIP - (Temporal Key Integrity Protocol) 提供保護您的無線網路不受駭客入侵的資料加密方式。一般來說您選擇驗證方式選擇WPA 的時候, 資料加密方式請選擇TKIP。 </encryption3>
+	<encryption4>AES - (Advanced Encryption System) - 128位元的對稱區塊資料加密系統, 一般來說您選擇驗證方式選擇WPA2 的時候, 資料加密方式請選擇AES。
+附註:大部分的手持裝置(例如PDA)都僅支援WPA TKIP 的無線驗證加密方式。</encryption4>
+	<encryption5>附註:大部分的手持裝置(例如PDA)都僅支援WPA TKIP 的無線驗證加密方式。</encryption5>
+	<key>Key</key>
+	<path>路徑</path>
+	<path1> - 請在此輸入欲將影像上傳至FTP 伺服器的目錄路徑。</path1>
+	<prefixFilename>指定檔案名稱</prefixFilename>
+	<prefixFilename1> - 這邊所指定的檔案名稱將會被套用到所有檔案上。</prefixFilename1>
+	<interval>間隔</interval>
+	<interval1> - 每次拍照的間隔時間。</interval1>
+	<ftpPort>連接埠</ftpPort>
+	<ftpPort1> - FTP 伺服器的連接埠。大部分的FTP 伺服器都使用預設的連接埠21(TCP)。</ftpPort1>
+	<passiveMode>被動模式</passiveMode>
+	<passiveMode1> - 某些FTP 伺服器允許用戶端連結的時候使用被動模式。以允許用戶端使用隨機的通訊埠進行通訊。</passiveMode1>
+	<videoProfile>Video Profile</videoProfile>
+	<videoProfile1> - 選擇並設定一個最適合您網路環境的影像設定。</videoProfile1>
+	<encodeType>影像編碼方式</encodeType>
+	<encodeType1> – 你可以選擇MPEG4或者JPEG作為串流影像時所使用的影像編碼方式。</encodeType1>
+	<resolution>解析度</resolution>
+	<resolution1> - 您可以透過這個項目, 變更攝影機即時影像的解析度。在VGA模式下, 您可以在640x480, 320x240, 160x120之間做選擇; 在XVGA模式下, 您可以在1024x768, 512x384, 256x192之間做選擇; 在SXGA模式下, 您可以在1280x1024, 640x512, 320x256之間做選擇; 在NTSC的模式, 您可以在704x480, 352x240, 176x120之間做選擇; 在PAL的模式, 您可以在704x576, 352x288, 176x144之間做選擇。</resolution1>
+	<resolution2> - 提供三種影像大小可供選擇。</resolution2>
+	<frameRate>最大畫面速率</frameRate>
+	<frameRate1> - 設定每秒畫面所顯示的最大畫面幅數。30fps 為攝影機的最佳的影像流暢品質。一般來說超過15fps 之後的設定便很難感覺出兩者流暢的差異。</frameRate1>
+	<bitRate>固定位元速度</bitRate>
+	<bitRate1> - 選擇一個合適的固定頻寬速率以供攝影機使用。這個選項允許使用者依照現行所使用的寬頻網路頻寬, 選擇定義一個適合的頻寬速率供攝影機運作使用, 而不使用到所有的網路頻寬。</bitRate1>
+	<jpegQuality>Jpeg 品質</jpegQuality>
+	<jpegQuality1> - 表示透過JPEG 擷取影像的畫質等級。</jpegQuality1>
+	<rtspUrl>RTSP URL</rtspUrl>
+	<rtspUrl1> - 此URL為當透過行動裝置或是PDA連結攝影機所使用之網址 。(例如： rtsp://EXAMPLE.dlinkddns.com/3gpp) 。</rtspUrl1>
+	<irled>紅外線LED</irled>
+	<irled1> - 此功能可以設定在不同照度下，紅外線LED啟動的時機。</irled1>
+	<enableSpeaker>啟動揚聲器</enableSpeaker>
+	<enableSpeaker1> - 您可以在這邊來控制是否啟動或關閉連接在網路攝影機的揚聲器 。</enableSpeaker1>
+	<enableMicrophone>啟動麥克風</enableMicrophone>
+	<enableMicrophone1> - 您可以在這邊來控制是否啟動或關閉外接在網路攝影機的麥克風 。</enableMicrophone1>
+	<speakerVolume>揚聲器音量</speakerVolume>
+	<speakerVolume1> - 您可以在這邊來控制連接在網路攝影機的揚聲器的音量大小 。</speakerVolume1>
+	<microphoneVolume>麥克風音量</microphoneVolume>
+	<microphoneVolume1> - 您可以在這邊來控制外接在網路攝影機的麥克風的音量大小 。</microphoneVolume1>
+	<microphone>Microphone</microphone>
+	<brightness>亮度</brightness>
+	<brightness1> - 調整這個項目以補償畫面背景亮度。</brightness1>
+	<saturation>飽和</saturation>
+	<saturation1> - 此選項控制黑白至清楚的顏色強度。</saturation1>
+	<contrast>對比</contrast>
+	<contrast1> - 調整這個項目以控制物體間的顏色飽和度, 有助於在灰暗的環境下的影像。</contrast1>
+	<frequency>頻率</frequency>
+	<frequency1> - 可選擇'50HZ'或'60HZ',(依照不同的國家而有所差異)。</frequency1>
+	<whitebalance>白平衡</whitebalance>
+	<whitebalance1> - 預設值為'自動設定'。 此選項將會移除非真實的顏色投射, 因此白色的物體在影像中可顯示出白色。</whitebalance1>
+	<bw>黑白</bw>
+	<bw1> - 調整這個項目可以開啟或關閉攝影機的黑白模式。</bw1>
+	<flip>反轉</flip>
+	<flip1> - 當您的攝影機安裝為由上往下攝影的的狀況(如安裝在天花板)時可選擇此選項。</flip1>
+	<mirror>鏡像</mirror>
+	<mirror1> - 選擇此選項可得到鏡射的影像。</mirror1>
+	<hue>色相</hue>
+	<hue1> - 調整這個項目以增強/減弱畫面的顏色的亮度。</hue1>
+	<BLC>背光補償</BLC>
+	<BLC1> - 當監視的物體位於光源的前方造成攝影機無法清楚的截取影像時。選擇修正此功能可以改善背光所造成的影像不清楚問題。</BLC1>
+	<AWB>自動白色平衡</AWB>
+	<AWB1> - 此功能為改善不真實的顏色塑像的過程, 以讓實際觀看影像中的白色物體是被正確顯示為白色。</AWB1>
+	<AGC>自動增益控制</AGC>
+	<AGC1> - 控制信號接收的增益值。使用AGC功能,可將微弱的接收信號加強並且強化微弱或無法接收的訊號。</AGC1>
+	<AES>自動電子快門</AES>
+	<AES1> - 允許快門速度自動地被調整。越快速的快門速度將使得快速移動的對象更加清楚被呈現。</AES1>
+	<clearMotion>清除按鈕</clearMotion>
+	<clearMotion1> - 您可以使用此按鈕請清除所有所設定的偵測移動的區域。</clearMotion1>
+	<enableMotion>啟動影像移動偵測</enableMotion>
+	<enableMotion1> - 選擇這個項目以啟動攝影機的移動偵測功能。</enableMotion1>
+	<sensitivity>敏感度</sensitivity>
+	<sensitivity1> - 敏感度調整欄可以讓您調整多大的移動可觸發移動偵測。</sensitivity1>
+	<unselectRange>拖劃偵測移動區域</unselectRange>
+	<unselectRange1> - 拖動滑鼠來設定移動偵測的範圍。</unselectRange1>
+	<inverseRange>清除偵測移動區域</inverseRange>
+	<inverseRange1> - 拖動滑鼠來清除移動偵測的範圍。</inverseRange1>
+	<panSpeed>水平速度</panSpeed>
+	<panSpeed1> - 使用者可以依照自己的喜好選擇五種從1到5的適合水平移動速度。</panSpeed1>
+	<tiltSpeed>垂直速度</tiltSpeed>
+	<tiltSpeed1> - 使用者可以依照自己的喜好選擇五種從1到5的適合垂直移動速度。</tiltSpeed1>
+	<currentPosition>現行位置</currentPosition>
+	<currentPosition1> - 移動攝影機到一個所要的位置後, 並輸入一個名稱或號碼到現行位置中, 並新增。新增位置將在預設位置清單中顯示。</currentPosition1>
+	<presetPosition>預設位置</presetPosition>
+	<presetPosition1> -  此處將顯示所有由使用者定義的位置, 並且使用者也可將這些位置刪除。</presetPosition1>
+	<recResolution>影像解析度</recResolution>
+	<recResolution1> - 可以使用四種選項選擇想要錄影的影像解析度。</recResolution1>
+	<bps>Bps (每秒的位元數)</bps>
+	<bps1>為您的網路攝影機選擇固定頻寬 ,此選項可供使用者依照頻寬及儲存空間選擇適合的畫面速率。</bps1>
+	<fps>FPS (每秒的位元數)</fps>
+	<fps1> - 每秒所顯示的畫面數 - 網路攝影機提供最佳的畫面品質為每秒30fps 的畫面數, 一般而言肉眼對於15fps以上便察覺不出其差異。</fps1>
+	<cameraenvironment>攝影機環境</cameraenvironment>
+	<cameraenvironment1> - 您可以利用這些選項來依照網路攝影機所擺放的位置進行調整。</cameraenvironment1>
+	<night>夜間模式</night>
+	<night1> - 勾選夜間模式可讓您的網路攝影機位在較暗的環境時提升錄影品質。</night1>
+	<shutter>快門</shutter>
+	<shutter1> - 夜間模式提供三種快門速度可供選擇。</shutter1>
+	<scheduledRecording>排程錄影</scheduledRecording>
+	<scheduledRecording1> - 選擇這個項目,攝影機將依照您的時間排程錄影。</scheduledRecording1>
+	<continuoussam>持續錄影(僅支援儲存到網路磁碟機Samba)</continuoussam>
+	<continuous>持續錄影</continuous>
+	<continuoussam1> - 勾選此項目即會持續錄影。</continuoussam1>
+	<scheduledsam>排程錄影(僅支援儲存到網路磁碟機Samba)</scheduledsam>
+	<scheduled>排程錄影</scheduled>
+	<scheduledsam1> - 勾選此項目會依照排程的時段錄影。</scheduledsam1>
+	<sambaAuth>Samba權限</sambaAuth>
+	<sambaAuth1> - 選擇匿名或透過帳號存取。</sambaAuth1>
+	<serverIP>伺服器</serverIP>
+	<serverIPl> - 輸入網路儲存伺服器的IP。</serverIPl>
+	<sharedFolder>分享目錄</sharedFolder>
+	<sharedFolder1> - 請輸入分享目錄的名稱。</sharedFolder1>
+	<timeZone>時區</timeZone>
+	<timeZone1> - 請選擇一個攝影機所在當地的時區。</timeZone1>
+	<autoDaylightSavings>自動調整日光節約時間</autoDaylightSavings>
+	<autoDaylightSavings1> – 網路攝影機會依據你所設定的時區來自動調整日光節約時間。</autoDaylightSavings1>
+	<daylightSavings>啟動日光節約時間</daylightSavings>
+	<daylightSavings1> - 啟用日光節約時間以調整時間依照日光節約時間調整時間及日期。</daylightSavings1>
+	<setManually>手動設定日光節約時間</setManually>
+	<setManually1> - 允許您當啟用日光節約時間時, 手動設定日光節約時間細項。</setManually1>
+	<daylightSavingsDates>日光節約日期</daylightSavingsDates>
+	<daylightSavingsDates1> - 允許您手動設定日光節約時間的開始/結束日期。</daylightSavingsDates1>
+	<syncTime>複製本機的時間設定</syncTime>
+	<syncTime1> - 選擇這個項目攝影機將與您的本機電腦同步時間及日期。</syncTime1>
+	<manual>手動設定</manual>
+	<manual1> - 手動調整及設定攝影機時間及日期。</manual1>
+	<SyncNTP>與NTP 伺服器同步</SyncNTP>
+	<SyncNTP1> - 當選擇這個項目之後, 攝影機會與位於網際網路的NTP(時間)伺服器同步時間及日期。但是如果時間伺服器沒有被找尋到的話, 攝影機將不會套用任何時間設定。</SyncNTP1>
+	<ntpServer>NTP 伺服器</ntpServer>
+	<ntpServer1> - 請在此輸入時間伺服器的IP 位址或主機名稱。</ntpServer1>
+        <enableRecording>錄影設定</enableRecording>
+        <enableRecordingl> - 啟動這個項目可讓您依照所選取的事件錄影至Samba 網路裝置中, 當您需要網路攝影機錄製影像時, 您可藉著勾選啟動錄影, 接著選擇排程方式來開啟錄影功能。</enableRecordingl>
+        <userName>使用者名稱</userName>
+        <userNamel> – 輸入登入網路儲存設備的使用者名稱。</userNamel>
+        <passWord>密碼</passWord>
+        <passWordl> - 輸入登入網路儲存設備的使用者的密碼。</passWordl>
+        <test>測試按鈕</test>
+        <testl> - 此按鈕可以用已確定網路攝影機可以正確去存取所要儲存的網路空間。</testl>
+        <getStatus>取得狀態按鈕</getStatus>
+        <getStatusl> - 此按鈕可以用已確定錄影的程式是否已經啟動了。</getStatusl>
+        <keepSpace>錄影直到MB為剩餘磁碟空間</keepSpace>
+        <keepSpacel> – 在此設定保留多少的磁碟空間在所分享的網路儲存空間。</keepSpacel>
+        <stopRecord>當儲存空間滿時的動作:選擇 [停止錄影]</stopRecord>
+        <stopRecordl> - 當選擇此選項時, 網路攝影機會持續去偵測目前網路儲存空間使否已滿, 當偵測到網路儲存空間已滿時, 網路攝影機便會停止錄影。</stopRecordl>
+        <overwriteRecord>當儲存空間滿時的動作:選擇 [覆蓋舊的錄影]</overwriteRecord>
+        <overwriteRecordl> – 選擇此選項時, 網路攝影機會持續去偵測目前網路儲存空間使否已滿, 當偵測到網路儲存空間已滿時, 網路攝影機便會將新的錄影檔去覆寫掉舊的錄影檔, 讓錄影的動作可以持續下去。</overwriteRecordl>
+        <eventBased>事件觸發錄影</eventBased>
+        <eventBasedl> - 當移動偵測觸發或由數位輸入裝置觸發時錄影。</eventBasedl>
+        <prerecordSeconds>預先錄影</prerecordSeconds>
+        <prerecordSecondsl> - 此設定用以套用移動偵測錄影。在有預先錄影的設定時，攝影機會在動作被觸發前開始錄影一段預設的時間到本機硬碟。(範圍0到15秒)</prerecordSecondsl>
+        <postrecordSeconds>延遲錄影</postrecordSeconds>
+        <postrecordSecondsl> - 此設定在偵測到事件發生後啟動攝影機錄影功能。它在事件被觸發後錄影一段預設的時間，即使動作可能已經被終止了。(範圍0到15秒)</postrecordSecondsl>
+        <enableSnapshot>啟動擷取畫面</enableSnapshot>
+	<enableSnapshotl> - 啟動這個項目可以將攝影機所抓下來的靜態影像傳送到指定的FTP伺服器或者E-Mail位址。</enableSnapshotl>
+	<eventbased>以事件為基礎</eventbased>
+	<eventbased1> - 在此你可以選擇當移動偵測被觸發或數位輸入接口被觸發時, 會傳送影像圖片到您的E-Mail 位址或者FTP伺服器。</eventbased1>
+	<continuousftp>持續觸發 (僅支援儲存到FTP)</continuousftp>
+	<continuousftp1> - 勾選此項目將會持續的抓取靜態影像。</continuousftp1>
+	<scheduledftp>排程觸發 (僅支援儲存到FTP) </scheduledftp>
+	<scheduledftp1> - 勾選此項目即會基於特定的時間排程抓取靜態影像。</scheduledftp1>
+	<triggerEvent>事件觸發</triggerEvent>
+	<triggerEventl> – 在此你可以選擇當移動偵測被觸發或數位輸入接口被觸發時, 會傳送影像圖片到您的E-Mail 位址或者FTP伺服器。</triggerEventl>
+	<emailAddress>電子郵件</emailAddress>
+	<emailAddressl> - 傳送動態影像剪輯到您的E-Mail 位址。</emailAddressl>
+	<userNameSnapl> - 請在此輸入由ISP 所提供給您的E-Mail 使用者名稱。</userNameSnapl>
+	<passwordSnapl> - 請在此輸入由ISP 所提供給您的E-Mail 使用者密碼。</passwordSnapl>
+	<smtpMailServer>SMTP(寄件)伺服器</smtpMailServer>
+	<smtpMailServerl> - 請輸入SMTP 伺服器的IP 位址或主機名稱(一般會由ISP 所提供)。例如:smtpserver.yourdomain.com</smtpMailServerl>
+	<senderAddress>寄件者郵件位址</senderAddress>
+	<senderAddressl> - 請輸入攝影機發出通知的E-Mail 時的寄件者位址(例如:smith@isp.com)。當告警通知E-Mail 因為接收者郵件位址異常無法順利寄出時, 告警通知郵件將會被退回至這個寄件者郵件位址。</senderAddressl>
+	<recipientAddress>接收者郵件位址</recipientAddress>
+	<recipientAddressl> – 請輸入要接收攝影機發出通知的收件者的E-Mail位址。</recipientAddressl>
+	<mailPort>連接埠</mailPort>
+	<mailPortl> - 請設定SMTP(寄件)伺服器所使用的連接埠號碼, 一般SMTP伺服器都使用預設的連接埠25。</mailPortl>
+	<ftpServer>FTP伺服器</ftpServer>
+	<ftpServerl> - 傳送動態影像剪輯到您的FTP 伺服器。</ftpServerl>
+	<userNameFtpl> - 請在此輸入一個可以存取FTP 伺服器的使用者名稱。</userNameFtpl>
+	<passwordFtpl> - 請在此輸入一個可以存取FTP 伺服器的使用者密碼。</passwordFtpl>
+	<hostName>主機名稱</hostName>
+	<hostNamel> - 請輸入FTP server的IP位址或者主機名稱(例如. ftp.dlink.com)</hostNamel>
+	<digitalOutput>數位輸出</digitalOutput>
+	<RS-485>RS-485</RS-485>
+	<enableSignal>啟用 D/O 訊號</enableSignal>
+	<enableSignall> – 在此可以設定開啟或關閉數位輸出連接埠是否可以傳送訊號。</enableSignall>
+	<motionDetection>移動偵測</motionDetection>
+	<motionDetectionl> - 當移動偵測被觸發時, 網路攝影機將會送訊號至數位輸出埠, 以啟動接在數位輸出埠的裝置。</motionDetectionl>
+	<dISignal1>D/I 訊號1</dISignal1>
+	<dISignal1l> - 當數位輸入埠1被觸發時, 網路攝影機將會送訊號至數位輸出埠, 以啟動接在數位輸出埠的裝置。</dISignal1l>
+	<dISignal2>D/I 訊號2</dISignal2>
+	<dISignal2l> - 當數位輸入埠2被觸發時, 網路攝影機將會送訊號至數位輸出埠, 以啟動接在數位輸出埠的裝置。</dISignal2l>
+	<supporPAN>支援 PAN-TILT</supporPAN>
+	<supporPANl> - 當啟用支援PAN-TILT功能。在即時影像的顯示畫面會出現一組方向控制，讓您可以透過RS-485介面控制外接式方向雲台。</supporPANl>
+	<protocol>協定</protocol>
+	<protocoll> - 可設定為Pelco-D, Pelco-P, Dyna或LiLin。不同的協定可讓網路攝影機適用於控制各廠牌迴轉台。</protocoll>
+	<ID>識別號碼</ID>
+	<IDl> - 識別號碼是要作為識別RS-485的裝置。</IDl>
+	<baudRate>傳輸速率</baudRate>
+	<baudRatel> - 可以設定為2400bps, 4800bps, 9600bps或19200bps。</baudRatel>
+	<dataBits>資料位元</dataBits>
+	<dataBitsl> - 可以設定為7bit或8bits。</dataBitsl>
+	<stopBit>停止位元</stopBit>
+	<stopBitl> - 可以設定為1bit或2bits。</stopBitl>
+	<parityBit>同位元</parityBit>
+	<parityBitl> - 可以設定為No, Even或Odd。</parityBitl>
+	<emailSetting>電子郵件設定</emailSetting>
+	<ftpSetting>FTP設定</ftpSetting>
+	<triggerEvent>觸發事件</triggerEvent>
+	<triggerEvent1> - 您可以選擇一個觸發事件例如移動偵測，或由數位輸入埠觸發。當一個事件被觸發，數位輸出埠就會開始傳送訊號。</triggerEvent1>
+	<checkPassword>確認密碼</checkPassword>
+	<checkPassword1> - 再次輸入您連線到的 DDNS 主機的密碼或是金鑰。</checkPassword1>
+	<audioSetting>聲音設定</audioSetting>
+	<audioSettingl> - 你可以透過這裡的設定來控制麥克風是否要啟動或關閉或音量的控制。</audioSettingl>
+	<offset>偏移量</offset>
+	<offset1> – 設定當日光日光節約時間起始及結束時，攝影機的時間應該增加或減少多少小時。</offset1>
+	<checkpassWord>確認密碼</checkpassWord>
+	<checkpassWordl>– 再次輸入登入網路儲存設備的使用者的密碼。</checkpassWordl>
+	<authrtsp>RTSP 身分認證</authrtsp>
+	<authrtsp1> - 啟用RTSP 身分認證, 你將可以強迫使用者必須輸入身份與密碼才能觀看。</authrtsp1>
+	<lightsource>光源</lightsource>
+	<lightsource1> - 為網路攝影機所在位置中主要的光線來源。</lightsource1>
+	<playback>SD Card</playback>
+	<formatvalue>SD卡格式化 </formatvalue>
+	<formatvalue1>- 當執行SD卡格式化後，SD卡裡面的資料將會被刪除。 </formatvalue1>
+	<name>名稱 </name>
+	<name1>- 文件或目錄的名稱。</name1>
+	<num>檔案數量 </num>
+	<num1>- 目錄中包括的檔案的數量。</num1>
+	<size>大小 </size>
+	<size1>- 文件的大小。</size1>
+	<refresh>更新 </refresh>
+	<refresh1>- 點擊它重新加載數據到頁面。</refresh1>
+	<toplevel>上一層 </toplevel>
+	<toplevel1>- 點擊它回到上層目錄。</toplevel1>
+	<delete>刪除 </delete>
+	<delete1>- 當按刪除時，目前頁面的所有錄影檔將會被勾選起來。</delete1>
+	<ok>確定 </ok>
+	<ok1>- 請按[確定]按鈕後，所有被勾選的錄影檔將會被刪除。</ok1>
+</body>

@@ -1,0 +1,24 @@
+<body>
+	<digitalOutput>數位輸出</digitalOutput>
+	<description1>在此處您可以啟用您的D/O埠, 並選擇事件被觸發的條件。</description1>
+	<description2>當攝影機設定為SXGA 模式時, 移動偵測將被停用。</description2>
+	<description3>要啟用移動偵測功能的話, 請至</description3>
+	<description4>聲音與影像</description4>
+	<description5>選項中, 選擇改用VGA 或XGA 模式。</description5>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<trigger>觸發</trigger>
+	<enable>啟用 D/O 訊號</enable>
+	<triggerEvent>觸發事件</triggerEvent>
+	<motionDetection>移動偵測</motionDetection>
+	<di1>D/I 訊號1</di1>
+	<di2>D/I 訊號2</di2>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>您可以選擇一個觸發事件例如移動偵測, 或由D/I 埠觸發。當一個事件被觸發, D/O 埠就會開始傳送訊號。</description1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

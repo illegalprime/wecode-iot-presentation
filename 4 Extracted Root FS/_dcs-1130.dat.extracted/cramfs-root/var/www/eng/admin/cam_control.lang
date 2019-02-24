@@ -1,0 +1,45 @@
+<body>
+	<cameraControl>Camera control</cameraControl>
+	<description1>Here you can add or delete the preset locations, select the locations for 'Patrol' as well as change the default location of your 'Home' button.</description1>
+	<up>Up</up>
+	<down>Down</down>
+	<panSpeed>Pan Speed :</panSpeed>
+	<tiltSpeed>Tilt Speed :</tiltSpeed>
+	<currentPosition>Current Position :</currentPosition>
+	<presetPosition>Preset Position :</presetPosition>
+	<none>-- Select One --</none>
+	<add>Add</add>
+	<delete>Delete</delete>
+	<save>Save</save>
+	<theSamePresetName>preset name already exist, do you want to replace old preset position?</theSamePresetName>
+	<setAsHome>Set As Home</setAsHome>
+	<defaultHome>Default Home</defaultHome>
+	<patrolSpeed>Pan/Patrol Speed :</patrolSpeed>
+	<dwellingTime>Dwelling Time (sec) :</dwellingTime>
+	<presetLocations>Preset Locations</presetLocations>
+	<selectedLocations>Selected Locations</selectedLocations>
+	<select>Select</select>
+	<remove>Remove</remove>
+	<patrolSelection>Patrol Selection :</patrolSelection>
+	<homeDefinition>Home Definition :</homeDefinition>
+	<presetNameError>preset name can't accept blank name</presetNameError>
+	<waitTimeError1>Dwelling time can't be empty</waitTimeError1>
+	<waitTimeError2>Dwelling time must be a number</waitTimeError2>
+	<waitTimeError3>Dwelling time must be between 0 and 60</waitTimeError3>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<homeDefinition>Home definition </homeDefinition>
+	<description1> - Allow you to set a new 'Home' position or default back to the original position.</description1>
+	<patrolSelection>Patrol selection </patrolSelection>
+	<description2> - Allow you to add the 'Preset Locations' into the 'Selected Locations' bar. This will determine where the IP camera will travel to and stop at when you select 'Auto Patrol' on the 'Live Video' page.</description2>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<failure>setting failure</failure>
+	<full>preset already full</full>
+	<selectFull>Selected Locations already full</selectFull>
+	<duplicate>duplicate</duplicate>
+	<invalidParameters>invalid preset name</invalidParameters>
+	<oob>setting value is out of range</oob>
+</message>

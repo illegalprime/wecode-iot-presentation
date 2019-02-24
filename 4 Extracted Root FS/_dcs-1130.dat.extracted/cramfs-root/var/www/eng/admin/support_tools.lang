@@ -1,0 +1,37 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware Upgrade</firmwareUpgrade>
+	<cameraName>Camera name</cameraName>
+	<cameraName1> - The unique name for your camera.</cameraName1>
+	<label>Label</label>
+	<label1> - The unique label for your camera.</label1>
+	<timeStamp>Show time</timeStamp>
+	<timeStamp1> - Select this option to display date and time information on the snapshot or video image.</timeStamp1>
+	<adminPassword>Administrator's password</adminPassword>
+	<adminPassword1> - Password for the Administrator's account. The administrator password must be entered twice for confirmation.
+</adminPassword1>
+	<led>LED Light</led>
+	<led1> - Select on and off for the user to mask whether the camera is on.</led1>
+	<addUser>Add user</addUser>
+	<addUser1> - Create new user account(s) for accessing the video image and up to twenty user accounts can be added. The new username will be displayed in the user list for deletion.</addUser1>
+	<deleteUser>Delete user</deleteUser>
+	<deleteUser1> - Remove user from the user list.</deleteUser1>
+	<backup>Save To Local Hard Drive</backup>
+	<backup1> – After clicking this button, a download window will appear allowing you to save the camera's configuration file to your computer for restoration purposes.</backup1>
+	<restore>Load From Local Hard Drive</restore>
+	<restore1> - You may browse and load the configuration file. Then, click "Load Configuration" to restore the pre-configured or saved settings.</restore1>
+	<rebootSystem>Reboot Device</rebootSystem>
+	<rebootSystem1> - This option will restart the camera.</rebootSystem1>
+	<factoryDefaults>Restore to factory defaults</factoryDefaults>
+	<factoryDefaults1> - This option will restore the factory default settings for your camera. This will remove all the configuration settings that were made previously.</factoryDefaults1>
+	<calibrate>Calibrate</calibrate>
+	<calibrate1> - Recalibrate the home position to the default center to recover the tolerance caused by some external forces.</calibrate1>
+	<firmwareInformation>Firmware Information</firmwareInformation>
+	<firmwareInformation1> - This displays the firmware information.</firmwareInformation1>
+	<firmwareUpdate>Firmware Upgrade</firmwareUpdate>
+	<firmwareUpdate1> - The option allows the user to upgrade the firmware. Click "Browse" to locate the file and then click "upload" to apply the new firmware to the camera.</firmwareUpdate1>
+	<enableOSD>Enable OSD</enableOSD>
+	<enableOSDl> - Enabling OSD, the camera name and time will be displayed on the video screen for the user.</enableOSDl>
+</body>

@@ -1,0 +1,56 @@
+<body>
+	<imageSettings>image setup</imageSettings>
+	<description1>Your changes made for the image settings will be reflected immediately. The results can be seen and found in the Live Video window below.</description1>
+	<image>live video</image>
+	<controls>image settings</controls>
+	<brightness>Brightness</brightness>
+	<saturation>Saturation</saturation>
+	<contrast>Contrast</contrast>
+	<hue>Hue</hue>
+	<frequency>Frequency</frequency>
+	<auto>Auto</auto>
+	<hz>Hz</hz>
+	<whiteBalance>White balance</whiteBalance>
+	<disable>Disable</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - Is the gradation of color.</hue1>
+	<bw>B/W</bw>
+	<flip>Flip</flip>
+	<mirror>Mirror</mirror>
+	<autoExposure>AutoExposure</autoExposure>
+	<reset>Reset to Default</reset>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description0>You can fine-tune your image by using the options below.</description0>
+	<description1>Brightness, Contrast, Saturation, and Hue can be adjusted from 0 to 100, allowing you to fine-tune your image settings.</description1>
+	<description2> - Back Light Compensation - When an object is in front of bright lights it is difficult for IP camera to capture the image clearly. Selecting this option can allow objects to become clearer when exposed to bright lights.</description2>
+	<description3> - Auto White Balance - Is the process of removing unrealistic color casts, so that objects which appear white in person are rendered whilte in your photo.</description3>
+	<description4> - Auto Gain Control - Controls the gain of a signal. Using AGC means that weaker signals receive more gain and stronger signals receive less gain or none at all.</description4>
+	<description5> - Auto Electronic Shutter - Allows the shutter speed to be adjusted automatically. Faster shutter speed will allow fast moving objects to be seen more clearly.</description5>
+
+	<description6>Brightness, Saturation, Contrast and frequency can be adjusted allowing you to fine-tune your image settings.</description6>
+	<brightness>Brightness</brightness>
+	<brightness1> - It is used to compensate for backlit scenes.</brightness1>
+	<saturation>Saturation</saturation>
+	<saturation1> - It controls the strength of color from black and white to bold colors.</saturation1>
+	<frequency>Frequency</frequency>
+	<frequency1> - You may need to choose '50' or '60' Hz frequency (depends on country).</frequency1>
+	<whitebalance>White Balance</whitebalance>
+	<whitebalance1> - It is 'Auto' by default. It will remove the unrealistic color casts, so that objects which appear white are rendered white in the video.</whitebalance1>
+	<bw>B/W</bw>
+	<bw1> -  Select to enable or disable black-and-white mode for your camera.</bw1>
+	<flip>Flip</flip>
+	<flip1> - Select this feature when your camera is installed up-side down on the ceiling.</flip1>
+	<mirror>Mirror</mirror>
+	<mirror1> - Select this feature to obtain mirror image.</mirror1>
+	<contrast>Contrast</contrast>
+	<contrast1> - Adjustable to control the contrast of colors between the object. It helps to improve the image under a dull grey sky.</contrast1>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

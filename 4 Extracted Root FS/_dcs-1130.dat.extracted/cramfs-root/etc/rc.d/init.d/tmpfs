@@ -1,0 +1,23 @@
+#!/bin/sh
+# tmpfs		mount tmpfs
+#
+
+RETVAL=0
+
+umask 077
+
+case "$1" in
+  start)
+	echo $"Starting tmpfs:---->"
+	/bin/mount -t tmpfs -o size=4M tmpfs /tmp
+	RETVAL=$?
+	echo
+	exit $RETVAL
+	;;
+  stop)
+	echo $"Shutting down tmpfs: ---->"
+	# donothing 
+	echo	
+        exit $RETVAL
+	;;
+esac

@@ -1,0 +1,17 @@
+<body>
+	<systemLog>System log</systemLog>
+	<description1>The system log records camera events that have occurred.</description1>
+	<ipAddress>IP address</ipAddress>
+	<port>Port</port>
+	<save>Save</save>
+	<currentLog>current log</currentLog>
+	<clear>Clear</clear>
+	<download>Download</download>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>You can save the log to your local hard drive by clicking the Download button, and you can clear the log by clicking on the Clear button.</description1>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+</message>

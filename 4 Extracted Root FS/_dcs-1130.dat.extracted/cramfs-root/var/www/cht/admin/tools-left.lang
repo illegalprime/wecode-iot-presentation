@@ -1,0 +1,7 @@
+<leftPanel>
+	<deviceManagement>管理</deviceManagement>
+	<backupAndRestore>系統</backupAndRestore>
+	<firmwareUpgrade>韌體更新</firmwareUpgrade>
+	<logout>登出</logout>
+	<titleMaintenance>MAINTENANCE</titleMaintenance>
+</leftPanel>

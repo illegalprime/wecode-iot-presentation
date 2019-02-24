@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>Main page</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="height=device-height">
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <meta name="viewport" content="minimum-scale=1.0">
+<style type="text/css">
+body{
+padding:20px 0 0 0;
+
+}
+.rounded
+{
+background-color: #FF9428;
+border: 1px solid #000;
+padding: 20px 10% 10px 10%;
+-webkit-border-radius:8px;
+-webkit-box-shadow: 6px 6px 5px #333333;
+width: 50%;
+vertical-align:middle;
+height:250px;
+
+
+}
+.intent{
+
+margin: 20px 0 20px 0;
+
+}
+#content
+{
+-webkit-border-radius:8px;
+background-color:#FFFFFF;
+padding:5px 0;
+
+}
+
+</style>
+</head>
+<script type="text/javascript">
+
+window.onorientationchange = function() {
+	if(window.orientation == 90 || window.orientation == -90)
+	{
+		window.scroll(0,75);
+	}
+	
+	
+}
+
+function Url(url,src)
+{
+	
+	document.getElementById("wait").style.display="";
+	//document.snapshot.src = '../xsl/images/snapshot_p.gif';	
+	location.href=url;
+	
+}
+function Url2(url,src)
+{
+	
+	document.getElementById("wait").style.display="";
+	//document.profile.src = '../xsl/images/profile3_on_f.gif';	
+	location.href=url;
+	
+}
+
+function outload()
+{
+	document.getElementById("wait").style.display="none";
+	
+}
+function onload()
+{
+	if(window.orientation == 90 || window.orientation == -90)
+	{
+		window.scroll(0,75);
+	}
+}
+
+</script>
+<body bgcolor="#757575"  onunload="outload()" onload="onload()" >
+
+<center>
+<div class="rounded" id="rounded" >
+	
+	<div id="content">
+    <div id="message" >
+		<span id="wait" style="display:none"><font color="#FF0000">Please wait...</font></span>
+	</div>
+	<div class="intent">
+		<a href="javascript: Url('snap.html','../xsl/images/snapshot_n.gif')"><img name="snapshot" id="snapshot" alt="Snapshot" src=	"../xsl/images/snapshot_n.gif" width="85" height="79" onreset="aa()"    /></a>
+	</div>
+	<div class="intent">
+		<a href="javascript: Url2('video.html','../xsl/images/profile3_off_n.gif')"><img name="profile" id="profile" src="../xsl/images/profile3_off_n.gif" width="85" height="79" /></a>
+	</div>
+	</div>
+
+</div>
+</center>
+
+</body>
+</html>

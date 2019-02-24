@@ -1,0 +1,14 @@
+#!/bin/ash
+
+DHCP_RESULT="/tmp/dhcptemp.log"
+
+dhcp_result()
+{
+cat > $DHCP_RESULT << EOM
+$1
+EOM
+}
+touch /tmp/dhcptemp.log
+dhcp_result $ip
+
+echo $ip

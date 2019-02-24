@@ -1,0 +1,51 @@
+<body>
+	<wirelessSettings>wireless setup</wirelessSettings>
+	<description1>In this section, you can setup and configure the wireless settings for your camera.</description1>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<wirelessConfiguration>wireless configuration</wirelessConfiguration>
+	<enableWireless>Enable Wireless</enableWireless>
+	<ssid>SSID</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Signal</signal>
+	<survey>Site Survey</survey>
+	<rescan>Scan</rescan>
+	<wirelessMode>Wireless Mode</wirelessMode>
+	<infrastructure>Infrastructure</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>Channel</channel>
+	<auto>Auto</auto>
+	<authentication>Authentication</authentication>
+	<encryption>Encryption</encryption>
+	<key>Key</key>
+	<reboot1>IP Camera has been reboot, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<ssidError>SSID can't be NULL</ssidError>
+	<keyError1>WEP Key length must be 5 or 10 or 13 or 26 characters</keyError1>
+	<keyError2>WEP Key is invalid. If WEP Key Length is 10 or 26\nThe legal characters are 0~9, A~F, or a~f</keyError2>
+	<keyError3>Pre-shared key can't be NULL</keyError3>
+	<keyError4>Pre-shared key is invalid. The minimum character is 8 characters</keyError4>
+	<keyError5>Pre-shared key is invalid. The legal 64 characters are 0~9, A~F, or a~f</keyError5>
+	<pressScan>===Press scan button===</pressScan>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>You may choose which wireless network for the connection using the pull-down menu of</description1>
+	<description2> 'Site Survey'</description2>
+	<description3> or enter the SSID manually.</description3>
+	<description4>SSID</description4>
+	<description5> (Service Set Identifier) is the name of your wireless network such as Default, Conference, My network, and etc.</description5>
+	<description6>Authentication</description6>
+	<description7>Open - </description7>
+	<description8>This option makes the camera visible to all devices on the network. No encryption is provided.</description8>
+	<description9>Shared - </description9>
+	<description10>Allows communication only with other devices that have the identical 'WEP' (Wired Equivalent Privacy) settings.</description10>
+	<description11>WPA-PSK, WPA2-PSK - </description11>
+	<description12>Both modes will require you to input a pre-shared</description12>
+	<description13> 'Key'</description13>
+	<description14> for the connection that is held between the camera and the wireless device.</description14>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

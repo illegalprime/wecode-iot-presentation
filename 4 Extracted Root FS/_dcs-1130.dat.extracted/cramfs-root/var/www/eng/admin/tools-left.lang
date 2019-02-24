@@ -1,0 +1,7 @@
+<leftPanel>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware Upgrade</firmwareUpgrade>
+	<logout>Logout</logout>
+	<titleMaintenance>MAINTENANCE</titleMaintenance>
+</leftPanel>

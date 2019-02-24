@@ -1,0 +1,52 @@
+<body>
+	<wirelessSettings>無線網路設定</wirelessSettings>
+	<description1>您可以在這個設定項目中, 進行網路攝影機無線網路相關的設定。</description1>
+	<description2>註: 這個頁面的任何的變動將會要求網路攝影機從新啟動</description2>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<wirelessConfiguration>無線網路設定</wirelessConfiguration>
+	<enableWireless>啟動無線網路</enableWireless>
+	<ssid>SSID</ssid>
+	<bssid>BSSID</bssid>
+	<signal>訊號強度</signal>
+	<survey>掃描無線網路</survey>
+	<rescan>掃描</rescan>
+	<wirelessMode>無線網路模式</wirelessMode>
+	<infrastructure>Infrastructure</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>頻道</channel>
+	<auto>自動</auto>
+	<authentication>網路驗證</authentication>
+	<encryption>資料加密</encryption>
+	<key>網路金鑰</key>
+	<reboot1>IP伺服器需要重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<ssidError>SSID不能空白</ssidError>
+	<keyError1>網路金鑰長度必須為5或10或13或26字元</keyError1>
+	<keyError2>網路金鑰不合法. 假如長度為10或26字元\n合法的字元為0~9, A~F,或者a~f</keyError2>
+	<keyError3>網路金鑰不能空白</keyError3>
+	<keyError4>網路金鑰不合法. 最小長度為8各字元</keyError4>
+	<keyError5>網路金鑰不合法. 合法的64字元程度必須為0~9, A~F,或者a~f</keyError5>
+	<pressScan>===請按下掃描按鈕===</pressScan>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>您可以在下拉選單中, 選擇與環境中偵測到的無線網路基地台連線, 或手動輸入要連結的無線基地台SSID 進行無線連結。</description1>
+	<description2> </description2>
+	<description3> </description3>
+	<description4>SSID</description4>
+	<description5>  (無線網路名稱) 為您的無線網路基地台的一個存取名稱, 例如 Default, dlink, My network。</description5>
+	<description6>加密驗證方式</description6>
+	<description7>Open - </description7>
+	<description8>這個選項可以讓所有在無線網路內的裝置偵測到攝影機。</description8>
+	<description9>Shared - </description9>
+	<description10>允許其他有設定相同WEP 無線存取金鑰的無線裝置與攝影機無線連結。</description10>
+	<description11>WPA-PSK, WPA2-PSK - </description11>
+	<description12>這兩種加密模式都要求您必須在網路攝影機及無線基地台之中, 輸入一個相同的預先共用金鑰(pre-shared Key), 以供彼此無線連結使用。</description12>
+	<description13> </description13>
+	<description14> </description14>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

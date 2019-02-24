@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>Video</title>
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <link rel="apple-touch-icon" href="../xsl/images/profile3_on_f.gif">
+	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="user-scalable=yes">
+    <meta name="viewport" content="maximum-scale=10">
+</head>
+<script type="text/javascript">
+var space = "<br><br><br>";
+function imageReload() {
+
+	if(navigator.userAgent.indexOf('Safari') == -1)
+	{
+		
+		 document.live.src = "/image/jpeg.cgi?profileid=3&" + Math.random();
+	 	 setTimeout('document.live.src = "/image/jpeg.cgi?profileid=3&'+Math.random() +'";', 1000);
+	}
+}
+function adject()
+{
+	//alert("go");
+	if(navigator.userAgent.indexOf('Safari') != -1)
+		window.scroll(0,40);
+	if(navigator.userAgent.indexOf('Safari') == -1)
+	{
+		 document.live.src = "/image/jpeg.cgi?profileid=3&" + Math.random();
+		 if(window.screen.availWidth > window.screen.availHeight)
+			document.live.width = window.screen.availWidth * 0.7;
+		else 
+			document.live.width = window.screen.availWidth * 1;	
+	}
+	else 
+	{
+	
+		document.live.src = "/video/mjpg.cgi?profileid=1&fps=5";
+		if((document.body.scrollHeight)/(document.body.scrollWidth) > 1)
+		{
+		 	document.live.width = document.body.offsetWidth * 1;
+			document.getElementById("space").innerHTML = space;
+		}	
+		else
+		{
+			 window.scroll(0,15);
+			 document.live.width = document.body.offsetWidth * 0.74;
+			 document.getElementById("space").innerHTML = "";
+		 	
+		}
+		
+		
+	}
+
+	//temp = document.body.scrollHeight;
+	//alert("clientWidth " + document.body.clientWidth + "  clientHeight " + document.body.clientHeight);
+	//alert("offsetWidth " + document.body.offsetWidth + "  offsetHeight " + document.body.offsetHeight);
+	//alert("scrollWidth " + document.body.scrollWidth + "  scrollHeight " + document.body.scrollHeight);
+	//alert("scrollTop " + document.body.scrollTop + "  scrollLeft " + document.body.scrollLeft);
+	//alert("screenTop " + window.screenTop + "  screenLeft " + window.screenLeft);
+	//alert("height " + window.screen.height + "  width " + window.screen.width);
+	//alert("availHeight " + window.screen.availHeight+ "  availWidth " + window.screen.availWidth);
+	//document.live.width = width * ((document.body.scrollHeight) / temp);
+	//document.live.height = height * ((document.body.scrollHeight) / temp);
+}
+function reloadimg()
+{
+	location.reload();
+}
+</script>
+<body  bgcolor="#000000" onload="adject()" onresize="adject()" leftmargin="0" topmargin="0" onerror="reloadimg()"  >
+<center>
+<div id="snap">
+<span id="space"></span>
+<a href="javascript: location.reload();">
+<img border="0"  style="vertical-align:middle" id="live" name="live"  alt="Please wait" border="0"   width="100%" onerror="reloadimg()" onload="imageReload()"/> </a>
+</center>
+</div>
+</body>
+</html>
+
+

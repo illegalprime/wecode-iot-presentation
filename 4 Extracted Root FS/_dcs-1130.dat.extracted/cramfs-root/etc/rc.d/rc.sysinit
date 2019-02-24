@@ -1,0 +1,89 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "$0 {start|stop}"
+}
+
+action=$1
+end=$2
+
+[ "$end" = "" ] && [ "$action" != "" ] || showUsage
+
+probeRt61() {
+	cat /proc/pci 2> /dev/null | grep -q 'PCI.*1814:030[12]'
+}
+
+probeRt2860() {
+	cat /proc/pci 2> /dev/null | grep -q 'PCI.*1814:060[12]'
+}
+
+start() {
+	hwclock -s -u
+
+	DATE_YEAR=`date | cut -c 25-28`
+
+	[ "$DATE_YEAR" -lt "2010" -o "$DATE_YEAR" = "" ]
+	DATE_L=$?
+	if [ "$DATE_L" = 0 ]
+	then
+		echo "set the date to default:"
+		date 010112002010
+		hwclock -w -u
+	fi
+
+	/bin/mount -t tmpfs -o size=17M tmpfs /tmp
+
+	ifconfig eth0 hw ether $(pibinfo MacAddress)
+	ifconfig eth0 0.0.0.0
+	ifconfig lo 127.0.0.1 up
+	
+	if probeRt61; then
+		eval $(pibinfo all)
+		# only when using driver/rt61_wps need this MapRegionKey
+		[ "$Region" -ge 1 -a "$Region" -le 6 ] && Region=$(($Region + 1))
+		cp /etc/rt61sta_default.dat /tmp/rt61sta.dat
+		insmod /lib/modules/rt61.o
+		ifconfig ra0 hw ether $MacAddress
+		ifconfig ra0 0.0.0.0 up
+		iwpriv ra0 set CountryRegion=$Region
+		iwevent 2> /dev/null > /dev/null &
+	fi
+	if probeRt2860; then
+		eval $(pibinfo all)
+		cp /etc/RT2860STA_default.dat /tmp/RT2860STA.dat
+		insmod /lib/modules/rt2860sta.o mac=$MacAddress
+		#ifconfig ra0 hw ether $MacAddress
+		ifconfig ra0 0.0.0.0 up
+		iwpriv ra0 set CountryRegion=$Region
+		iwevent 2> /dev/null > /dev/null &
+	fi
+	[ -b /dev/norblock/disc1/disc ] && mount /dev/norblock/disc1/disc /opt
+	# change the default value of tcp live time from 120mins to 15mins
+	echo 900 > /proc/sys/net/ipv4/tcp_keepalive_time	
+	echo "rc.sysinit start ok."
+}
+
+stop() {
+	/etc/rc.d/init.d/upnp_av.sh stop
+	hwclock -w -u
+	echo "rc.sysinit stop ok."
+}
+
+case $action in
+	start)
+		start
+	;;
+	stop)
+		stop
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+exit 0

@@ -1,0 +1,6 @@
+<leftPanel>
+	<deviceInfo>Device Info</deviceInfo>
+	<log>Log</log>
+	<logout>Logout</logout>
+	<titleStatus>STATUS</titleStatus>
+</leftPanel>

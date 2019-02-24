@@ -1,0 +1,42 @@
+<body>
+	<ddnsSettings>動態DNS(DDNS)</ddnsSettings>
+	<description1>動態DNS功能允許您使用一個網域名稱(Domain name), 例如www.youdomain.com來存取一個使用動態IP位址的網路攝影機。大部分的寬頻網際網路服務提供商都只提供使用者動態IP位址而已。一旦您使用了動態DNS服務,您可以輸入您所設定好的網域名稱來連結網路攝影機,而不需要再去透過不固定的動態IP位址。</description1>
+	<description2>您可以至www.DLinkDDNS.com登入由D-Link所提供的免費動態DNS服務。</description2>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<dynamicDns>動態DNS設定</dynamicDns>
+	<enableDdns>啟動動態DNS</enableDdns>
+	<provider>伺服器位址</provider>
+	<hostName>主機名稱</hostName>
+	<usernameEmail>使用者名稱</usernameEmail>
+	<passwordKey>密碼</passwordKey>
+	<passwordConfirm>確認密碼</passwordConfirm>
+	<selectDDNS>選擇動態DNS伺服器</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(Custom)(Free)</ddns3>
+	<ddns4>www.DynDNS.org(Static)</ddns4>
+	<timeout>更新週期</timeout>
+	<hours>(小時)</hours>
+	<status>狀態:</status>
+	<ddnsError1>動態DNS主機名稱不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</ddnsError1>
+	<ddnsError2>動態DNS使用者名稱不能為空白</ddnsError2>
+	<ddnsError3>動態DNS密碼不能為空白</ddnsError3>
+	<ddnsError4>動態DNS密碼與確認密碼不同</ddnsError4>
+	<ddnsError5>動態DNS使用者名稱與密碼不能接受非ASCII與空白字元</ddnsError5>
+	<ddnsError6>請選擇一個動態DNS伺服器</ddnsError6>
+	<ddnsError7>動態DNS更新週期必需為數字</ddnsError7>
+	<ddnsError8>動態DNS更新週期必需介於 240 跟 65535 之間</ddnsError8>
+	<OK>連線成功</OK>
+	<Disabled>關閉</Disabled>
+	<Failure>連線失敗</Failure>
+	<Initializing>設定中</Initializing>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>當您的DSL或Cable Modem服務提供者會週期性的變更您的真實IP位址,這時候動態DNS(DDNS)服務就相當有用。您可以透過這樣的服務, 指定一個網域名稱, 在瀏覽器上輸入這個網域名稱與網路攝影機連結而不需輸入IP位址。</description1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

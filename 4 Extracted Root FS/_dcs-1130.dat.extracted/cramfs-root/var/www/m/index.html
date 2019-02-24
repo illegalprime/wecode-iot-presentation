@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>Main Page</title>
+	<meta name="viewport" content="width=device-width;">
+  <style type="text/css">
+#mainTable{
+	
+}
+</style>
+ 
+</head>
+<script type="text/javascript">
+function Url(url,src)
+{
+	
+	document.getElementById("wait").style.display="";
+	location.href=url;
+	
+}
+function Url2(url,src)
+{
+	
+	document.getElementById("wait").style.display="";
+	location.href=url;
+	
+}
+
+function outload()
+{
+	document.getElementById("wait").style.display="none";	
+}
+function onload()
+{
+	window.scroll(0,10);
+}
+</script>
+<body bgcolor="#757575" onload="onload()" onresize="onload()"  onunload="outload()">
+<center>
+<table id="mainTable" width="90%" height="100%" border="1" bgcolor="#ffffff" style="vertical-align:middle;"  >
+  <tr>
+   <td align="center" valign="middle" bgcolor="#FF9428">
+   		<table width="80%" style="vertical-align:middle; background-color:#F0F0F0;">
+        <tr> <br>
+        	<td id="tdwait" height="20" align="center"><span id="wait" style="display:none"><font color="#FF0000">Please wait...</font></span> </td>
+        </tr>
+
+       <tr><td align="center"><a href="javascript: Url('snap.html','../xsl/images/snapshot_p.gif')"><img name="snapshot" alt="Snapshot" src=	"../xsl/images/snapshot_n.gif" width="65" height="59"    /></a>
+        	</td>
+        </tr>
+        <tr><td align="center"><a href="javascript: Url2('video.html','../xsl/images/profile3_on_f.gif')"><img name="profile" src="../xsl/images/profile3_off_n.gif" width="65" height="59" onmousedown="mousedown()" /></a></td></tr>
+    
+        <tr>
+		<td height="20"></td>
+ 		</tr>
+        </table>
+        <br>
+   </td>
+ </tr>
+</table>
+</center>
+
+</body>
+</html>

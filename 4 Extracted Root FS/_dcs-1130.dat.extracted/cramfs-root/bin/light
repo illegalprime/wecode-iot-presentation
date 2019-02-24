@@ -1,0 +1,59 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "light [out1|out2|out3|out4|led|power|active|wpsLed|rs485|ir|irupper] [on|off]"
+}
+
+target=$1
+action=$2
+end=$3
+
+[ $target ] || showUsage
+[ $action ] || showUsage
+[ $end ] && showUsage
+
+case $target in
+	out1)
+		{ [ $action = on ] && cmd=606; } || { [ $action = off ] && cmd=624; } || showUsage
+	;;
+        out2)
+                { [ $action = on ] && cmd=607; } || { [ $action = off ] && cmd=625; } || showUsage
+        ;;
+        out3)
+                { [ $action = on ] && cmd=608; } || { [ $action = off ] && cmd=626; } || showUsage
+        ;;
+        out4)
+                { [ $action = on ] && cmd=609; } || { [ $action = off ] && cmd=627; } || showUsage
+        ;;
+	led)
+		{ [ $action = on ] && cmd=613; } || { [ $action = off ] && cmd=614; } || showUsage
+	;;
+	power)
+		{ [ $action = on ] && cmd=602; } || { [ $action = off ] && cmd=603; } || showUsage
+	;;
+	active)
+		{ [ $action = on ] && cmd=604; } || { [ $action = off ] && cmd=605; } || showUsage
+	;;
+	wpsLed)
+		{ [ $action = on ] && cmd=632; } || { [ $action = off ] && cmd=633; } || showUsage
+	;;
+	rs485)
+		{ [ $action = on ] && cmd=647; } || { [ $action = off ] && cmd=648; } || showUsage
+	;;
+	ir)
+		{ [ $action = on ] && cmd=650; } || { [ $action = off ] && cmd=651; } || showUsage
+	;;
+	irupper)
+		{ [ $action = on ] && cmd=670; } || { [ $action = off ] && cmd=672; } || showUsage
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+send_cmd watchdog $cmd > /dev/null 2> /dev/null

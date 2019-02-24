@@ -1,0 +1,7 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<deviceInfo>裝置資訊</deviceInfo>
+	<log>記錄</log>
+	<deviceInfo1>這個頁面皆顯示所有關於現行攝影機及網路設定的相關資訊。</deviceInfo1>
+	<log1>觀看系統記錄檔案。這個檔案包含所有網路攝影機的相關設定, 例如動態偵測通知, 攝影機啟動後執行狀態相關資訊。 匯出系統記錄檔案可點選"下載"按鈕將網路攝影機的系統記錄檔下載下來。</log1>
+</body>

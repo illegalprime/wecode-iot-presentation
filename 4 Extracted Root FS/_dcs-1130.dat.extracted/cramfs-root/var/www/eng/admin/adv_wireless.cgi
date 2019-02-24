@@ -1,0 +1,1 @@
+../../cgi/admin/adv_wireless.cgi

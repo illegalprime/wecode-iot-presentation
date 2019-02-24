@@ -1,0 +1,1 @@
+../../cgi/admin/tools_firmware.cgi

@@ -1,0 +1,73 @@
+#!/bin/ash
+
+# udhcpc script edited by Tim Riker <Tim@Rikers.org>
+
+DHCP_RESULT="/tmp/dhcpresult.log"
+NullIP="0.0.0.0"
+dhcp_result()
+{
+cat > $DHCP_RESULT << EOM
+$1
+$2
+$3
+$4
+EOM
+}
+
+[ -z "$1" ] && echo "Error: should be called from udhcpc" && exit 1
+
+RESOLV_CONF="/etc/resolv.conf"
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+case "$1" in
+	deconfig)
+		/sbin/ifconfig $interface 0.0.0.0
+		dhcp_result $NullIP $interface $NullIP $NullIP	
+		;;
+
+	renew|bound)
+		[ "$(iff_get -i $interface)" = "$ip" ] && exit 0
+
+		/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+
+		if [ -n "$router" ] ; then
+			echo "deleting routers"
+			while route del default gw 0.0.0.0 dev $interface ; do
+				:
+			done
+
+			for i in $router ; do
+				route add default gw $i dev $interface
+				route del -net 0.0.0.0 dev ppp0
+				if [ $? = 0 ] ; then
+					route add -net 0.0.0.0 dev ppp0
+				fi
+			done
+		fi
+		# fix bug, the network neighborhood wouldn't update the new dhcp IP while it changes.
+		DATE=`date`
+		echo $1 >> /tmp/upnp.state && pids=$(pidof upnp_av) && /etc/rc.d/init.d/upnp_av.sh restart && echo "$DATE: upnp_av restart" >> /tmp/upnp.state
+
+		echo -n > $RESOLV_CONF
+		[ -n "$domain" ] && echo search $domain >> $RESOLV_CONF
+		for i in $dns ; do
+			echo adding dns $i
+			echo nameserver $i >> $RESOLV_CONF
+		done
+
+		if pidof ntpd; then
+			/etc/rc.d/init.d/trservices.sh stop
+			/etc/rc.d/init.d/ntpd.sh restart ; hwclock -w -u 
+			/etc/rc.d/init.d/trservices.sh start
+		fi
+
+		dhcp_result $ip $interface $BROADCAST $NETMASK		
+		;;
+
+	leasefail)
+		dhcp_result $NullIP $interface $NullIP $NullIP		
+		;;
+esac
+
+exit 0

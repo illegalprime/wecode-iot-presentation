@@ -1,0 +1,1 @@
+../../cgi/admin/go_sleep.cgi

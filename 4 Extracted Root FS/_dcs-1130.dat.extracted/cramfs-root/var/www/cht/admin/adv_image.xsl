@@ -1,0 +1,1 @@
+../../xsl/admin/adv_image.xsl

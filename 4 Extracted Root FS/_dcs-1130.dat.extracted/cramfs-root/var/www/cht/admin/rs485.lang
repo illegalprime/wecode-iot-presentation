@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>這個部分可讓您設定攝影機RS-485設定組態</description1>
+	<enableRs485>支援PAN-TILT</enableRs485>
+	<rs485ID>識別號碼</rs485ID>
+	<rs485BuadRate>傳輸速率</rs485BuadRate>
+	<rs485DataBits>資料位元</rs485DataBits>
+	<rs485StopBit>停止位元</rs485StopBit>
+	<rs485ParityBit>同位元</rs485ParityBit>
+	<rs485Protocol>協定</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton> 
+	<protocol>協定</protocol>
+	<protocoll> - 可設定為Pelco-D, Pelco-P, Dyna或LiLin。不同的協定可讓攝影機可適用可控制各廠牌迴轉台。</protocoll>
+	<id>識別號碼</id>
+	<idl> - 識別號碼是要作為識別RS-485的裝置。</idl>
+	<baudRate>傳輸速率</baudRate>
+	<baudRatel> - 可以設定為2400bps, 4800bps, 9600bps或19200bps。</baudRatel>
+	<dataBits>資料位元</dataBits>
+	<dataBitsl> - 可以設定為7bit或8bits。</dataBitsl>
+	<stopBit>停止位元</stopBit>
+	<stopBitl> - 可以設定為1bit或2bits。</stopBitl>
+	<parityBit>同位元</parityBit>
+	<parityBitl> - 可以設定為No, Even或Odd。</parityBitl>
+	<idRangeError>識別號碼超出允許範圍。</idRangeError>
+	<idrangemessage0>(範圍1到255)</idrangemessage0>
+	<idrangemessage1>(範圍1到32)</idrangemessage1>
+	<idrangemessage2>(範圍1到223)</idrangemessage2>
+	<idrangemessage3>(範圍1到64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description2>Stop bit可以設定為1 bit或2 bits.</description2>
+	<description3>當啟用支援PAN-TILT功能。在即時影像的顯示畫面會出現一組方向控制，讓您可以透過RS-485介面控制外接式方向雲台。</description3>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+	<failure>setting failure</failure>
+	<full>preset already full</full>
+	<invalidParameters>invalid preset name</invalidParameters>
+	<oob>setting value is out of range</oob>
+</message>

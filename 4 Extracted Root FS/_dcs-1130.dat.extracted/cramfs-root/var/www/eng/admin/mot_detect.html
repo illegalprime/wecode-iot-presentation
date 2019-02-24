@@ -1,0 +1,660 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML Strict//EN"><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><STYLE>
+/* Rule 2 of ../css_router.css */ 
+BODY {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 1 of ../css_router.css */ 
+HTML {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 15 of ../css_router.css */ 
+TD {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 45 of ../css_router.css */ 
+#sidehelp_container {
+	BORDER-RIGHT: #ffffff 1px;
+	BORDER-TOP: #ffffff 1px;
+	BORDER-LEFT: #ffffff 1px;
+	WIDTH: 137px;
+	COLOR: #ffffff;
+	BORDER-BOTTOM: #ffffff 1px;
+	BACKGROUND-COLOR: #404343
+}
+/* Rule 46 of ../css_router.css */ 
+#help_text {
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	BACKGROUND-COLOR: #404343
+}
+/* Rule 47 of ../css_router.css */ 
+#maincontent_container {
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffffff
+}
+/* Rule 48 of ../css_router.css */ 
+#maincontent {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 5px;
+	COLOR: #000000;
+	PADDING-TOP: 5px;
+	BACKGROUND-COLOR: #ffffff
+}
+/* Rule 3 of ../css_router.css */ 
+DIV {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 16 of ../css_router.css */ 
+INPUT {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 19 of ../css_router.css */ 
+INPUT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 50 of ../css_router.css */ 
+.box {
+	BORDER-RIGHT: #333333 1px solid;
+	PADDING-RIGHT: 10px;
+	BORDER-TOP: #333333 1px solid;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	MARGIN: 5px 0px 0px;
+	BORDER-LEFT: #333333 1px solid;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #333333 1px solid;
+	BACKGROUND-COLOR: #ffffff
+}
+/* Rule 1 of embedded stylesheet */ 
+.style1 {
+	FONT-SIZE: 11px
+}
+/* Rule 5 of ../css_router.css */ 
+H2 {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 52 of ../css_router.css */ 
+H2 {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 10px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px -10px 5px;
+	TEXT-TRANSFORM: uppercase;
+	COLOR: #ffffff;
+	PADDING-TOP: 5px;
+	LETTER-SPACING: 1px;
+	BACKGROUND-COLOR: #333333
+}
+/* Rule 49 of ../css_router.css */ 
+#box_header {
+	BORDER-RIGHT: #ff6f00 1px solid;
+	PADDING-RIGHT: 10px;
+	BORDER-TOP: #ff6f00 1px solid;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 10px;
+	BORDER-LEFT: #ff6f00 1px solid;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #ff6f00 1px solid;
+	BACKGROUND-COLOR: #dfdfdf
+}
+/* Rule 4 of ../css_router.css */ 
+H1 {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Helvetica, Geneva, Arial, sans-serif
+}
+/* Rule 51 of ../css_router.css */ 
+H1 {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 10px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 0px -10px 5px;
+	TEXT-TRANSFORM: uppercase;
+	COLOR: #000000;
+	PADDING-TOP: 5px;
+	LETTER-SPACING: 1px;
+	BACKGROUND-COLOR: #ff6f00
+}
+</STYLE>
+<script language="JavaScript" src="../public.js" type="text/javascript"></script>
+<script language="JavaScript" src="../net.js" type="text/javascript"></script>
+<SCRIPT language="JavaScript" event="OnNotifyMotionAreaChanged(lResult)" for="dcscontrol1">
+   RestartSensitive();
+</SCRIPT>
+<SCRIPT language="JavaScript" type="text/javascript">
+var region = new Array();
+var sense = new Array();
+var oldRegion = 0;
+var newRegion = 0;
+
+function send_request(){
+/*
+ //	newRegion = document.form1.regions.value;
+ 	newRegion = 0;
+ 	if(checkSense()==-1){
+ 		document.form1.sense.select();
+ 		return false;
+ 	}
+
+ 	if(ieFlag == "true"){
+ 		getMotionData(newRegion);
+ 		sense[newRegion] = document.form1.sense.value;
+ 		document.form1.region1.value = region[0];
+ 		document.form1.sense1.value = sense[0];
+ 		document.form1.region2.value = region[1];
+ 		document.form1.sense2.value = sense[1];
+ 		document.form1.region3.value = region[2];
+ 		document.form1.sense3.value = sense[2];
+ 		StopSensitive();
+ 	}
+ 	else{
+		if(document.form1.enable_mon.checked){
+			document.form1.region1.value = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF";
+		}
+		else{
+			document.form1.region1.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+		}
+		document.form1.sense1.value = document.form1.sense.value;
+ 		document.form1.region2.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+ 		document.form1.sense2.value = 0;
+ 		document.form1.region3.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+ 		document.form1.sense3.value = 0;
+ 	}
+
+ 	if(document.form1.enable_mon.checked)
+ 		document.form1.enable.value = 1;
+ 	if(document.form1.pirBox.checked)
+ 		document.form1.pirEnable.value = 1;
+
+ 	send_submit("form1");
+*/
+	document.getElementById("sendResult").innerHTML = "";
+	sendMotionStatus();
+}
+
+ /*
+ function changeRegion(){
+ 	var dcscontrol1 = document.getElementById("dcscontrol1");
+ 	newRegion = document.form1.regions.value;
+ 	if(checkSense()==-1){
+ 		document.form1.regions.value = oldRegion;
+ 		document.form1.sense.select();
+ 		return false;
+ 	}
+ 	getMotionData(oldRegion);
+ 	sense[oldRegion] = document.form1.sense.value;
+ 	setMotionData(newRegion);
+ 	document.form1.sense.value = sense[newRegion];
+ 	oldRegion = newRegion
+ }
+ */
+
+function getMotionData(index){
+	var dcscontrol1 = document.getElementById("dcscontrol1");
+	region[index] = dcscontrol1.GetMotionDetectionData();
+}
+
+function setMotionData(index){
+	var dcscontrol1 = document.getElementById("dcscontrol1");
+	dcscontrol1.SetMotionDetectionData(region[index],index);
+}
+
+function checkSense(){
+ 	var sense = document.form1.sense.value;
+ 	if(isNaN(sense)){
+ 		alert(numberError)
+ 		return -1;
+ 	}
+ 	if(range(sense,0,100)==false){
+ 		alert(rangeError)
+ 		return -1;
+ 	}
+}
+
+function clearMotion(){
+ 	var dcscontrol1 = document.getElementById("dcscontrol1");
+ 	dcscontrol1.ClearAllMDMatrix()
+}
+
+function SetState(){
+ 	var dcscontrol1 = document.getElementById("dcscontrol1");
+ 
+ 	if(document.form1.dwMode[0].checked)
+ 		dcscontrol1.SetMDMouseState(0);
+ 	else
+ 		dcscontrol1.SetMDMouseState(1);
+/*
+ 	if(document.form1.unselectMode.checked)
+ 		dcscontrol1.SetMDMouseState(1);
+ 	else if(document.form1.inverseMode.checked)
+ 		dcscontrol1.SetMDMouseState(2);
+ 	else
+ 		dcscontrol1.SetMDMouseState(0);
+
+ 	if(document.form1.unselectMode.checked)
+ 		document.form1.inverseMode.disabled=true;
+ 	else
+		document.form1.inverseMode.disabled=false;
+
+ 	if(document.form1.inverseMode.checked)
+ 		document.form1.unselectMode.disabled=true;
+ 	else
+ 		document.form1.unselectMode.disabled=false;
+*/
+}
+</SCRIPT>
+<SCRIPT language="JavaScript" type="text/javascript">
+var numberError = "Please input a number";
+var rangeError = "Please input a number between 0 and 100";
+var ieFlag = "";
+
+function InitActiveX()
+{
+ 	var dcscontrol1 = document.getElementById("dcscontrol1");
+ 	var sensor = document.getElementById("sensor");
+
+ 	dcscontrol1.RemoteHost=location.hostname;
+ 	if (location.port)
+ 		dcscontrol1.RemotePort=location.port;
+ 	else 
+ 		dcscontrol1.RemotePort=80;
+
+ 	dcscontrol1.SetAuthentication('Basic YWRtaW46');
+ 	dcscontrol1.MDWidth = 640;
+ 	dcscontrol1.MDHeight = 480;
+ 	dcscontrol1.MBCX = 16;
+ 	dcscontrol1.MBCY = 16;
+ 	dcscontrol1.ShowMotionDetectionInput();
+ 	dcscontrol1.play();	
+ 	dcscontrol1.SetMotionDetectionData(region[0],0);
+ 	sensor.SetRectangleColor(6);
+}
+
+function ReleaseActiveX(){
+   var dcscontrol1 = document.getElementById("dcscontrol1");
+   dcscontrol1.Stop();
+}
+
+ 
+
+function StartSensitive(){
+ 	var dcscontrol1 = document.getElementById("dcscontrol1");
+ 	var sensor = document.getElementById("sensor");
+
+ 	sensor.RemoteHost=location.hostname;
+ 	if (location.port)
+ 		sensor.RemotePort=location.port;
+ 	else 
+ 		sensor.RemotePort=80;
+
+ 	sensor.SetAuthentication('Basic YWRtaW46');
+ 	var smd = dcscontrol1.GetMotionDetectionData();
+ 	sensor.StartMDIndicator(smd);
+}
+
+function StopSensitive() {
+   var sensor = document.getElementById("sensor");
+   sensor.StopMDIndicator();
+}
+
+function RestartSensitive() {
+   var dcscontrol1 = document.getElementById("dcscontrol1");
+   var sensor = document.getElementById("sensor");
+   sensor.StopMDIndicator();
+   var smd = dcscontrol1.GetMotionDetectionData();
+   sensor.StartMDIndicator(smd);
+}
+
+function initForm(){
+
+	document.form1.dwMode.checked=true;
+	getStatus();
+/*
+ 	if ('0' == '1'){
+ 		if ('0' == '1')
+ 			document.form1.pirBox.checked=true;
+ 	}
+ 	else
+ 		document.getElementById("hiddenPIR").style.display="none";
+
+ 	document.form1.hostname.value = "http://" + window.location.hostname;
+
+ 	if ('1' == '1')
+
+ 		document.form1.enable_mon.checked=true;
+
+ 		
+
+ 	region[0] = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF";
+
+ 	sense[0] = "90";
+
+ 	region[1] = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+
+ 	sense[1] = "0";
+
+ 	region[2] = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+
+ 	sense[2] = "0";
+
+ //alert(region[0])
+
+ //alert(region[1])
+
+ //alert(region[2])
+
+ 	if ('true' == 'true'){
+
+ 		InitActiveX();
+
+ 		StartSensitive();
+
+ 	}
+
+ 	else{
+
+ 		document.getElementById("showApplet").style.display="none";
+
+ 		document.getElementById("moText").style.display="none";
+
+ 		document.getElementById("normal").style.display="none";
+
+ 		document.getElementById("showUnselect").style.display="none";
+
+ //		document.getElementById("showInverse").style.display="none";
+
+ 		document.getElementById("showButton").style.display="none";
+
+ 	}
+*/
+}
+
+function releaseForm(){
+ 	if ('true' == 'true'){
+ 		StopSensitive();
+ 		ReleaseActiveX();
+ 	}
+}
+</SCRIPT>
+<SCRIPT language="JavaScript" type="text/javascript">
+function getStatus(){
+	var urlXML = document.form1.hostname.value + ":" + window.location.port + "/cgi/admin/mot_detect.cgi";
+	var urlXSL = 'mot_detect.html';
+
+	LoadXMLXSLTDoc(urlXML,urlXSL);
+}
+
+var xmlDoc;
+var xslDoc;
+function LoadXMLXSLTDoc(urlXML,urlXSL){
+	xmlDoc=null;
+	xslDoc=null;
+	new net.ContentLoader(urlXML,onXMLLoad);
+//	new net.ContentLoader(urlXSL,onXSLLoad);
+}
+
+function onXMLLoad(){
+	xmlDoc=this.req.responseXML;
+	doXSLT();
+}
+
+function onXSLLoad(){
+	xslDoc=this.req.responseXML;
+	doXSLT();
+}
+
+function doXSLT(){
+	if (xmlDoc==null){ //alert("null");
+	return false; 
+	}
+
+	if (xmlDoc.getElementsByTagName('PIR')[0].firstChild.nodeValue == '1'){
+		if (xmlDoc.getElementsByTagName('enable')[0].firstChild.nodeValue == '1')
+			document.form1.pirBox.checked=true;
+	}
+	else
+		document.getElementById("hiddenPIR").style.display="none";
+	
+	document.form1.hostname.value = "http://" + window.location.hostname;
+	if (xmlDoc.getElementsByTagName('enable')[1].firstChild.nodeValue == '1')
+		document.form1.enable_mon.checked=true;
+		
+	region[0] = xmlDoc.getElementsByTagName('bitmap')[0].firstChild.nodeValue;
+	sense[0] = xmlDoc.getElementsByTagName('sense')[0].firstChild.nodeValue;
+	document.form1.sense.value = xmlDoc.getElementsByTagName('sense')[0].firstChild.nodeValue;
+	region[1] = xmlDoc.getElementsByTagName('bitmap')[1].firstChild.nodeValue;
+	sense[1] = xmlDoc.getElementsByTagName('sense')[1].firstChild.nodeValue;
+	region[2] = xmlDoc.getElementsByTagName('bitmap')[2].firstChild.nodeValue;
+	sense[2] = xmlDoc.getElementsByTagName('sense')[2].firstChild.nodeValue;
+//alert(region[0])
+//alert(region[1])
+//alert(region[2])
+	ieFlag = xmlDoc.getElementsByTagName('ie')[0].firstChild.nodeValue;
+	if (ieFlag == 'true'){
+		InitActiveX();
+		StartSensitive();
+	}
+	else{
+		document.getElementById("showApplet").style.display="none";
+		document.getElementById("moText").style.display="none";
+		document.getElementById("normal").style.display="none";
+		document.getElementById("showUnselect").style.display="none";
+//		document.getElementById("showInverse").style.display="none";
+		document.getElementById("showButton").style.display="none";
+	}
+
+//	document.getElementById("sambaStatus").innerHTML = xmlDoc.getElementsByTagName('sense')[0].firstChild.nodeValue;
+//	document.getElementById("sambaStatus").innerHTML = xmlDoc.getElementsByTagName('sense')[1].firstChild.nodeValue;
+//	alert(xmlDoc.getElementsByTagName('product')[0].firstChild.nodeValue)
+//	alert(xmlDoc.getElementsByTagName('sense')[0].firstChild.nodeValue)
+//	alert(xmlDoc.getElementsByTagName('sense')[1].firstChild.nodeValue)
+}
+
+function sendMotionStatus(){
+ 	newRegion = 0;
+ 	if(checkSense()==-1){
+ 		document.form1.sense.select();
+ 		return false;
+ 	}
+
+ 	if(ieFlag == "true"){
+ 		getMotionData(newRegion);
+ 		sense[newRegion] = document.form1.sense.value;
+ 		document.form1.region1.value = region[0];
+ 		document.form1.sense1.value = sense[0];
+ 		document.form1.region2.value = region[1];
+ 		document.form1.sense2.value = sense[1];
+ 		document.form1.region3.value = region[2];
+ 		document.form1.sense3.value = sense[2];
+ 		StopSensitive();
+ 	}
+ 	else{
+		if(document.form1.enable_mon.checked){
+			document.form1.region1.value = "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF";
+		}
+		else{
+			document.form1.region1.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+		}
+		document.form1.sense1.value = document.form1.sense.value;
+ 		document.form1.region2.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+ 		document.form1.sense2.value = 0;
+ 		document.form1.region3.value = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+ 		document.form1.sense3.value = 0;
+ 	}
+
+ 	if(document.form1.enable_mon.checked)
+ 		document.form1.enable.value = 1;
+	else
+		document.form1.enable.value = 0;
+ 	if(document.form1.pirBox.checked)
+ 		document.form1.pirEnable.value = 1;
+	else
+ 		document.form1.pirEnable.value = 0;
+
+	var urlSendXML = document.form1.hostname.value + ":" + window.location.port + "/cgi/admin/mot_detect.cgi?" + "enable=" + document.form1.enable.value + "&pirEnable=" + document.form1.pirEnable.value + "&region1=" + document.form1.region1.value + "&sense1=" + document.form1.sense1.value;
+	var urlSendXSL = 'mot_detect.html';
+
+	LoadXMLXSLTDocSend(urlSendXML,urlSendXSL);
+}
+
+var xmlDocSend;
+var xslDocSend;
+function LoadXMLXSLTDocSend(urlSendXML,urlSendXSL){
+	xmlDocSend=null;
+	xslDocSend=null;
+	new net.ContentLoader(urlSendXML,onXMLLoadSend);
+//	new net.ContentLoader(urlSendXML,onXSLLoadSend);
+}
+
+function onXMLLoadSend(){
+	xmlDocSend=this.req.responseXML;
+	doXSLTSend();
+}
+
+function onXSLLoadSend(){
+	xslDocSend=this.req.responseXML;
+	doXSLTSend();
+}
+
+function doXSLTSend(){
+	if (xmlDocSend==null){// alert("null");
+	return false; 
+	}
+
+	if(xmlDocSend.getElementsByTagName('code')[0].firstChild.nodeValue == "ok")
+	document.getElementById("sendResult").innerHTML = "setting is successful ";
+}
+
+</script>
+
+</HEAD>
+<BODY bgColor="#757575" leftMargin="0" topMargin="1" rightMargin="0" onLoad="initForm();" onunLoad="releaseForm();">
+<TABLE height="100%" cellSpacing="0" borderColorDark="#ffffff" cellPadding="2" width="838" align="center" bgColor="#ffffff" border="1">
+<TBODY>
+<TR>
+<FORM id="form1" name="form1" onSubmit="return send_request();" action="mot_detect.cgi" method="post">
+ <TD id="maincontent_container" vAlign="top">
+  <DIV id="maincontent">
+   <DIV id="box_header">
+    <H1>motion detection</H1>
+    In order to use motion detection, you must first check the checkboxes, then draw the areas you want to monitor for motion.<BR /><BR />
+    <CENTER>
+     <INPUT onClick="send_request()" type="button" name="button1" value="Save Settings" /> <INPUT onClick="window.location.href='mot_detect.html'" type="button" name="button2" value="Don't Save Settings" /> 
+    </CENTER>
+	<font color="#FF0000"><span id="sendResult"></span></font>
+   </DIV>
+   <DIV class="box">
+    <H2>Live video</H2>
+    <TABLE cellSpacing="0" cellPadding="0" width="525" border="0">
+     <TBODY>
+      <TR>
+       <TD colSpan="2">
+        <DIV id="hiddenPIR" style="display:none">
+         <INPUT id="pirBox" type="checkbox" name="pirBox" value="on" />Enable PIR<INPUT id="pirEnable" type="hidden" size="3" name="pirEnable" value="0" /> 
+        </DIV>
+       </TD>
+      </TR>
+      <TR>
+       <TD>
+        <INPUT id="enable_mon" type="checkbox" name="enable_mon" value="on" />Enable Video Motion<INPUT id="enable" type="hidden" size="3" name="enable" value="0" />
+       </TD>
+       <TD>&nbsp;
+       </TD>
+      </TR>
+      <TR id="showApplet" name="showApplet">
+       <TD width="363" rowSpan="7">
+        <OBJECT id="dcscontrol1" codeBase="/dcsclictrl.cab#version=1,0,0,1607
+         " height="240" width="320" classid="clsid:721700FE-7F0E-49C5-BDED-CA92B7CB1245" MBCX="16" MBCY="16">
+		 <PARAM value="127.0.0.1" name="RemoteHost" />
+		 <PARAM value="80" name="RemotePort" />
+		</OBJECT>&nbsp;&nbsp;
+		<OBJECT id="sensor" style="DISPLAY: none" classid="CLSID:98EDD118-9973-4108-9B08-D94032306E14"></OBJECT>
+       </TD>
+       <TD height="50">&nbsp;
+       </TD>
+      </TR>
+      <TR>
+       <TD>
+        &nbsp;&nbsp;&nbsp;&nbsp;<STRONG>Sensitivity</STRONG>
+       </TD>
+      </TR>
+      <TR>
+       <TD>
+        <DIV align="left">
+         &nbsp;&nbsp;&nbsp;&nbsp;<INPUT id="sense" maxLength="3" size="3" name="sense" value="" />&nbsp;0~100% 
+        </DIV>
+       </TD>
+      </TR>
+      <TR id="moText" name="moText">
+       <TD>
+        &nbsp;&nbsp;&nbsp;&nbsp;<STRONG>Drawing Mode</STRONG>
+       </TD>
+      </TR>
+      <TR id="normal" name="normal">
+       <TD>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT id="drawMotion" onClick="SetState();" type="radio" CHECKED name="dwMode" value="0" />Draw motion area
+       </TD>
+      </TR>
+      <TR id="showUnselect" name="showUnselect">
+       <TD>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT id="unselectMode" onClick="SetState();" type="radio" name="dwMode" value="1" />Erase motion area
+       </TD>
+      </TR>
+      <TR id="showButton" name="showButton">
+       <TD>
+        &nbsp;&nbsp;&nbsp;&nbsp;<INPUT class="style1" onClick="clearMotion()" type="button" name="Submit22" value="Clear" />
+      </TD>
+      </TR>
+      <TR>
+       <TD>
+<SCRIPT language="JavaScript" type="text/javascript">
+        document.write('<INPUT id="hostname" type="hidden" size="30" name="hostname" value="http://' + location.hostname + '" />');
+</SCRIPT>		
+		<INPUT id="region1" type="hidden" name="region1" value="hostname" /> 
+		<INPUT id="sense1" type="hidden" name="sense1" value="hostname" /> 
+		<INPUT id="region2" type="hidden" size="15" name="region2" value="hostname" /> 
+		<INPUT id="sense2" type="hidden" size="15" name="sense2" value="hostname" /> 
+		<INPUT id="region3" type="hidden" size="15" name="region3" value="hostname" /> 
+		<INPUT id="sense3" type="hidden" size="15" name="sense3" value="hostname" /> 
+       </TD>
+      </TR>
+     </TBODY>
+    </TABLE>
+   </DIV>
+   <BR />
+   <CENTER>
+    <INPUT onClick="send_request()" type="button" name="button1" value="Save Settings" /> 
+	<INPUT onClick="window.location.href='mot_detect.html'" type="button" name="button2" value="Don't Save Settings" /> 
+   </CENTER>
+  </DIV>
+ </TD>
+ <TD id="sidehelp_container" vAlign="top" align="left" width="150">
+  <TABLE borderColor="#ffffff" cellSpacing="0" borderColorDark="#ffffff" cellPadding="2" width="125" bgColor="#ffffff" borderColorLight="#ffffff" border="0">
+   <TBODY>
+    <TR>
+     <TD id="help_text">
+      <STRONG>Helpful Hints..</STRONG><BR /><BR />Sensitivity - Sets the sensitivity for motion detection. Red bars on the Sensitivity Bar indicate the level of sensitivity for motion detection. As motion is detected the level will rise depending on the frequency of the movement.<BR /><BR />Percentage - The recommended setting for the percentage is low. Low percentage means that motion does not have to totally cover the selected area of detection; any small movement inside the selected area will set off detection.<BR /><BR />High sensitivity and low percentage make the motions easier to detect.
+     </TD>
+    </TR>
+   </TBODY>
+  </TABLE>
+ </TD>
+</FORM>
+</TR>
+</TBODY>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,88 @@
+<body>
+	<networkSettings>Network setup</networkSettings>
+	<description1>You can configure your LAN and Internet settings here.</description1>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<general>lan settings</general>
+	<lan>LAN</lan>
+	<dhcp>DHCP Connection</dhcp>
+	<static>Static IP Address</static>
+	<ip>IP Address</ip>
+	<subnetMask>Subnet Mask</subnetMask>
+	<defaultRouter>Default Gateway</defaultRouter>
+	<primaryDns>Primary DNS</primaryDns>
+	<secondaryDns>Secondary DNS</secondaryDns>
+	<enableUpnp>Enable UPnP</enableUpnp>
+	<upnpPort>Enable UPnP port forwarding</upnpPort>
+	<authrtsp>RTSP User Authentication</authrtsp>
+	<authrtsp1> - Enabling RTSP User Authentication will allow you to force viewer to  
+identify his user name and password.</authrtsp1>
+	<pppoe>Enable PPPoE</pppoe>
+	<userName>User Name</userName>
+	<password>Password</password>
+	<confirmPassword>Confirm password</confirmPassword>
+	<httpAndRtspPort>Port Detail settings</httpAndRtspPort>
+	<httpPort>HTTP port</httpPort>
+	<rtspPort>RTSP port</rtspPort>
+	<rtspAuth>User authentication</rtspAuth>
+	<httpExtPort>External HTTP port</httpExtPort>
+	<rtspExtPort>External RTSP port</rtspExtPort>
+	<reboot1>IP Camera's network is restarting, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<ipError1>IP address can't be NULL</ipError1>
+	<subnetMaskError1>Subnet Mask can't be NULL</subnetMaskError1>
+	<routerError1>Default Gateway can't be NULL</routerError1>
+	<pppoeError1>PPPoE User Name can't be NULL</pppoeError1>
+	<pppoeError2>PPPoE Password can't be NULL</pppoeError2>
+	<pppoeError3>PPPoE Confirm Password can't be NULL</pppoeError3>
+	<pppoeError4>PPPoE password and Confirm password are different</pppoeError4>
+	<pppoeError5>PPPoE User Name and password can't accept Non-ASCII and space characters</pppoeError5>
+	<httpPortError1>HTTP port can't be NULL</httpPortError1>
+	<httpPortError2>HTTP port must be a number</httpPortError2>
+	<httpPortError3>HTTP port must be between 1 and 65535</httpPortError3>
+	<httpPortError4>HTTP port can't the same as RTSP port</httpPortError4>
+	<rtstPortError1>RTSP port can't be NULL</rtstPortError1>
+	<rtstPortError2>RTSP port must be a number</rtstPortError2>
+	<rtstPortError3>RTSP port must be between 1 and 65535</rtstPortError3>
+	<httpExtPortError1>External HTTP port can't be NULL</httpExtPortError1>
+	<httpExtPortError2>External HTTP port must be a number</httpExtPortError2>
+	<httpExtPortError3>External HTTP port must be between 1 and 65535</httpExtPortError3>
+	<httpExtPortError4>External HTTP port can't the same as external RTSP port</httpExtPortError4>
+	<rtspExtPortError1>External RTSP port can't be NULL</rtspExtPortError1>
+	<rtspExtPortError2>External RTSP port must be a number</rtspExtPortError2>
+	<rtspExtPortError3>External RTSP port must be between 1 and 65535</rtspExtPortError3>
+	<netErrorMessage1>The </netErrorMessage1>
+	<netErrorMessage2> octet of the </netErrorMessage2>
+	<netErrorMessage3> must be a number</netErrorMessage3>
+	<netErrorMessage4> must be a number between </netErrorMessage4>
+	<netErrorMessage5> and </netErrorMessage5>
+	<netErrorMessage6> must be </netErrorMessage6>
+	<netError>Network setup invalid</netError>
+	<ipMessage1>IP Address</ipMessage1>
+	<ipMessage2>The IP Address entered is invalid</ipMessage2>
+	<ipMessage3>The IP Address cannot be zero.</ipMessage3>
+	<maskMessage1>Subnet Mask</maskMessage1>
+	<maskMessage2>The Subnet Mask entered is invalid</maskMessage2>
+	<maskMessage3>The Subnet Mask cannot be zero</maskMessage3>
+	<routerMessage1>Gateway Address</routerMessage1>
+	<routerMessage2>The Gateway Address entered is invalid</routerMessage2>
+	<routerMessage3>The Gateway Address cannot be zero</routerMessage3>
+	<priDnsMessage1>Primary DNS Address</priDnsMessage1>
+	<priDnsMessage2>The Primary DNS Address entered is invalid</priDnsMessage2>
+	<priDnsMessage3>The Primary DNS Address cannot be zero</priDnsMessage3>
+	<secDnsMessage1>Secondary DNS Address</secDnsMessage1>
+	<secDnsMessage2>The Secondary DNS Address entered is invalid</secDnsMessage2>
+	<secDnsMessage3>The Secondary DNS Address cannot be zero</secDnsMessage3>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>Select 'DHCP Connection'  if you are running a DHCP server on your network and would like an IP address assigned to your camera automatically.</description1>
+	<description2> - 'Enabling UPnP' settings will allow you to configure your camera as an UPnP device in the network.</description2>
+	<description3> - 'Port Detail Settings' allow you to specify the ports you reserve for both HTTP and RTSP Streaming.</description3>
+	<description4> - 'HTTP Port' is the port you allocate in order to connect to the camera via a standard web browser.</description4>
+	<description5> - 'RTSP Port' is the port you allocate in order to connect to a camera by using streaming mobile device(s), such as a mobile phone or PDA.</description5>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

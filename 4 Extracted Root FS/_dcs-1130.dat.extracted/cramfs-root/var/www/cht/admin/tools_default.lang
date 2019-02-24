@@ -1,0 +1,42 @@
+<body>
+	<maintenance>系統</maintenance>
+	<description1>您可以在這邊備份, 回存攝影機的設定值, 或是重新啟動您的網路攝影機。</description1>
+	<rebootDevice>重新啟動</rebootDevice>
+	<rebootText>重新啟動這個網路攝影機</rebootText>
+	<factory> 恢復工廠預設值 </factory>
+	<factoryDefault>恢復工廠預設</factoryDefault>
+	<calibrateText>標準化這個網路攝影機</calibrateText>
+	<calibrate>標準化這個網路攝影機</calibrate>
+	<reboot1>網路攝影機需要重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<system>系統</system>
+	<backupText>儲存到本端硬碟裝置</backupText>
+	<saveConfiguration>儲存設定檔</saveConfiguration>
+	<restoreText>從本端硬碟裝置载入</restoreText>
+	<privacyText>隱私模式</privacyText>
+	<privacy>將鏡頭隱藏到隱私位置</privacy>
+	<restoreConfiguration>載入設定檔案</restoreConfiguration>
+	<restoreConfirm>您是否要還原設定檔案?</restoreConfirm>
+	<rebootConfirm>您是否要重新啟動系統?</rebootConfirm>
+	<factoryConfirm>您是否要回復工廠預設值?</factoryConfirm>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>當網路攝影機被回復為出廠預設值之後, 您可以透過使用安裝精靈軟體(Setup Wizard)來搜尋及連結網路攝影機。</description1>
+</hint>
+<message>
+	<updateOK>更新成功</updateOK>
+	<uploadFail>更新失敗</uploadFail>
+	<examFail>更新的檔案損毀</examFail>
+	<infoFail>更新的檔案沒有資訊</infoFail>
+	<invalidImage>這個更新檔不適用在這個產品上</invalidImage>
+	<resetFail>回復工廠預設值失敗</resetFail>
+	<resetOK>回復工廠預設值完成</resetOK>
+	<rebootFail>重新開機失敗</rebootFail>
+	<rebootOK>重新開機完成</rebootOK>
+	<calibrationOK>標轉化成功</calibrationOK>
+	<goSleepOK>隱私模式成功</goSleepOK>
+	<importOK>設定檔還原成功,網路攝影機將會重新啟動</importOK>
+	<invalidDB>不合法的還原設定檔</invalidDB>
+	<noDB>沒有設定檔上傳</noDB>
+</message>

@@ -1,0 +1,1 @@
+../init.d/mfg_search.sh

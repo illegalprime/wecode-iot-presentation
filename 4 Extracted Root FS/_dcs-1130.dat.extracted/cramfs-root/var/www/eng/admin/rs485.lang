@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>This section enable you to specify the camera RS-485 settings.</description1>
+	<enableRs485>Support PAN-TILT</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>Baud Rate</rs485BuadRate>
+	<rs485DataBits>Data Bits</rs485DataBits>
+	<rs485StopBit>Stop Bit</rs485StopBit>
+	<rs485ParityBit>Parity Bit</rs485ParityBit>
+	<rs485Protocol>Protocol</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton> 
+	<protocol>Protocol</protocol>
+	<protocoll> - Select the PTZ standard used to connect a PTZ scanner via the serial interface: RS485.</protocoll>
+	<id>ID</id>
+	<idl> - ID value is used to identify RS-485 device.</idl>
+	<baudRate>Baud Rate</baudRate>
+	<baudRatel> - Select  the  desired  baud  rate  for  the  device you connected.</baudRatel>
+	<dataBits>Data Bits</dataBits>
+	<dataBitsl> - Select the desired data bits for the device you connected.</dataBitsl>
+	<stopBit>Stop Bit</stopBit>
+	<stopBitl> - Select the desired stop bits for the device you connected.</stopBitl>
+	<parityBit>Parity Bit</parityBit>
+	<parityBitl> - Select the desired parity type  for the device you connected.</parityBitl>
+	<idRangeError>ID value out of range</idRangeError>
+	<idrangemessage0>(range 1 to 255)</idrangemessage0>
+	<idrangemessage1>(range 1 to 32)</idrangemessage1>
+	<idrangemessage2>(range 1 to 223)</idrangemessage2>
+	<idrangemessage3>(range 1 to 64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description2>Stop bit can be set to either 1 bit or 2 bits.</description2>
+	<description3>When enabling Support PAN-TILT a control panel will be displayed on the Live Video page allowing control through RS-485 for an external camera enclosure.</description3>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<failure>setting failure</failure>
+	<full>preset already full</full>
+	<invalidParameters>invalid preset name</invalidParameters>
+	<oob>setting value is out of range</oob>
+</message>

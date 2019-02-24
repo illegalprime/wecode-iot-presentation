@@ -1,0 +1,56 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "sniff [factory|wps|pir|in1|in2|in3|in4|led|out1|ir]"
+}
+
+target=$1
+end=$2
+
+[ $target ] || showUsage
+[ $end ] && showUsage
+
+# for cmd list, looks at apps/include/command.h
+case $target in
+	factory)
+		cmd=610
+	;;
+	wps)
+		cmd=611
+	;;
+	led)
+		cmd=619
+	;;
+	pir)
+		cmd=646
+	;;
+	in1)
+		cmd=615
+	;;
+        in2)
+                cmd=616
+        ;;
+        in3)
+                cmd=617
+        ;;
+        in4)
+                cmd=618
+        ;;
+	out1)
+		cmd=620
+	;;
+	ir)
+		cmd=655
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+value=$(send_cmd watchdog $cmd) || exit 1
+[ "$value" = 1 ] && echo on || echo off

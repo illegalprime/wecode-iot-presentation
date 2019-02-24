@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>Snapshot</title>
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <link rel="apple-touch-icon" href="../xsl/images/snapshot_p.gif">
+	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="user-scalable=yes">
+    <meta name="viewport" content="maximum-scale=10">
+<style type="text/css">
+#snap{
+margin: 0 0 10px 0;
+}
+
+</style>
+</head>
+<script type="text/javascript">
+var space = "<br><br><br>";
+function adject()
+{
+
+		if((document.body.scrollHeight)/(document.body.scrollWidth) > 1)
+		{
+			 document.live.width = document.body.offsetWidth * 1;
+			 document.getElementById("space").innerHTML = space;
+		 	 window.scroll(0,20);
+			
+		}	
+		else
+		{
+			window.scroll(0,1);
+		 	document.live.width = document.body.offsetWidth * 0.74;
+			document.getElementById("space").innerHTML = "";
+			
+			
+		}
+	
+	
+	//temp = document.body.scrollHeight;
+//	alert("clientWidth " + document.body.clientWidth + "  clientHeight " + document.body.clientHeight);
+//	alert("offsetWidth " + document.body.offsetWidth + "  offsetHeight " + document.body.offsetHeight);
+//	alert("scrollWidth " + document.body.scrollWidth + "  scrollHeight " + document.body.scrollHeight);
+//	alert("scrollTop " + document.body.scrollTop + "  scrollLeft " + document.body.scrollLeft);
+//	alert("screenTop " + window.screenTop + "  screenLeft " + window.screenLeft);
+//	alert("height " + window.screen.height + "  width " + window.screen.width);
+//	alert("availHeight " + window.screen.availHeight+ "  availWidth " + window.screen.availWidth);
+//	document.live.width = width * ((document.body.scrollHeight) / temp);
+//	document.live.height = height * ((document.body.scrollHeight) / temp);
+
+}
+function loadok()
+{
+	window.scroll(0,0);
+}
+function reloadimg()
+{
+	document.live.src = "/image/jpeg.cgi?profileid=3"+ Math.random();
+}
+var i = 1;
+var count = 0;
+function zoomIn(mystyle)
+{
+	++count;
+	alert(count);
+	if(count == 2)
+	{
+		++i;
+		count = 0;
+		mystyle.webkitTransform='scale('+i+')';
+	}
+	
+}
+var origAngle = 0;
+var origScale = 1;
+function colorMove(event) {
+event.preventDefault();
+if (event.rotation != 0)
+{
+
+event.target.style.webkitTransform = 'scale(' + event.scale + origScale
++ ') rotate(' + event.rotation + origAngle + 'deg)';
+}
+
+}
+function boxStart(event) {
+
+event.preventDefault();
+event.target.style.webkitTransform = 'scale(1)';
+
+
+}
+</script>
+<body bgcolor="#000000"  onunload="" onload="adject()"  onresize="adject()" leftmargin="0" topmargin="0" >
+<center>
+
+<div id="snap">
+<span id="space"></span>
+<a href="snap.html">
+            <img id="live" name="live" src="/image/jpeg.cgi?profileid=3" alt="Please wait"  width="100%" onLoad="loadok()" onerror="reloadimg()" />
+</a>
+</div>
+</center>
+</body>
+</html>

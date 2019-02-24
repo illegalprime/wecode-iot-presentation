@@ -1,0 +1,1 @@
+../../xsl/admin/adv_snapshot_cont.xsl

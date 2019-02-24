@@ -1,0 +1,94 @@
+<body>
+	<recordingSettings>recording</recordingSettings>
+	<description1>Here you may configure and schedule the recording of you camera. You must select the checkbox of 'Enable Recording' to turn on the feature.</description1>
+	<description2>Motion triggered recording is disabled when SXGA mode is enabled.</description2>
+	<description3>To enable motion triggered recording, select VGA or XGA mode in </description3>
+	<description4> Audio And Video.</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<recording>RECORDING</recording>
+	<enableRecording>Enable recording</enableRecording>
+	<resolution>Resolution</resolution>
+	<small>profile 3</small>
+	<medium>profile 2</medium>
+	<large>profile 1</large>
+	<titan>profile 4</titan>
+	<continousRecording>Continuous (Samba only)</continousRecording>
+	<scheduledRecording>Scheduled (Samba only)</scheduledRecording>
+	<continousRecordingOnlySamba>Continuous</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Scheduled</scheduledRecordingOnlySamba>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<motionDetection>Motion detection triggered recording</motionDetection>
+	<digitalInput>Digital input 1 triggered recording</digitalInput>
+	<digitalInput2>Digital input 2 triggered recording</digitalInput2>
+	<prerecord>Prerecord</prerecord>
+	<postrecord>Postrecord</postrecord>
+	<range> (range 0 to 15 seconds)</range>
+	<second> seconds</second>
+	<recordTo>Record to </recordTo>
+	<sambaNetworkDrive>Samba network drive</sambaNetworkDrive>
+	<sambaAuth>Samba Auth </sambaAuth>
+	<anonymous>Anonymous</anonymous>
+	<account>Account</account>
+	<username>User name </username>
+	<password>Password </password>
+	<passwordConfim>Password confirm </passwordConfim>
+	<serverIp>Server </serverIp>
+	<sharedFolder>Shared folder </sharedFolder>
+	<test>Test</test>
+	<sambaStatus>Samba status : </sambaStatus>
+	<getStatus>Get status</getStatus>
+	<sdCard>SD Card</sdCard>
+	<sdCardStatus>SD Card status : </sdCardStatus>
+	<recordingOptions>Recording Options</recordingOptions>
+	<recordUntil>Record until </recordUntil>
+	<spaceRange>MB of free space is left (minimum is 32MB)</spaceRange>
+	<storageFull>When storage is full:</storageFull>
+	<stopRecording>Stop recording</stopRecording>
+	<overwriteRecordings>Overwrite older recordings</overwriteRecordings>
+	<scheduling>Recording Method</scheduling>
+	<eventBased>Event Based</eventBased>
+	<methodError>Please select a recording setting</methodError>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<triggerError>Please select a event trigger</triggerError>
+	<hourError>Hours are not valid</hourError>
+	<minuteError>Minutes are not valid</minuteError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+	<recordSecError>Please input a number between 0~15</recordSecError>
+	<usernameError>Samba user name can't be NULL</usernameError>
+	<passwordError>Samba account password can't be NULL</passwordError>
+	<confimError>Samba account password and Password confirm are different</confimError>
+	<spaceError>Free space is not valid, the minimum free space is 32M</spaceError>
+	<serverError>Server can't be Null, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</serverError>
+	<shareFolderError>Shared folder can't be Null, only accept number, alphabet , \"-\", and \"_\" characters</shareFolderError>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>Enable Recording will allow you to record to SD Card or a Samba network drive based on the selected events.</description1>
+	<description2>To enable recording, check the Enable Recording checkbox, then select whether to save video to an SD card inserted into the camera’s SD slot or a Samba network drive. Next, select a Scheduling method to specify when the camera should record video.</description2>
+	<description3>
+	You can record the video to a 'SD Card' or a 'Samba network' drive based on the selected events. You may also configure the 'Recording Options' and select a scheduling method to specify when the camera will record video.
+	</description3>
+	<descriptionNoSdcard>Enable Recording will allow your camera to record the live video to a Samba network drive based on the selected events. To enable recording, select the Enable recording checkbox. Then, select a Scheduling method to specify when the camera will record the video.</descriptionNoSdcard>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<testing>Testing</testing>
+	<disable>Disable</disable>
+	<normal>Normal</normal>
+	<initing>Initing</initing>
+	<mntFailure>mntFailure</mntFailure>
+	<failure>Failure</failure>
+</message>

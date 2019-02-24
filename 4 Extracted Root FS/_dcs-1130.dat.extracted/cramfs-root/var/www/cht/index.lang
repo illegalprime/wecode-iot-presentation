@@ -1,0 +1,38 @@
+<body>
+	<camera>監視影像</camera>
+	<description1>這個項目將顯示即時的監視影像。您可以透過下面的功能按鈕來進行控制設定。 </description1>
+	<description2>目前的解析度為 </description2>
+	<liveVideo>現場影像</liveVideo>
+	<goTo>移至</goTo>
+	<panSpeed>水平移動速度</panSpeed>
+	<tiltSpeed>垂直移動速度</tiltSpeed>
+	<language>請選擇語言</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<selectOne>-- 選擇一個 --</selectOne>
+	<stop>停止</stop>
+	<snapshot>擷取畫面</snapshot>
+	<setPath>設定路徑</setPath>
+	<recording>開始錄影</recording>
+	<stopRecording>停止錄影</stopRecording>
+	<startSteamOut>開始講話</startSteamOut>
+	<stopSteamOut>停止講話</stopSteamOut>
+	<listenOn>開始收音</listenOn>
+	<listenOff>停止收音</listenOff>
+	<startGPOutput>啟動Digital Output</startGPOutput>
+	<stopGPOutput>關閉Digital Output</stopGPOutput>
+	<ledOn>開啟Led</ledOn>
+	<ledOff>關閉Led</ledOff>
+	<fullScreen>全螢幕</fullScreen>
+	<diIndicator>數位輸入指示狀態</diIndicator>
+	<moIndicator>移動偵測指示狀態</moIndicator>
+	<reIndicator>錄影指示狀態</reIndicator>
+	<talkNotify1>找不到音效裝置</talkNotify1>
+	<talkNotify2>無法連線</talkNotify2>
+	<talkNotify3>目前線路忙線中, 請稍後再試</talkNotify3>
+	<autoPan>水平掃描</autoPan>
+	<autoPatrol>巡邏</autoPatrol>
+	<irOn>開啟紅外線LED</irOn>
+	<irOff>關閉紅外線LED</irOff>
+	<errRecord>儲存至存取裝置錯誤, 請檢查網路及存取裝置狀態</errRecord>
+</body>

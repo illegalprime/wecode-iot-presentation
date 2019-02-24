@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Checking Language...</title>
+<script type="text/javascript">
+var systemCheck = 0;
+function readCookie( name )
+{
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++)
+	{
+		var c = ca[i];
+		while (c.charAt(0)==' ') 
+			c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) 
+			return c.substring(nameEQ.length,c.length);
+	}
+	return "null";
+}
+
+function createCookie( name, value, days )
+{
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = '; expires='+date.toGMTString();
+	}
+	else 
+		var expires = '';
+
+	document.cookie = name+'='+value+expires+'; path=/';
+}
+
+function refresh(url)
+{
+    document.write("<meta http-equiv=\"Refresh\" content=\"0;url=" + url + "\">");
+}
+
+function maxWindow() {
+	window.top.moveTo(0,0);
+	window.top.resizeTo(screen.availWidth,screen.availHeight);
+}	
+
+//alert('name =='+navigator.appName+'==\nversion =='+navigator.appVersion+'==');
+//alert(navigator.appVersion.indexOf("Windows"));
+
+
+//maxWindow();
+    var lang = readCookie("language");
+
+    if( lang == "eng") {
+     	refresh("eng/index.html");
+    }
+    else if( lang == "cht" ) {
+    	refresh("cht/index.html");
+    }
+    else if( lang == "chs" ) {
+    	refresh("chs/index.html");
+    }
+    else if( lang == "jpn" ) {
+    	refresh("jpn/index.html");
+    }
+    else {
+//    	alert("navigator.systemLanguage = " + navigator.systemLanguage);
+//		alert("for ie navigator.userLanguage = " + navigator.userLanguage);
+//		alert("for non-ie navigator.language = " + navigator.language);
+    	if( navigator.userLanguage == "zh-tw" || navigator.language =="zh-TW" || navigator.language =="zh-tw"){
+			createCookie( 'language', 'cht', '365' );
+			refresh("cht/index.html");
+		}
+/*
+    	else if( navigator.userLanguage == "zh-cn" ){
+			createCookie( 'language', 'eng', '365' );
+			refresh("chs/index.html");
+		}
+    	else if( navigator.userLanguage == "ja" ){
+			createCookie( 'language', 'jpn', '365' );
+			refresh("jpn/index.html");
+		}
+*/
+    	else {
+			createCookie( 'language', 'eng', '365' );
+			refresh("eng/index.html");
+		}
+    }
+    systemCheck = 1;
+
+</script>  
+</head>
+<body>
+<BR />
+<script type="text/javascript">
+if( systemCheck == 0 ){
+document.write("Only Microsoft Internet Explorer 6.x above in Microsoft Windows operating system !!!");
+}
+</script>
+</body>
+</html>

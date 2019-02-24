@@ -1,0 +1,26 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<liveVideo>LIVE VIDEO</liveVideo>
+	<camera>Camera</camera>
+	<setup>SETUP</setup>
+	<wizard>Setup Wizard</wizard>
+	<networkSetup>Network Setup</networkSetup>
+	<dynamicDNS>Dynamic DNS</dynamicDNS>
+	<wirelessSetup>Wireless Setup</wirelessSetup>
+	<audioVideo>Audio And Video</audioVideo>
+	<imageSetup>Image Setup</imageSetup>
+	<motionDetection>Motion Detection</motionDetection>
+	<presetPosition>Preset Position</presetPosition>
+	<recording>Recording</recording>
+	<snapshot>Snapshot</snapshot>
+	<timeAndDate>Time and Date</timeAndDate>
+	<maintenance>MAINTENANCE</maintenance>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware Upgrade</firmwareUpgrade>
+	<status>STATUS</status>
+	<deviceInfo>Device Info</deviceInfo>
+	<log>Log</log>
+	<digitalOutput>Digital Output</digitalOutput>
+	<RS-485>RS-485</RS-485>
+</body>

@@ -1,0 +1,1 @@
+../../xsl/admin/st_device.xsl

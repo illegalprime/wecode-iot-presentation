@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# log
+/etc/rc.d/init.d/logd.sh stop
+erasenor 0
+
+# tinydb
+erasenor 1

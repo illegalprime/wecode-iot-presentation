@@ -1,0 +1,43 @@
+<body>
+	<ddnsSettings>Dynamic DNS</ddnsSettings>
+	<description1>The Dynamic DNS feature allows you to use a domain name that you have purchased (www.yourdomain.com) to access your camera with a dynamically assigned IP address. Most broadband Internet service providers assign dynamic (changing) IP addresses. By using a DDNS service, you can enter your domain name to connect to your camera no matter what your IP address is. </description1>
+	<description2>Sign up for D-Link's Free DDNS service at www.DLinkDDNS.com.</description2>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<dynamicDns>Dynamic DNS setting</dynamicDns>
+	<enableDdns>Enable DDNS</enableDdns>
+	<provider>Server Address</provider>
+	<hostName>Host Name</hostName>
+	<usernameEmail>User Name</usernameEmail>
+	<passwordKey>Password</passwordKey>
+	<passwordConfirm>Verify Password</passwordConfirm>
+	<selectDDNS>Select Dynamic DNS Server</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(Custom)(Free)</ddns3>
+	<ddns4>www.DynDNS.org(Static)</ddns4>
+	<timeout>Timeout</timeout>
+	<hours>(hours)</hours>
+	<status>Status:</status>
+	<ddnsError1>DDNS Host Name can't be NULL, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</ddnsError1>
+	<ddnsError2>DDNS User Name can't be NULL</ddnsError2>
+	<ddnsError3>DDNS Password can't be NULL</ddnsError3>
+	<ddnsError4>DDNS Password and Verify password are different</ddnsError4>
+	<ddnsError5>DDNS User Name and password can't accept Non-ASCII and space characters</ddnsError5>
+	<ddnsError6>Please select a Dynamic DNS Server</ddnsError6>
+	<ddnsError7>DDNS Timeout must be a number</ddnsError7>
+	<ddnsError8>DDNS Timeout must be between 240 and 65535</ddnsError8>
+	<OK>OK</OK>
+	<Disabled>Disable</Disabled>
+	<Failure>Failure</Failure>
+	<Initializing>Initializing</Initializing>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>Dynamic DNS is useful if you have a DSL or Cable service provider that changes your modem IP address periodically. This will allow you to assign a website domain name to your camera instead of connecting through an IP address.
+</description1>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

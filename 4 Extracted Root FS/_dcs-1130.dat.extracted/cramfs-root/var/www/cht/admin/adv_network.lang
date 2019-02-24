@@ -1,0 +1,85 @@
+<body>
+	<networkSettings>網路設定</networkSettings>
+	<description1>您可以在這邊進行LAN 及網際網路相關設定。</description1>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<general>區域網路設定</general>
+	<lan>區域網路</lan>
+	<dhcp>DHCP連線</dhcp>
+	<static>固定IP位址</static>
+	<ip>IP位址</ip>
+	<subnetMask>子網路遮罩</subnetMask>
+	<defaultRouter>預設閘道</defaultRouter>
+	<primaryDns>主DNS伺服器</primaryDns>
+	<secondaryDns>次DNS伺服器</secondaryDns>
+	<enableUpnp>啟動UPnP</enableUpnp>
+	<upnpPort>啟動UPnP port轉遞</upnpPort>
+	<pppoe>啟動PPPoE</pppoe>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<confirmPassword>確認密碼</confirmPassword>
+	<httpAndRtspPort>連接埠詳細設定</httpAndRtspPort>
+	<httpPort>HTTP 連接埠</httpPort>
+	<rtspPort>RTSP 連接埠</rtspPort>
+	<rtspAuth>身份認證</rtspAuth>
+	<httpExtPort>HTTP 外部連接埠</httpExtPort>
+	<rtspExtPort>RTSP 外部連接埠</rtspExtPort>
+	<reboot1>網路攝影機的網路正在重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<ipError1>Ip位址不能空白</ipError1>
+	<subnetMaskError1>子網路遮罩不能空白</subnetMaskError1>
+	<routerError1>預設路由器不能空白</routerError1>
+	<pppoeError1>PPPoE使用者名稱不能空白</pppoeError1>
+	<pppoeError2>PPPoE密碼不能空白</pppoeError2>
+	<pppoeError3>PPPoE確認密碼不能空白</pppoeError3>
+	<pppoeError4>PPPoE密碼與確認密碼不相同</pppoeError4>
+	<pppoeError5>PPPoE使用者名稱與密碼不能接受非ASCII與空白字元</pppoeError5>
+	<httpPortError1>HTTP連接埠不能空白</httpPortError1>
+	<httpPortError2>HTTP連接埠必須是數字</httpPortError2>
+	<httpPortError3>HTTP連接埠必需介於1跟65535之間</httpPortError3>
+	<httpPortError4>HTTP連接埠不能與RTSP連接埠相同</httpPortError4>
+	<rtstPortError1>RTSP連接埠不能空白</rtstPortError1>
+	<rtstPortError2>RTSP連接埠必須是數字</rtstPortError2>
+	<rtstPortError3>RTSP連接埠必需介於1跟65535之間</rtstPortError3>
+	<httpExtPortError1>HTTP外部連接埠不能空白</httpExtPortError1>
+	<httpExtPortError2>HTTP外部連接埠必須是數字</httpExtPortError2>
+	<httpExtPortError3>HTTP外部連接埠必需介於1跟65535之間</httpExtPortError3>
+	<httpExtPortError4>HTTP外部連接埠不能與RTSP外部連接埠相同</httpExtPortError4>
+	<rtspExtPortError1>RTSP外部連接埠不能空白</rtspExtPortError1>
+	<rtspExtPortError2>RTSP外部連接埠必須是數字</rtspExtPortError2>
+	<rtspExtPortError3>RTSP外部連接埠必需介於1跟65535之間</rtspExtPortError3>
+	<netErrorMessage1>第</netErrorMessage1>
+	<netErrorMessage2>組</netErrorMessage2>
+	<netErrorMessage3>必須為數字</netErrorMessage3>
+	<netErrorMessage4>必須介於</netErrorMessage4>
+	<netErrorMessage5>與</netErrorMessage5>
+	<netErrorMessage6>必須為</netErrorMessage6>
+	<netError>網路設定不合法</netError>
+	<ipMessage1>IP位址</ipMessage1>
+	<ipMessage2>IP位址不合法</ipMessage2>
+	<ipMessage3>IP位址不能為零.</ipMessage3>
+	<maskMessage1>子網路遮罩</maskMessage1>
+	<maskMessage2>子網路遮罩不合法</maskMessage2>
+	<maskMessage3>子網路遮罩不能為零</maskMessage3>
+	<routerMessage1>預設閘道</routerMessage1>
+	<routerMessage2>預設閘道不合法</routerMessage2>
+	<routerMessage3>預設閘道不能為零</routerMessage3>
+	<priDnsMessage1>主DNS伺服器</priDnsMessage1>
+	<priDnsMessage2>主DNS伺服器不合法</priDnsMessage2>
+	<priDnsMessage3>主DNS伺服器不能為零</priDnsMessage3>
+	<secDnsMessage1>次DNS伺服器</secDnsMessage1>
+	<secDnsMessage2>次DNS伺服器不合法</secDnsMessage2>
+	<secDnsMessage3>次DNS伺服器不能為零</secDnsMessage3>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>如果您的環境中有DHCP 伺服器可以自動配發IP 位址給網路攝影機的話, 請選擇'DHCP 連線'。</description1>
+	<description2>'啟動UPnP 設定' - 您將可以透過在網路中找到一個'UPnP' 裝置的方式來設定網路攝影機。</description2>
+	<description3> '連接埠詳細設定' - 允許您指定一個特殊連接埠供HTTP 及RTSP 串流使用。</description3>
+	<description4> 'HTTP 連接埠' - 為用以透過預設瀏覽器連接網路攝影機設定使用的連接埠。</description4>
+	<description5> 'RTSP 連接埠' - 為用以透過有支援串流媒體播放的移動裝置(例如3/3.5G 手機,PDA)連接觀看攝影機使用的連接埠。</description5>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

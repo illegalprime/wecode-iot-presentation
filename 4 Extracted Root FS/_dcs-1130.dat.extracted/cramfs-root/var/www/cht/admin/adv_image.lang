@@ -1,0 +1,55 @@
+<body>
+	<imageSettings>影像設定</imageSettings>
+	<description1>您可以在這個設定中, 變更網路攝影機監控畫面的相關設定(例如亮度,對比度等.. ), 並且立即看到改變。</description1>
+	<image>現場影像</image>
+	<controls>影像設定</controls>
+	<brightness>亮度</brightness>
+	<saturation>飽和</saturation>
+	<contrast>對比</contrast>
+	<hue>色相</hue>
+	<frequency>頻率</frequency>
+	<auto>自動</auto>
+	<disable>不啟動</disable>
+	<hz>赫茲</hz>
+	<whiteBalance>白平衡</whiteBalance>
+	<bw>黑白</bw>
+	<flip>反轉</flip>
+	<mirror>鏡像</mirror>
+	<autoExposure>自動曝光</autoExposure>
+	<reset>重置為預設值</reset>
+	<BLC>背光補償</BLC>
+	<AWB>自動白色平衡</AWB>
+	<AGC>自動增益控制</AGC>
+	<AES>自動電子快門</AES>
+	<hue1> - 調整這個項目以增強/減弱畫面的顏色的亮度。</hue1>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description0>您可以藉著以下選項調整影像設定</description0>
+	<description1>亮度,對比度,飽和度,和色相的每一個範疇從0到100,您可以微調這個影像</description1>
+	<description2> - 當監視的物體位於光源的前方造成攝影機無法清楚的截取影像時。 選擇修正此功能可以改善背光所造成的影像不清楚問題。</description2>
+	<description3> - 此功能為改善不真實的顏色塑像的過程, 以讓實際觀看影像中的白色物體是被正確顯示為白色。</description3>
+	<description4> - 控制信號接收的增益值。使用AGC功能,可將微弱的接收信號加強並且強化微弱或無法接收的訊號。</description4>
+	<description5> - 允許快門速度自動地被調整。越快速的快門速度將使得快速移動的對象更加清楚被呈現。</description5>
+	<description6>亮度, 飽和, 對比 及 頻率 可供調整, 讓您可以藉此微調影像設定。</description6>
+	<brightness>亮度</brightness>
+	<brightness1> - 調整這個項目以補償畫面背景亮度。</brightness1>
+	<saturation>飽和</saturation>
+	<saturation1> - 此選項控制黑白至清楚的顏色強度。</saturation1>
+	<contrast>對比</contrast>
+	<contrast1> - 調整這個項目以控制物體間的顏色飽和度, 有助於在灰暗的環境下的影像。</contrast1>
+	<frequency>頻率</frequency>
+	<frequency1> - 可選擇50HZ或60HZ,(依照不同的國家而有所差異)。</frequency1>
+	<whitebalance>白平衡</whitebalance>
+	<whitebalance1> - 預設值為自動設定。 此選項將會移除非真實的顏色投射, 因此白色的物體在影像中可顯示出白色。</whitebalance1>
+	<bw>黑白</bw>
+	<bw1> - 調整這個項目可以開啟或關閉攝影機的黑白模式。</bw1>
+	<flip>反轉</flip>
+	<flip1> - 當您的攝影機安裝為由上往下攝影的的狀況(如安裝在天花板)時可選擇此選項。</flip1>
+	<mirror>鏡像</mirror>
+	<mirror1> - 選擇此選項可得到鏡射的影像。</mirror1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

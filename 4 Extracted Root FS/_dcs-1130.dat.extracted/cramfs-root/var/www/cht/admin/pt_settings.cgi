@@ -1,0 +1,1 @@
+../../cgi/admin/pt_settings.cgi

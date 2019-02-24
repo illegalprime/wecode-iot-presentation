@@ -1,0 +1,17 @@
+#!/bin/sh
+export path
+
+if [ ! -z "$1" ] ; then
+	if [ "$1" = "md1" ] ; then
+		if [ ! -z "$2" ] && [ "$2" = "start" ] ; then
+			portal=`sed -n '/portal_url/s/portal_url=//p' upnpc.conf`
+			echo "Call motion detection start, send event to $portal"
+			touch /tmp/mt_start
+		fi
+		touch /tmp/mt_md1_$2
+	fi
+	echo "$1 event triggered $2"
+	touch /tmp/mt_trigger_$1
+else
+	echo "eventNotify called"
+fi

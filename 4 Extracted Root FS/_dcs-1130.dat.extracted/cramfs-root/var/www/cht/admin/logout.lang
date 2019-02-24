@@ -1,0 +1,9 @@
+<body>
+	<logout>登出</logout>
+	<description1>登出執行後將會關閉瀏覽視窗.</description1>
+	<titleLogout>LOGOUT</titleLogout>
+</body>
+<hint>
+</hint>
+<message>
+</message>

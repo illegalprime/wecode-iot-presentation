@@ -1,0 +1,30 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<camera>監視器</camera>
+	<videoProfile>影像解析度選擇</videoProfile>
+	<videoProfile1> - 依據影像設定選擇不同解析度。在非 IE 瀏覽器下只支援Motion jpeg。</videoProfile1>
+	<fullScreen>全螢幕</fullScreen>
+	<fullScreen1> - 按下後即時監視影像以全螢幕顯示</fullScreen1>
+	<snapshot>擷取畫面</snapshot>
+	<snapshot1> - 點選按鈕儲存以JPEG格式的攝影圖片。</snapshot1>
+	<recording>開始錄影</recording>
+	<recording1> - 按下後將即時監視影像錄影檔案儲存至您所指定的本機路徑中。</recording1>
+	<setPath>設定路徑</setPath>
+	<setPath1> - 設定當錄影或擷取靜態影像時資料所儲存的路徑。</setPath1>
+	<listen>開始/停止收音</listen>
+	<listen1> - 您可以在這邊按下此按鈕來開始聽見或關閉由網路攝影機傳來的現場聲音。</listen1>
+	<talk>開始/停止講話</talk>
+	<talk1> - 您可以在這邊按下此按鈕來開始或關閉透過網路攝影機的麥克風跟PC端來做交談。</talk1>
+	<digitalOut>開啟/關閉數位輸出埠</digitalOut>
+	<digitalOut1> - 您可以在這邊按下此按鈕來開起或關閉連接在數位輸出埠的裝置, 例如蜂鳴器。</digitalOut1>
+	<digitalInputTrigger>數位輸入指示狀態</digitalInputTrigger>
+	<digitalInputTrigger1> - 當數位輸入接口所連結的裝置(例如磁簧開關)被觸發, 這個圖示將會閃爍。</digitalInputTrigger1>
+	<motionTrigger>移動偵測觸發</motionTrigger>
+	<motionTrigger1> - 當移動偵測被觸發, 這個圖示將會閃爍。</motionTrigger1>
+	<recordingTrigger>錄影觸發</recordingTrigger>
+	<recordingTrigger1> - 當錄影動作被觸發, 這個圖示將會閃爍。</recordingTrigger1>
+	<language>選擇語言</language>
+	<language1> - 您可以在這邊透過下拉式選單變更網路攝影機設定畫面的語言介面。</language1>
+	<irled>紅外線LED</irled>
+	<irled1> - 可以設定紅外線LED的啟動是手動還是自動。當此功能為自動時，攝影機感光元件會偵測環境的明亮度來決定是否要打開紅外線LED。請注意當紅外線LED打開時，即時影像會呈現黑白的畫面。</irled1>
+</body>

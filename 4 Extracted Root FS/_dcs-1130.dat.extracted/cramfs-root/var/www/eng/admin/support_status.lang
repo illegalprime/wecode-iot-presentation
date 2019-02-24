@@ -1,0 +1,7 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<deviceInfo>Device Info</deviceInfo>
+	<log>Log</log>
+	<deviceInfo1>This page displays all the information about the camera and network settings.</deviceInfo1>
+	<log1>View the system log file. This file reveals all the useful information like motion detection notification and system boot messages. To export the camera logs click on the 'Download' button to initiate a file download from the camera.</log1>
+</body>

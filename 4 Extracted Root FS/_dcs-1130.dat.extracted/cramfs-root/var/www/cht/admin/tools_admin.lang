@@ -1,0 +1,76 @@
+<body>
+	<administratorSettings>管理</administratorSettings>
+	<description1>您可以在這邊改變登入網路攝影機管理者的密碼, 或是新增/刪除使用者的帳戶。您也可以在這邊設定網路攝影機的資訊, 例如攝影機的名稱。您也可以在此啟用OSD(即時畫面顯示)功能讓攝影機的名稱及時間戳記在錄影影像當中。</description1>
+	<devideSetting>裝置設定</devideSetting>
+	<cameraName>網路攝影機名稱</cameraName>
+	<enableOSD>啟動OSD</enableOSD>
+	<label>標籤</label>
+	<timeStamp>顯示時間</timeStamp>
+	<ledControl>LED 燈號</ledControl>
+	<ledOn>開啟</ledOn>
+	<ledOff>關閉</ledOff>
+	<administrator>管理者密碼設定</administrator>
+	<newPassword>新密碼</newPassword>
+	<confirmPassword>再次輸入密碼</confirmPassword>
+	<PasswordMsg>最多30個字元</PasswordMsg>
+	<save>儲存</save>
+	<addUser>增加使用者帳號</addUser>
+	<userName>使用者名稱</userName>
+	<maxUser>最多20個使用者</maxUser>
+	<add>增加</add>
+	<managerUser>使用者列表</managerUser>
+	<userList>-- 使用者列表 --</userList>
+	<delete>刪除</delete>
+	<reboot1>網頁伺服器需要重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<asciiError>OSD標簽只能接受數字,英文字母,以及部份特殊符號</asciiError>
+	<cameraNameError>網路攝影機名稱不能為空白</cameraNameError>
+	<adminPassError1>管理者新密碼與確認密碼不相同</adminPassError1>
+	<adminPassError2>管理者新密碼不允許空白字元與非ASCII字元與符號: </adminPassError2>
+	<maxUserError>超出最大使用者</maxUserError>
+	<userNameError1>新增使用者名稱不允許空白</userNameError1>
+	<userNameError2>新增使用者名稱只允許數字,英文字母,\".\" ,\"-\" 和 \"_\"符號</userNameError2>
+	<userNameError3>新增使用者名稱已存在</userNameError3>
+	<userNameError4>新增使用者名稱不允許admin為新增使用者名稱</userNameError4>
+	<userPassError1>新增使用者密碼與確認密碼不相同</userPassError1>
+	<userPassError2>新增使用者密碼不允許空白字元與非ASCII字元</userPassError2>
+	<cameraNameError2>網路攝影機名稱不能接受以下字元 </cameraNameError2>
+	<cameraMsg>最多36個字元</cameraMsg>
+	<privacyText>隱私模式</privacyText>
+	<calibrateText>標準化這個網路攝影機</calibrateText>
+	<calibrate>標準化這個網路攝影機</calibrate>
+	<privacyOn>啟動</privacyOn>
+	<privacyOff>關閉</privacyOff>
+	<scheduled>排程</scheduled>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>開始 </from>
+	<to>結束 </to>
+	<scheduleError>請填入排程時間</scheduleError>
+	<hourError>不合法的小時</hourError>
+	<minuteError>不合法的分鐘</minuteError>
+	<fullHourError>當結束小時為24時,結束分鐘只能為0</fullHourError>
+	<legalTimeError>起始時間必須小於結束時間</legalTimeError>
+	<calibrateText>標準化這個網路攝影機</calibrateText>
+	<calibrate>標準化這個網路攝影機</calibrate>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description2>啟用OSD後, 攝影機名稱及時間將被顯示在使用者看到的監控畫面上。</description2>
+	<description1>對於安全性的考量,我們建議你更換管理者還有使用者帳號的登入名稱還有密碼,並再次確認有寫下新的登入名稱跟密碼以免重新啟動網路攝影機之後您卻忘記了帳號以及密碼</description1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+        <invalidParameters>參數不合法</invalidParameters>
+        <exceedMaxUsers>超出最大人數限制</exceedMaxUsers>
+        <userNotExist>欲刪除的使用者並不存在</userNotExist>
+        <tinydbError>設定失敗</tinydbError>
+	<calibrationOK>標準化成功</calibrationOK>
+</message>

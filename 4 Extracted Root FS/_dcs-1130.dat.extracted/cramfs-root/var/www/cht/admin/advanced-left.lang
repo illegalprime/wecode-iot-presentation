@@ -1,0 +1,18 @@
+<leftPanel>
+	<wizard>設定精靈</wizard>
+	<networkSettings>網路設定</networkSettings>
+	<wireless>無線網路設定</wireless>
+	<ddns>動態DNS設定</ddns>
+	<imageSettings>影像設定</imageSettings>
+	<audioVideo>聲音與影像</audioVideo>
+	<mailFtp>郵件與檔案傳輸</mailFtp>
+	<motionDetection>移動偵測</motionDetection>
+	<timeAndDate>時間與日期</timeAndDate>
+	<cameraControl>預設位置設定</cameraControl>
+	<recording>錄影設定</recording>
+	<snapshot>擷取畫面</snapshot>
+	<digitalOutput>數位輸出</digitalOutput>
+	<rs485>RS-485</rs485>
+	<logout>登出</logout>
+	<titleSetup>SETUP</titleSetup>
+</leftPanel>

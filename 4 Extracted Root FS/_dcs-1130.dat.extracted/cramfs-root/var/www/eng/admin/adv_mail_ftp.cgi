@@ -1,0 +1,1 @@
+../../cgi/admin/adv_mail_ftp.cgi

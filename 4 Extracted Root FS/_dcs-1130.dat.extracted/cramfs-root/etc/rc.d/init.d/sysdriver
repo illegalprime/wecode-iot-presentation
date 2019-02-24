@@ -1,0 +1,31 @@
+#!/bin/sh
+# 
+# sysdriver: launch system driver
+#
+
+RETVAL=0
+
+umask 077
+
+case "$1" in
+  start)
+	case "$(pibinfo Sensor)" in
+	vicam3*)
+		echo "Prepare vicam3 modules: --->"
+		mknod -m 640 /dev/video0 c 81 0
+		insmod /lib/modules/yuvicam3.o
+		sleep 3
+		;;
+	esac
+
+	echo "Starting encoder driver module: ---->"
+	insmod /lib/modules/osd_drawer.o
+	insmod /lib/modules/plmedia.o
+	insmod /lib/modules/crypt.o
+	RETVAL=$?
+	echo 
+	exit $RETVAL
+	;;
+  stop)
+	# donthing
+esac

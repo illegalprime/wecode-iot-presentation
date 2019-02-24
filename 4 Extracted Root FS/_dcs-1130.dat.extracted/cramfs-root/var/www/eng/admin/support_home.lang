@@ -1,0 +1,30 @@
+<body>
+	<helpMenu>HELP MENU</helpMenu>
+	<camera>Camera</camera>
+	<videoProfile>Video Profile</videoProfile>
+	<videoProfile1> - These icons show the current settings for the video profile. If using a non-IE browser (only JPEG format is supported), select available icons.</videoProfile1>
+	<fullScreen>Full Screen</fullScreen>
+	<fullScreen1> - Press the icon to enlarge live video to full screen.</fullScreen1>
+	<snapshot>Snapshot</snapshot>
+	<snapshot1> - Clicking the icon saves a picture of the cameras view in JPEG format to your computer.</snapshot1>
+	<recording>Recording</recording>
+	<recording1> - This will record video immediately into the pre-determined file path.</recording1>
+	<setPath>Set Storage Folder</setPath>
+	<setPath1> - Click the icon to configure the default location that data is stored when using the snapshot or record button.</setPath1>
+	<listen>Listen</listen>
+	<listen1> - Click the button to toggle the audio off and on. Audio will still be recorded however it will not be transmitted from the camera to PC during live view.</listen1> 
+	<talk>Talk</talk>
+	<talk1> - Click the microphone buttons to switch the sound off and on from the PC to the camera.</talk1>
+	<digitalOut>Start/Stop Digital Output</digitalOut>
+	<digitalOut1> - Click the button to determine whether or not to output the alarm signals to the alarm out connector when an alarm is detected.</digitalOut1>
+	<digitalInputTrigger>Digital Input Indicator</digitalInputTrigger>
+	<digitalInputTrigger1> - This indicator will be displayed and will blink when the trigger input port occurred.</digitalInputTrigger1>
+	<motionTrigger>Motion Detection Trigger</motionTrigger>
+	<motionTrigger1> - This indicator will be displayed and will blink when motion detection is triggered.</motionTrigger1>
+	<recordingTrigger>Recording Indicator</recordingTrigger>
+	<recordingTrigger1> - This indicator will be displayed and will blink when the samba recording is active.</recordingTrigger1>
+	<language>Language</language>
+	<language1> - Select the language drop down to change the web interface’s language.</language1>
+	<irled>IR LED</irled>
+	<irled1> - This function can manually enable/disable the IR LEDs or auto detect by light sensor under the low illumination environment. Note that the live video will turn to black and white mode when IR LEDs turned on. </irled1>
+</body>

@@ -1,0 +1,77 @@
+<body>
+	<deviceInformation>裝置資訊</deviceInformation>
+	<description1>所有網路連接的詳細設定都顯示在這個頁面,韌體版本也一起顯示在這邊</description1>
+	<Information>資訊</Information>
+	<cameraName>網路攝影機名稱</cameraName>
+	<timeAndDate>時間 &amp; 日期</timeAndDate>
+	<firmwareVersion>韌體版本</firmwareVersion>
+	<macAddress>Mac位址</macAddress>
+	<ipAddress>IP位址</ipAddress>
+	<subnetMask>子網路遮罩</subnetMask>
+	<defaultRouter>預設閘道</defaultRouter>
+	<primaryDns>主DNS伺服器</primaryDns>
+	<secondaryDns>次DNS伺服器</secondaryDns>
+	<pppoe>PPPoE</pppoe>
+	<ddns>動態DNS</ddns>
+	<OK>連線成功</OK>
+	<Disabled>關閉</Disabled>
+	<Failure>連線失敗</Failure>
+	<Initializing>設定中</Initializing>
+	<Mon>星期一 </Mon>
+	<Tue>星期二 </Tue>
+	<Wed>星期三 </Wed>
+	<Thu>星期四 </Thu>
+	<Fri>星期五 </Fri>
+	<Sat>星期六 </Sat>
+	<Sun>星期日 </Sun>
+	<Jan>一月 </Jan>
+	<Feb>二月 </Feb>
+	<Mar>三月 </Mar>
+	<Apr>四月 </Apr>
+	<May>五月 </May>
+	<Jun>六月 </Jun>
+	<Jul>七月 </Jul>
+	<Aug>八月 </Aug>
+	<Sep>九月 </Sep>
+	<Oct>十月 </Oct>
+	<Nov>十一月 </Nov>
+	<Dec>十二月 </Dec>
+	<day1>一日 </day1>
+	<day2>二日 </day2>
+	<day3>三日 </day3>
+	<day4>四日 </day4>
+	<day5>五日 </day5>
+	<day6>六日 </day6>
+	<day7>七日 </day7>
+	<day8>八日 </day8>
+	<day9>九日 </day9>
+	<day10>十日 </day10>
+	<day11>十一日 </day11>
+	<day12>十二日 </day12>
+	<day13>十三日 </day13>
+	<day14>十四日 </day14>
+	<day15>十五日 </day15>
+	<day16>十六日 </day16>
+	<day17>十七日 </day17>
+	<day18>十八日 </day18>
+	<day19>十九日 </day19>
+	<day20>二十日 </day20>
+	<day21>二十一日 </day21>
+	<day22>二十二日 </day22>
+	<day23>二十三日 </day23>
+	<day24>二十四日 </day24>
+	<day25>二十五日 </day25>
+	<day26>二十六日 </day26>
+	<day27>二十七日 </day27>
+	<day28>二十八日 </day28>
+	<day29>二十九日 </day29>
+	<day30>三十日 </day30>
+	<day31>三十一日 </day31>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>這個頁面會顯示所有關於網路攝影機及網路設定的相關資訊。</description1>
+</hint>
+<message>
+
+</message>

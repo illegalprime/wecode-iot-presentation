@@ -1,0 +1,1 @@
+../cgi/ptz485dc.cgi

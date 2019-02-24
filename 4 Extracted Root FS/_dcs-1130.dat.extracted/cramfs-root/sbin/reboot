@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/etc/rc.d/rcK stop
+/usr/local/sbin/reboot $*

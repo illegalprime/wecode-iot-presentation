@@ -1,0 +1,8 @@
+::sysinit:/etc/rc.d/rcS start
+#::askfirst:/bin/ash
+#tts/0::respawn:-/bin/sh
+#tts/0::respawn:-/bin/ash
+::respawn:-/bin/ash
+#::ctrlaltdel:/etc/rc.d/rcK stop
+#::shutdown:/etc/rc.d/rcK stop
+

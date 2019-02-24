@@ -1,0 +1,1 @@
+../../cgi/admin/cam_control.cgi

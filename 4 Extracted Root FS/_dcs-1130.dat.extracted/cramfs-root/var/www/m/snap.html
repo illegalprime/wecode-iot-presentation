@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>Snapshot</title>
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <link rel="apple-touch-icon" href="../xsl/images/snapshot_p.gif">
+	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="user-scalable=yes">
+    <meta name="viewport" content="maximum-scale=10">
+<style type="text/css">
+#snap{
+margin:10% 0 0 0;
+}
+
+</style>
+</head>
+<script type="text/javascript">
+var space = "";
+
+function adject()
+{
+
+	if(navigator.userAgent.indexOf('Safari') != -1)
+	{
+		if((document.body.scrollHeight)/(document.body.scrollWidth) > 1)
+		{
+			 document.live.width = document.body.offsetWidth * 1;
+			 document.getElementById("space").innerHTML = space;
+		 	 window.scroll(0,20);
+		}	
+		else
+		{
+		 	document.live.width = document.body.offsetWidth * 0.74;
+			document.getElementById("space").innerHTML = "";
+		}
+	}
+	else
+	{
+		if(window.screen.availWidth > window.screen.availHeight)
+		{
+			document.getElementById("snap").style.cssText = "margin:0;";
+			document.getElementById("live").style.cssText = "width:80%;";
+			
+			
+		}
+		else 
+		{		
+			document.getElementById("space").innerHTML = space;
+		}
+
+	}
+	
+	//temp = document.body.scrollHeight;
+	//alert("clientWidth " + document.body.clientWidth + "  clientHeight " + document.body.clientHeight);
+	//alert("offsetWidth " + document.body.offsetWidth + "  offsetHeight " + document.body.offsetHeight);
+	//alert("scrollWidth " + document.body.scrollWidth + "  scrollHeight " + document.body.scrollHeight);
+	//alert("scrollTop " + document.body.scrollTop + "  scrollLeft " + document.body.scrollLeft);
+	//alert("screenTop " + window.screenTop + "  screenLeft " + window.screenLeft);
+	//alert("height " + window.screen.height + "  width " + window.screen.width);
+	//alert("availHeight " + window.screen.availHeight+ "  availWidth " + window.screen.availWidth);
+	//document.live.width = width * ((document.body.scrollHeight) / temp);
+	//document.live.height = height * ((document.body.scrollHeight) / temp);
+
+}
+function loadok()
+{
+	window.scroll(0,15);
+}
+function reloadimg()
+{
+	document.live.src = "/image/jpeg.cgi?profileid=3"+ Math.random();
+}
+
+</script>
+<body bgcolor="#000000"  onload="adject()"  onresize="adject()" leftmargin="0" topmargin="0" >
+<center>
+<a href="index.html">Main page</a>
+<div id="snap">
+<span id="space"></span>
+ <a href="snap.html">
+            <img id="live" name="live" src="/image/jpeg.cgi?profileid=3" alt="snapshot"  width="100%" onLoad="loadok()" onerror="reloadimg()" /></a>
+</div>
+</center>
+</body>
+</html>

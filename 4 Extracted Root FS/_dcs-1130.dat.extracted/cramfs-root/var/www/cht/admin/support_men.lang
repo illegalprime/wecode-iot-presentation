@@ -1,0 +1,26 @@
+<body>
+	<helpMenu>使用說明</helpMenu>
+	<liveVideo>即時影像</liveVideo>
+	<camera>監視器</camera>
+	<setup>設定</setup>
+	<wizard>設定精靈</wizard>
+	<networkSetup>網路設定</networkSetup>
+	<dynamicDNS>動態DNS設定</dynamicDNS>
+	<wirelessSetup>無線網路設定</wirelessSetup>
+	<audioVideo>聲音與影像</audioVideo>
+	<imageSetup>影像設定</imageSetup>
+	<motionDetection>移動偵測</motionDetection>
+	<presetPosition>預設位置設定</presetPosition>
+	<recording>錄影設定</recording>
+	<snapshot>擷取畫面</snapshot>
+	<timeAndDate>時間與日期</timeAndDate>
+	<maintenance>維護</maintenance>
+	<deviceManagement>管理</deviceManagement>
+	<backupAndRestore>系統</backupAndRestore>
+	<firmwareUpgrade>韌體更新</firmwareUpgrade>
+	<status>狀態</status>
+	<deviceInfo>裝置資訊</deviceInfo>
+	<log>記錄</log>
+	<digitalOutput>數位輸出</digitalOutput>
+	<RS-485>RS-485</RS-485>
+</body>

@@ -1,0 +1,1 @@
+../../cgi/admin/forceUpdate.cgi

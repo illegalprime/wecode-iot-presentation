@@ -1,0 +1,45 @@
+<body>
+	<cameraControl>監視器控制</cameraControl>
+	<description1>在這邊您可以設定或刪除預先設定的位置, 您可以選擇定'巡邏點'的位置且可以改變您的'初始位置'按鈕的出廠預設位置.</description1>
+	<up>上</up>
+	<down>下</down>
+	<panSpeed>水平速度:</panSpeed>
+	<tiltSpeed>上下速度:</tiltSpeed>
+	<currentPosition>目前方位:</currentPosition>
+	<presetPosition>預先設定方位:</presetPosition>
+	<none>-- 選擇一個 --</none>
+	<add>增加</add>
+	<delete>刪除</delete>
+	<save>儲存</save>
+	<theSamePresetName>預設方位點已存在,您是否要以新的方位取代掉舊的方位?</theSamePresetName>
+	<setAsHome>設為初始位置</setAsHome>
+	<defaultHome>回復初始位置</defaultHome>
+	<patrolSpeed>水平/巡邏速度:</patrolSpeed>
+	<dwellingTime>停留時間(秒):</dwellingTime>
+	<presetLocations>預設點</presetLocations>
+	<selectedLocations>選取點</selectedLocations>
+	<select>選擇</select>
+	<remove>移除</remove>
+	<patrolSelection>巡邏點選擇:</patrolSelection>
+	<homeDefinition>初始位置定義:</homeDefinition>
+	<presetNameError>預設方位點不允許空白</presetNameError>
+	<waitTimeError1>停留時間不能空白</waitTimeError1>
+	<waitTimeError2>停留時間必須是數字</waitTimeError2>
+	<waitTimeError3>停留時間必需介於0跟60之間</waitTimeError3>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<homeDefinition>初始位置定義 </homeDefinition>
+	<description1> - 您可以設定一組新的初始位置或還原至預設的初始位置.</description1>
+	<patrolSelection>巡邏選擇 </patrolSelection>
+	<description2> - 您可以新增'目前的位置'至'預先設定方位'中, 這將會決定網路攝影機當在'主頁'中選擇'自動巡邏點'時移動及停止的位置.</description2>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<failure>設定失敗</failure>
+	<full>方位點已滿</full>
+	<selectFull>選取點已滿</selectFull>
+	<duplicate>相同名稱的方位點已被覆蓋掉</duplicate>
+	<invalidParameters>不合法的方位點</invalidParameters>
+	<oob>設定值超出移動範圍</oob>
+</message>

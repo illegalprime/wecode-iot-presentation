@@ -1,0 +1,46 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "$0 {start|stop}"
+}
+
+action=$1
+end=$2
+
+[ "$end" = "" ] && [ "$action" != "" ] || showUsage
+
+start() {
+	touch /tmp/group /tmp/passwd /tmp/shadow
+	echo 'root:x:0:' > /etc/group
+	echo 'root:x:0:0:Linux User,,,:/:/bin/sh' > /etc/passwd
+	echo 'root:$1$gmEGnzIX$bFqGa1xIsjGupHyfeHXWR/:20:0:99999:7:::' > /etc/shadow
+	#telnetd > /dev/null 2> /dev/null
+	/bin/agent &
+	#/sbin/syslogd
+	addlog System is booted up.
+	echo "rc.local start ok."
+}
+
+stop() {
+	addlog System is rebooting.
+	echo "rc.local stop ok."
+}
+
+case $action in
+	start)
+		start
+	;;
+	stop)
+		stop
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+exit 0

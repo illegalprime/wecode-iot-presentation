@@ -1,0 +1,1 @@
+../../cgi/admin/mt9v136_register.cgi

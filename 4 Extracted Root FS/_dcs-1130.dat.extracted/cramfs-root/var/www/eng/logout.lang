@@ -1,0 +1,9 @@
+<body>
+	<logout>Logout</logout>
+	<description1>Logging out will close the browser.</description1>
+	<titleLogout>LOGOUT</titleLogout>
+</body>
+<hint>
+</hint>
+<message>
+</message>

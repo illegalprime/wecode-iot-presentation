@@ -1,0 +1,10 @@
+#!/bin/sh
+
+msg="$@"
+if [ -z "$msg" ]; then
+    echo "Usage: $0 LOG_MESSAGE"
+    exit 1
+else
+    /bin/send_cmd logd 400 "$msg"
+    exit 0
+fi

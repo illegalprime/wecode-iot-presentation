@@ -1,0 +1,89 @@
+<body>
+	<snapshot>擷取畫面</snapshot>
+	<description1>在啟用讓您的網路攝影機開始擷取靜態畫面之前, 您必須勾選'啟動擷取畫面'功能, 然後您才可以決定要透過由 FTP 及/或 E-Mail 的方式來接收事件通知。</description1>
+	<description2>當攝影機設定為SXGA 模式時, 移動觸發的截圖功能將被停用。</description2>
+	<description3>要啟用移動觸發截圖功能的話, 請至</description3>
+	<description4>聲音與影像</description4>
+	<description5>選項中, 選擇改用VGA 或XGA 模式。</description5>
+	<description6>截圖的大小會套用</description6>
+	<description7>聲音與影像</description7>
+	<description8>選項的 video profile 3 解析度設定。</description8>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<enable>啟動擷取畫面</enable>
+	<motionDetection>移動偵測</motionDetection>
+	<di>D/I 訊號1</di>
+	<di2>D/I 訊號2</di2>
+	<sendVideoClipBy>傳送影像圖片依據</sendVideoClipBy>
+	<emailAddress>電子郵件位址</emailAddress>
+	<ftpServer>FTP伺服器</ftpServer>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<mailServer>SMTP(郵件)伺服器</mailServer>
+	<senderAddress>寄件者郵件位址</senderAddress>
+	<recipientAddress>接收者郵件位址</recipientAddress>
+	<port>連接埠</port>
+	<test>測試</test>
+	<hostName>主機名稱</hostName>
+	<path>路徑</path>
+	<prefixFileName>指定檔案名稱</prefixFileName>
+	<passiveMode>被動模式</passiveMode>
+	<portRange> (範圍1到65535)</portRange>
+	<mailNameError>郵件使用者名稱與密碼不能接受非ASCII與空白字元</mailNameError>
+	<ftpNameError>FTP使用者名稱與密碼不能接受非ASCII與空白字元</ftpNameError>
+	<firSmtpError>SMTP(郵件)伺服器不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP使用者名稱不能空白</firAccountError>
+	<firRecipientMailError>請確認接收者郵件位址格式</firRecipientMailError>
+	<firRecipientError>接收者郵件位址不能空白</firRecipientError>
+	<firSenderMailError>請確認寄信者郵件位址格式</firSenderMailError>
+	<firSenderError>寄信者郵件位址不能空白</firSenderError>
+	<PortError1>連接阜不能空白</PortError1>
+	<PortError2>連接阜必須是一個數字</PortError2>
+	<PortError3>連接阜必須介於1跟65535之間</PortError3>
+	<firFtpServerError>FTP不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</firFtpServerError>
+	<firFtpError>FTP伺服器</firFtpError>
+	<firFolderError>FTP伺服路徑只允許數字,英文字母以及這些特殊符號 : </firFolderError>
+	<firFixFilenameError>指定檔案名稱只允許數字,字元以及這些特殊符號 : </firFixFilenameError>
+	<continousRecording>持續觸發(僅支援儲存到FTP)</continousRecording>
+	<scheduledRecording>排程觸發(僅支援儲存到FTP)</scheduledRecording>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>開始 </from>
+	<to>結束 </to>
+	<scheduling>排程觸發</scheduling>
+	<eventBased>以事件為基礎</eventBased>
+	<interval>間隔</interval>
+	<second>秒</second>
+	<range> (範圍1到86400秒)</range>
+	<methodError>請選擇一個排程設定</methodError>
+	<scheduleError>請填入排程時間</scheduleError>
+	<triggerError>請選擇一個事件觸發</triggerError>
+	<hourError>不合法的小時</hourError>
+	<minuteError>不合法的分鐘</minuteError>
+	<fullHourError>當結束小時為24時,結束分鐘只能為0</fullHourError>
+	<legalTimeError>起始時間必須小於結束時間</legalTimeError>
+	<intervalError>間隔必須在1~86400秒之間</intervalError>
+	<ftpMailError>請填入電子郵件位址或者FTP伺服器設定</ftpMailError>
+	<ftpScheduleError>請填入FTP伺服器設定</ftpScheduleError>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>您可以選擇由FTP 及/或 E-Mail 的方式來接收事件通知, 藉由'測試'按鈕可測試您輸入的設定是否可以運作。</description1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<testMailFault>寄送測試郵件失敗</testMailFault>
+	<invalidPort>不合法的連接阜</invalidPort>
+	<getFrameFault>取得圖檔失敗</getFrameFault>
+	<testMailOk>傳送測試郵件成功</testMailOk>
+	<testFTPFault>測試FTP失敗</testFTPFault>
+	<testFTPOk>測試FTP成功</testFTPOk>
+</message>

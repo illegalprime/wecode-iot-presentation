@@ -1,0 +1,26 @@
+<body>
+	<internetSettings>網際網路連線設定</internetSettings>
+	<description1>透過這個功能, 您可以進行網路攝影機有線網路介面相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"網際網路連線設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行網路攝影機設定(不透過設定精靈), 請按下"手動設定網際網路連線"按鈕, 以開始手動設定網路攝影機。
+</description1>
+<description1wireless>透過這個功能, 您可以進行網路攝影機網路介面相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"網際網路連線設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行網路攝影機設定(不透過設定精靈), 請按下"手動設定網際網路連線"按鈕, 以開始手動設定網路攝影機。
+</description1wireless>
+	<internetButton>網際網路連線設定精靈</internetButton>
+	<internetSetup>手動設定網際網路連線</internetSetup>
+	<motionSettings>網路攝影機移動偵測設定</motionSettings>
+	<description2>透過這個功能, 您可以進行網路攝影機的移動偵測相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"移動偵測設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行移動偵測設定(不透過設定精靈), 請按下"手動設定移動偵測"按鈕, 以開始手動進行移動偵測設定。
+</description2>
+	<description3>當攝影機設定為SXGA 模式時, 移動偵測將被停用。</description3>
+	<description4>要啟用移動偵測功能的話, 請至</description4>
+	<description5>聲音與影像</description5>
+	<description6>選項中, 選擇改用VGA 或XGA 模式。</description6>
+	<motionButton>移動偵測設定精靈</motionButton>
+	<motionSetup>手動設定移動偵測</motionSetup>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>如果您是一位進階使用者的話, 您可以按下"手動設定網際網路連線"按鈕, 以手動進行所有的設定。</description1>
+	<description2>如果您是一位進階使用者的話, 您可以按下"手動設定移動偵測"按鈕, 以手動進行所有的設定。</description2>
+</hint>
+<message>
+
+</message>

@@ -1,0 +1,37 @@
+﻿<body>
+	<motionDetection>移動偵測</motionDetection>
+	<description1>這區域可以讓您開啟或關閉動態偵測功能, 在使用移動偵測功能之前, 您必須先勾選'啟用'項目, 並拖劃出您要偵測移動的區域及調整敏感度。</description1>
+	<description2>當攝影機設定為SXGA 模式時, 移動偵測將被停用。</description2>
+	<description3>要啟用移動偵測功能的話, 請至</description3>
+	<description4>聲音與影像</description4>
+	<description5>選項中, 選擇改用VGA 或XGA 模式。</description5>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<liveVideo>現場影像</liveVideo>
+	<enableMotion>啟動影像移動偵測</enableMotion>
+	<enablePIR>啟動PIR</enablePIR>
+	<areaError>請拖劃偵測移動區域</areaError>
+	<sense>敏感度</sense>
+	<drawingMode>拖劃模式</drawingMode>
+	<drawMotion>拖劃偵測移動區域</drawMotion>
+	<eraseMotion>清除偵測移動區域</eraseMotion>
+	<clear>清除</clear>
+	<numberError>請輸入數字</numberError>
+	<rangeError>請輸入介於0~100之間的數字</rangeError>
+	<unselectRange>拖劃偵測移動區域</unselectRange>
+	<unselectRange1> - 拖動滑鼠來設定移動偵測的範圍。</unselectRange1>
+	<inverseRange>清除偵測移動區域</inverseRange>
+	<inverseRange1> - 拖動滑鼠來清除移動偵測的範圍。</inverseRange1>
+	<showFirefoxText>要設定偵測移動的區域, 請使用 Windows Internet Explorer。</showFirefoxText>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1> - 設定移動偵測的敏感度, 高敏感度使得移動會被更容易偵測。</description1>
+	<description2>高敏感度使得移動會被更容易偵測.</description2>
+	<description3>在行動電話及PDA的影像中, 我們建議您使用5 FPS 176x120解析度,及 64k BPS。</description3>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+	<updateFailed>設定失敗</updateFailed>
+</message>

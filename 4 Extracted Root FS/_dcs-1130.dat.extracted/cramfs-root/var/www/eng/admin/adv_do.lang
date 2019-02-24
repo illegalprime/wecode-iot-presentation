@@ -1,0 +1,23 @@
+<body>
+	<digitalOutput>Digital Output</digitalOutput>
+	<description1>Here you can enable your D/O port as well as how the event will be triggered. </description1>
+	<description2>Motion detection is disabled while camera is set to SXGA mode.</description2>
+	<description3>To enable motion detection, select VGA or XGA mode in </description3>
+	<description4> Audio And Video.</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<trigger>Trigger</trigger>
+	<enable>Enable D/O Signal</enable>
+	<triggerEvent>Trigger Event</triggerEvent>
+	<motionDetection>Motion Detection</motionDetection>
+	<di1>D/I Signal 1</di1>
+	<di2>D/I Signal 2</di2>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>You may choose a trigger event like Motion detection or triggers from the D/I port. When an event is triggered, the D/O will begin sending a signal.</description1>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

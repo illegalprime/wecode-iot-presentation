@@ -1,0 +1,74 @@
+<body>
+	<administratorSettings>Admin</administratorSettings>
+	<description1>Here you can change the administrator’s password for your account as well as add and/or delete user account(s). You can also configure a unique name for your camera, and enable its OSD (On-Screen Display) feature in order to display camera name and time stamp for both live video and recordings of your camera.</description1>
+	<devideSetting>Device Setting</devideSetting>
+	<cameraName>Camera Name</cameraName>
+	<enableOSD>Enable OSD</enableOSD>
+	<label>Label</label>
+	<timeStamp>Show time</timeStamp>
+	<ledControl>LED light</ledControl>
+	<ledOn>On</ledOn>
+	<ledOff>Off</ledOff>
+	<administrator>admin password setting</administrator>
+	<newPassword>New Password</newPassword>
+	<confirmPassword>Retype Password</confirmPassword>
+	<PasswordMsg> 30 characters maximum</PasswordMsg>
+	<save>Save</save>
+	<addUser>add user Account </addUser>
+	<userName>User Name</userName>
+	<maxUser> 20 users maximum</maxUser>
+	<add>Add</add>
+	<managerUser>User list</managerUser>
+	<userList>-- User list --</userList>
+	<delete>Delete</delete>
+	<reboot1>Web server restarting. Please wait </reboot1>
+	<reboot2> seconds...</reboot2>
+	<asciiError>OSD Label only can accept number, alphabet and some spical characters</asciiError>
+	<cameraNameError>cameraname can't be NULL</cameraNameError>
+	<adminPassError1>New Password and Confirm Password are different</adminPassError1>
+	<adminPassError2>New Password can't accept blank characters, non ASCII characters and syntax:</adminPassError2>
+	<maxUserError>Exceed maximum users</maxUserError>
+	<userNameError1>User Name can't be NULL</userNameError1>
+	<userNameError2>User Name only accept number, alphabet, \".\", \"-\", and \"_\" characters</userNameError2>
+	<userNameError3>User Name already exist</userNameError3>
+	<userNameError4>User Name can't accept admin for new user name</userNameError4>
+	<userPassError1>New Password and Retype Password are different</userPassError1>
+	<userPassError2>New Password can't accept blank characters and non ASCII characters</userPassError2>
+	<cameraMsg>36 characters maximum</cameraMsg>
+	<cameraNameError2>Camera name can't accept </cameraNameError2>
+	<privacyText>Privacy Mode</privacyText>
+	<calibrateText>Calibrate The Device</calibrateText>
+	<calibrate>Calibrate the Device</calibrate>
+	<privacyOn>On</privacyOn>
+	<privacyOff>Off</privacyOff>
+	<scheduled>Scheduled</scheduled>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<hourError>Hours are not valid</hourError>
+	<minuteError>Minutes are not valid</minuteError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>For security purposes, it is recommended to change the password for your administrator account. Be sure to write down the new password to avoid having to reset the camera in the event that it is forgotten.</description1>
+	<description2>Enabling OSD, the camera name and time will be displayed on the video screen.</description2>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<invalidParameters>Some of parameters are invalid</invalidParameters>
+	<exceedMaxUsers>Exceed maximum users</exceedMaxUsers>
+	<userNotExist>The deleted user does not exist</userNotExist>
+	<tinydbError>Failed on setup tinydb</tinydbError>
+	<calibrationOK>calibration is successful</calibrationOK>
+</message>

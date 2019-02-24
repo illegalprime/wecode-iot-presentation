@@ -1,0 +1,108 @@
+<body>
+	<audioVideoSettings>Audio And Video</audioVideoSettings>
+	<description1>This section allows you to configure the sound and video of your camera, you can configure different settings depending on whether you are viewing content from a PC or a Mobile phone/PDA.</description1>
+	<descriptionNoNightmode>This section allows you to configure the sound and video of your camera, you can configure different settings depending on whether you are viewing content from a PC or a Mobile phone/PDA.</descriptionNoNightmode>
+	<description2>There are three main video sensor outputs/ display system ('VGA', 'XGA', 'SXGA') and provides their own resolution settings for selections.</description2>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<videoSensor>video sensor</videoSensor>
+	<sensorOutput>Sensor Output</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>Resolution</resolution>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>Low</low>
+	<fair>Fair</fair>
+	<standard>Standard</standard>
+	<good>Good</good>
+	<excellent>Excellent</excellent>
+	<nightMode>Night Mode</nightMode>
+	<enableNightMode>Enable Night Mode</enableNightMode>
+	<shutter>Shutter</shutter>
+	<second>Second</second>
+	<cameraEnv>Camera Environment</cameraEnv>
+	<placedLocation>Light Source</placedLocation>
+	<indoor>Indoor</indoor>
+	<outdoor>Outdoor</outdoor>
+	<irLed>IR LED</irLed>
+	<auto>Auto</auto>
+	<autoPIR>Auto + PIR</autoPIR>
+	<on>On</on>
+	<off>Off</off>
+	<audioSettings>audio setup</audioSettings>
+	<enableSpeaker>Enable Speaker</enableSpeaker>
+	<volume>Volume</volume>
+	<enableMicrophone>Enable Microphone</enableMicrophone>
+	<encodeType>Encode Type</encodeType>
+	<resolution>Resolution</resolution>
+	<FPS>FPS</FPS>
+	<BPS>bps</BPS>
+	<JPEG_Quality>JPEG Quality</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>FOR MOBILE DEVICE ONLY</mobileOnly>
+	<updateConfirm>Please note that SXGA mode has the following limitations:\n  1. Motion detection and motion triggered snapshots will be disabled.\n  2. Recordings will be doneat Medium resolution at most.\n  3. Non-IE browsers will only show video at 1280x1024</updateConfirm>
+	<reboot1>Camera has been reboot, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<xgaText>When XGA mode is selected, only Profile 1 supports 1024x768.</xgaText>
+	<sxgaText1>When SXGA mode is selected, only Profile 1's JPEG Encode Type supports 1280x1024.</sxgaText1>
+	<sxgaText2>Motion detection and motion trigger will be disabled.</sxgaText2>
+	<nightModeText>When the Night Mode is selected, the actual frame rate might lower than Max Frame Rate setting above in dim environment.</nightModeText>
+	<RTSPErrorMsg1>VIDEO PROFILE </RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL can't be the same with VIDEO PROFILE </RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL</RTSPErrorMsg3>
+</body>
+<hint>
+	<FPS>FPS (Frame per second)</FPS>
+	<FPS1> - The amount of image frames rendered by the camera per second.</FPS1>
+	<BPS>bps (bit per second) </BPS>
+    <BPS1> - Select a fixed bandwidth for your camera operation. Higher value means a higher quality image but consumes more network bandwidth.</BPS1>
+	<JPEG_Quality>JPEG Quality</JPEG_Quality>
+	<JPEG_Quality1> - Set the quality of JPEG image.</JPEG_Quality1>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<RTSP_URL1> - The URL used to connect to the camera when viewing from a mobile device or PDA. (i.e. rtsp://EXAMPLE.</RTSP_URL1>
+	<RTSP_URL2>dlinkddns.com/3gpp).</RTSP_URL2>
+	<irled>IR LED</irled>
+	<irled1> - This button can setup the IR LEDs in all the illumination environment.</irled1>
+	<Audio_Setup>Audio Setup</Audio_Setup>
+	<Audio_Setup1> - To switch the external speaker and microphone on/off or adjust the volume.</Audio_Setup1>
+	<Microphone_Volume>Microphone Volume</Microphone_Volume>
+	<Microphone_Volume1> - You can adjust the MIC Port volume using the volume level setting.</Microphone_Volume1>
+	<Speaker_Volume>Speaker Volume</Speaker_Volume>
+	<Speaker_Volume1> - You can adjust the speaker volume using the volume level setting.</Speaker_Volume1>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>When selecting </description1>
+	<description2> SXGA </description2>
+	<description3>mode, motion detection and motion triggered snapshots will be disabled, recordings will be done at Medium resolution at most, and non-IE browsers will only show video at 1280x1024.</description3>
+	<description4>Enable Speaker </description4>
+	<description5> - Enabling this feature to allow you to talk using PC's microphone and your voice to be transmitted to the external speaker connected to the camera.</description5>
+	<description6>Enable Microphone </description6>
+	<description7> - Enabling this feature to hear audio from the IP Camera's microphone.</description7>
+	<description8>Most cell phones only support small resolutions and low bitrates.</description8>
+	<description9>We suggest using a resolution of 176x120 at 5 FPS and 64k BPS to watch images on your cell phone or pda.</description9>
+	<description10>Higher frame size, frame rate and bit rate rate gives better video quality. 
+At the same time, it requires more network bandwidth.</description10>
+	<description11>We suggest using a smallest resolution at 5 FPS and 64k BPS to watch images on your call phone or PDA.</description11>
+	<descriptionThreeResolution>Each 'Sensor Output' serves with 3 selections of 'Resolution':
+</descriptionThreeResolution>
+<VGA>VGA</VGA>
+<VGA1> : 640x480, 320x240, 160x120</VGA1>
+<XGA>XGA</XGA>
+<XGA1> : 1024x768, 512x384, 256x192</XGA1>
+<SXGA>SXGA</SXGA>
+<SXGA1> : 1280x1024, 640x512, 320x256</SXGA1>
+	<EncodeType1>Encode Type - </EncodeType1>
+	<EncodeType2>Select the video codec 'JPEG' or 'MPEG4'.</EncodeType2>
+	<Resolution1>Resolution - </Resolution1>
+	<Resolution2>3 options depend on display system used. </Resolution2>
+	<lightsource>Light Source</lightsource>
+	<lightsource1> - Is the major ambient light at camera location.</lightsource1>
+	<night>Night Mode</night>
+	<night1> - Check Night Mode if your camera is in a dim light area and you need to improve the video quality.</night1>
+	
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

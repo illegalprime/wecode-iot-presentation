@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/etc/rc.d/rc.local stop
+/etc/rc.d/init.d/recorderd.sh stop 
+/etc/rc.d/init.d/logd.sh stop
+/etc/rc.d/rc.sysinit stop

@@ -1,0 +1,96 @@
+<body>
+	<recordingSettings>錄影設定</recordingSettings>
+	<description1>在這個區域,您可以設定網路攝影機的錄影界面設定, 您必須點選啟動錄影來開啟此功能。</description1>
+	<description2>當攝影機設定為SXGA 模式時, 移動觸發的錄影功能將被停用。</description2>
+	<description3>要啟用移動觸發錄影功能的話, 請至</description3>
+	<description4>聲音與影像</description4>
+	<description5>選項中, 選擇改用VGA 或XGA 模式。</description5>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<recording>錄影設定</recording>
+	<enableRecording>啟動錄影</enableRecording>
+	<recordingSetting>錄影設定</recordingSetting>
+	<resolution>影像解析度</resolution>
+	<small>profile 3</small>
+	<medium>profile 2</medium>
+	<large>profile 1</large>
+	<titan>profile 4</titan>
+	<continousRecording>持續錄影(僅支援儲存到網路磁碟機Samba)</continousRecording>
+	<scheduledRecording>排程錄影(僅支援儲存到網路磁碟機Samba)</scheduledRecording>
+	<continousRecordingOnlySamba>持續錄影</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>排程錄影</scheduledRecordingOnlySamba>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>開始 </from>
+	<to>結束 </to>
+	<motionDetection>動作偵測觸發錄影</motionDetection>
+	<digitalInput>數位輸入觸發錄影 1</digitalInput>
+	<digitalInput2>數位輸入觸發錄影 2</digitalInput2>
+	<prerecord>預先錄影</prerecord>
+	<postrecord>延遲錄影</postrecord>
+	<range> (範圍0到15秒)</range>
+	<second> 秒</second>
+	<recordTo>錄影至</recordTo>
+	<sambaNetworkDrive>Samba網路裝置</sambaNetworkDrive>
+	<sambaAuth>Samba權限</sambaAuth>
+	<anonymous>匿名</anonymous>
+	<account>帳號</account>
+	<username>使用者名稱 </username>
+	<password>密碼 </password>
+	<passwordConfim>確認密碼 </passwordConfim>
+	<serverIp>伺服器 </serverIp>
+	<sharedFolder>分享目錄 </sharedFolder>
+	<test>測試</test>
+	<sambaStatus>Samba狀態 : </sambaStatus>
+	<getStatus>取得狀態</getStatus>
+	<sdCard>SD卡</sdCard>
+	<sdCardStatus>SD卡狀態 : </sdCardStatus>
+	<recordingOptions>錄影選項</recordingOptions>
+	<recordUntil>錄影直到</recordUntil>
+	<spaceRange>MB 為剩餘磁碟空間 (最小值為32MB)</spaceRange>
+	<storageFull>當儲存空間滿時的動作:</storageFull>
+	<stopRecording>停止錄影</stopRecording>
+	<overwriteRecordings>覆蓋舊的錄影</overwriteRecordings>
+	<scheduling>錄影方式</scheduling>
+	<eventBased>以事件為基礎</eventBased>
+	<methodError>請選擇一個錄影設定</methodError>
+	<scheduleError>請填入排程時間</scheduleError>
+	<triggerError>請選擇一個事件觸發</triggerError>
+	<hourError>不合法的小時</hourError>
+	<minuteError>不合法的分鐘</minuteError>
+	<fullHourError>當結束小時為24時,結束分鐘只能為0</fullHourError>
+	<legalTimeError>起始時間必須小於結束時間</legalTimeError>
+	<recordSecError>請輸入介於0~15之間的數字</recordSecError>
+	<usernameError>Samba使用者名稱不能為空白</usernameError>
+	<passwordError>Samba帳號密碼不能為空白</passwordError>
+	<confimError>Samba帳號密碼跟確認密碼不相符</confimError>
+	<spaceError>不合法的保留空間,保留空間最小值為32M</spaceError>
+	<serverError>伺服器不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</serverError>
+	<shareFolderError>分享目錄不允許空白,只允許數字,英文字母,\"-\" 和\"_\"符號</shareFolderError>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>啟用錄影功能允許使用者以選擇的事件為基礎, 將影像儲存至攝影機外接SD 記憶卡中, 或是分享的網路磁碟機(Samba)中。</description1>
+	<description2>要啟用錄影功能, 請勾選啟用錄影的選項。然後選擇要將影像錄影儲存至攝影機外接SD 記憶卡中, 或是分享的網路磁碟機。
+繼續再選擇定義攝影機錄影時的排程方式。</description2>
+	<description3>
+	錄影功能將會以您所選擇的事件為基礎, 將影儲存至分享的'網路磁碟機(Samba)'或'SD卡'中, 要啟用錄影功能, 請勾選啟用'錄影的選項', 繼續再選擇定義攝影機錄影時的排程方式。</description3>
+	<descriptionNoSdcard>啟用錄影功能允許使用者以選擇的事件為基礎, 將影像儲存至分享的網路磁碟機(Samba)中。要啟用錄影功能,請勾選啟用錄影的選項。然後選擇要將影像錄影儲存至分享的網路磁碟機。繼續再選擇定義攝影機錄影時的排程方式。</descriptionNoSdcard>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+	<testing>測試中</testing>
+	<disable>關閉</disable>
+	<normal>正常</normal>
+	<initing>初始化中</initing>
+	<mntFailure>找不到 Samba 網路裝置</mntFailure>
+	<failure>失敗</failure>
+</message>

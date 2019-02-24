@@ -1,0 +1,77 @@
+<body>
+	<deviceInformation>Device Info</deviceInformation>
+	<description1>All of your network connection details are displayed on this page. The firmware version is also displayed here.</description1>
+	<Information>Information</Information>
+	<cameraName>Camera Name</cameraName>
+	<timeAndDate>Time &amp; Date</timeAndDate>
+	<firmwareVersion>Firmware Version</firmwareVersion>
+	<macAddress>MAC Address</macAddress>
+	<ipAddress>IP Address</ipAddress>
+	<subnetMask>IP Subnet Mask</subnetMask>
+	<defaultRouter>Default Gateway</defaultRouter>
+	<primaryDns>Primary DNS</primaryDns>
+	<secondaryDns>Secondary DNS</secondaryDns>
+	<pppoe>PPPoE</pppoe>
+	<ddns>DDNS</ddns>
+	<OK>OK</OK>
+	<Disabled>Disable</Disabled>
+	<Failure>Failure</Failure>
+	<Initializing>Initializing</Initializing>
+	<Mon>Mon </Mon>
+	<Tue>Tue </Tue>
+	<Wed>Wed </Wed>
+	<Thu>Thu </Thu>
+	<Fri>Fri </Fri>
+	<Sat>Sat </Sat>
+	<Sun>Sun </Sun>
+	<Jan>Jan </Jan>
+	<Feb>Feb </Feb>
+	<Mar>Mar </Mar>
+	<Apr>Apr </Apr>
+	<May>May </May>
+	<Jun>Jun </Jun>
+	<Jul>Jul </Jul>
+	<Aug>Aug </Aug>
+	<Sep>Sep </Sep>
+	<Oct>Oct </Oct>
+	<Nov>Nov </Nov>
+	<Dec>Dec </Dec>
+	<day1>1 </day1>
+	<day2>2 </day2>
+	<day3>3 </day3>
+	<day4>4 </day4>
+	<day5>5 </day5>
+	<day6>6 </day6>
+	<day7>7 </day7>
+	<day8>8 </day8>
+	<day9>9 </day9>
+	<day10>10 </day10>
+	<day11>11 </day11>
+	<day12>12 </day12>
+	<day13>13 </day13>
+	<day14>14 </day14>
+	<day15>15 </day15>
+	<day16>16 </day16>
+	<day17>17 </day17>
+	<day18>18 </day18>
+	<day19>19 </day19>
+	<day20>20 </day20>
+	<day21>21 </day21>
+	<day22>22 </day22>
+	<day23>23 </day23>
+	<day24>24 </day24>
+	<day25>25 </day25>
+	<day26>26 </day26>
+	<day27>27 </day27>
+	<day28>28 </day28>
+	<day29>29 </day29>
+	<day30>30 </day30>
+	<day31>31 </day31>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>This page displays all the information about the camera and network settings.</description1>
+</hint>
+<message>
+
+</message>

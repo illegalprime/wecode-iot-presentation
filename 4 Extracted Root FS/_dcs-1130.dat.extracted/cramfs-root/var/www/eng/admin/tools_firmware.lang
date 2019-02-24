@@ -1,0 +1,38 @@
+<body>
+	<description1>A new firmware upgrade may be available for your IP camera. It is recommended to keep your IP camera firmware up-to-date to maintain and improve the functionality and performance of your internet camera. Click here </description1>
+	<description2>D-Link Support Page </description2>
+	<description3>to check for the latest firmware version available. </description3>
+	<description4>To upgrade the firmware on your IP camera, please download and save the latest firmware version from the D-Link Support Page to your local hard drive. Locate the file on your local hard drive by clicking the Browse button. Once you have found and opened the file using the browse button, click the "Upload" button to start the firmware upgrade. </description4>
+	<firmwareUpgrade>firmware upgrade</firmwareUpgrade>
+	<filePath>File Path: </filePath>
+	<upload>Upload</upload>
+	<reboot1>The camera will now reboot, please wait for </reboot1>
+	<reboot2> seconds.</reboot2>
+	<firmwareInfo>Firmware Information</firmwareInfo>
+	<firmwareVersion>Current Firmware Version:</firmwareVersion>
+	<firmwareProduct>Current Product Name:</firmwareProduct>
+	<updateConfirm>Do you want to update firmware?</updateConfirm>
+	<updatingText>Please do not close this web page or unplug electric cord when firmware upgrade is processing.</updatingText>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>Firmware upgrade are released periodically to improve the functionality of your IP camera and also to add new features. If you run into a problem with a specific feature of the IP camera, check our support site by clicking </description1>
+	<description2>here </description2>
+	<description3>to check for an upgrade and see if updated firmware is available for your IP camera. </description3>
+</hint>
+<message>
+	<updateOK>Firmware update successful:</updateOK>
+	<uploadFail>the upload is failed</uploadFail>
+	<examFail>the upload image is damaged</examFail>
+	<infoFail>the upload image have no infomation</infoFail>
+	<invalidImage>the upload image cannot be used at this product</invalidImage>
+	<resetFail>the reset is failed</resetFail>
+	<resetOK>the reset is done</resetOK>
+	<rebootFail>the reboot is failed</rebootFail>
+	<rebootOK>the reboot is done</rebootOK>
+	<calibrationOK>calibration is successful</calibrationOK>
+	<importOK>import successful, and it will reboot</importOK>
+	<invalidDB>not a valid DB file</invalidDB>
+	<noDB>no DB file is uploaded</noDB>
+	<noimage>No image file is uploaded.</noimage>
+</message>

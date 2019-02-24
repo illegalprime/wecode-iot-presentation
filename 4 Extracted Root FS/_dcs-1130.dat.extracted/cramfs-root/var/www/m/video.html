@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Video</title>
+	<meta name="viewport" content="width=device-width;">
+    <meta name="viewport" content="user-scalable=yes;">
+    <meta name="viewport" content="maximum-scale=10;">
+</head>
+<style type="text/css">
+#video
+{
+	margin:10% 0 0 0;
+}
+</style>
+<script type="text/javascript">
+var space = "";
+var timeout ="";
+var timeout2 ="";
+var semphore;
+function width()
+{
+	if(navigator.userAgent.indexOf('Safari') != -1)
+	window.scroll(0,40);
+}
+function adject()
+{
+	semphore = true;
+	if(navigator.userAgent.indexOf('Safari') != -1)
+		window.scroll(0,40);
+
+	//if(navigator.userAgent.indexOf('Safari') == -1)
+	//{
+		document.live.src = "/image/jpeg.cgi?profileid=3&" + Math.random();
+		if(window.screen.availWidth > window.screen.availHeight)
+		{
+			document.getElementById("video").style.cssText = "margin:0;";
+			document.getElementById("live").style.cssText = "width:80%;"; 
+		}	
+		else
+		 	 document.getElementById("space").innerHTML = space;
+	//}
+	//else
+		//document.live.src = "/video/mjpg.cgi?profileid=1&fps=5";
+
+	//timeout = setTimeout(timeReload, 1000);
+	//temp = document.body.scrollHeight;
+	//alert("clientWidth " + document.body.clientWidth + "  clientHeight " + document.body.clientHeight);
+	//alert("offsetWidth " + document.body.offsetWidth + "  offsetHeight " + document.body.offsetHeight);
+	//alert("scrollWidth " + document.body.scrollWidth + "  scrollHeight " + document.body.scrollHeight);
+	//alert("scrollTop " + document.body.scrollTop + "  scrollLeft " + document.body.scrollLeft);
+	//alert("screenTop " + window.screenTop + "  screenLeft " + window.screenLeft);
+	//alert("height " + window.screen.height + "  width " + window.screen.width);
+	//alert("availHeight " + window.screen.availHeight+ "  availWidth " + window.screen.availWidth);
+	//document.live.width = width * ((document.body.scrollHeight) / temp);
+	//document.live.height = height * ((document.body.scrollHeight) / temp);
+}
+function reloadimg()
+{
+	location.reload();	
+}
+function imageReload() 
+{
+
+	if(navigator.userAgent.indexOf('Safari') == -1 && navigator.userAgent.indexOf('MSIE') != -1 && semphore)
+	{ 
+		semphore = false;
+		document.live.src = "/image/jpeg.cgi?profileid=3&"+Math.random() +"";
+		timeout2 = setTimeout(imageReload, 2000);	
+		semphore = true;
+		
+	}
+	//else if(navigator.userAgent.indexOf('Safari') == -1)
+	else
+	{
+		document.live.src = "/image/jpeg.cgi?profileid=3&" + Math.random();
+	 	setTimeout('document.live.src = "/image/jpeg.cgi?profileid=3&'+Math.random() +'";', 1000);
+	}
+}
+</script>
+<body bgcolor="#000000" onload="adject()" onresize="adject()" leftmargin="0" topmargin="0" onerror="reloadimg()"  >
+<center>
+<a href="index.html">Main page</a>
+<div id="video">
+<span id="space"></span>
+<a href="video.html">
+<img id="live" name="live" alt="Please wait" border="0" width="100%" onerror="reloadimg()" onload="imageReload()"  /> 
+</a>
+</div>
+</center>
+</body>
+</html>
+
+

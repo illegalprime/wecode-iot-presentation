@@ -1,0 +1,57 @@
+#!/bin/sh
+
+die() {
+	echo $@
+	exit 1
+}
+
+showUsage() {
+	die "$0 {start|stop}"
+}
+
+action=$1
+end=$2
+
+[ "$end" = "" ] && [ "$action" != "" ] || showUsage
+
+wireless=`pibinfo Wireless`
+if [ "$wireless" = 1 ]; then
+model=`tdb get System ModelW_ss`
+else
+model=`tdb get System Model_ss`
+fi
+
+start() {
+    #/usr/sbin/telnetd
+	#/opt/API -i eth0 -Y $model  > /dev/null 2>&1
+	/opt/dldps2121 -i eth0 -N $model > /dev/null 2>&1 &
+    #/opt/upnpc-ddns > /dev/null 2>&1 &  // load by presenced
+    #/opt/tsa -l 7777 & > /dev/null 2&>1  // load by tssa
+    /opt/presenced > /dev/null 2>&1 &
+    /opt/tssa > /dev/null 2>&1 &
+	ln -sf /opt/upnpc-ddns /tmp/upnpc-ddns
+	echo opt.local start ok.
+}
+
+stop() {
+	killall presenced
+	killall upnpc-ddns
+	killall dldps2121
+	killall tssa
+	killall tsa
+	echo "opt.local stop ok."
+}
+
+case $action in
+	start)
+		start
+	;;
+	stop)
+		stop
+	;;
+	*)
+		showUsage
+	;;
+esac
+
+exit 0

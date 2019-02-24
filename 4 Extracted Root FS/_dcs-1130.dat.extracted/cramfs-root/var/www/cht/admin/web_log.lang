@@ -1,0 +1,17 @@
+<body>
+	<systemLog>系統記錄</systemLog>
+	<description1>觀看所發生行動的系統記錄.</description1>
+	<ipAddress>IP位址</ipAddress>
+	<port>閘道</port>
+	<save>儲存</save>
+	<currentLog>目前的日誌</currentLog>
+	<clear>清除</clear>
+	<download>下載</download>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>觀看系統記錄檔案。這個檔案包含了網路攝影機啟動之後所有的設定, 連結狀態的相關資訊。</description1>
+</hint>
+<message>
+	<ok>成功</ok>
+</message>

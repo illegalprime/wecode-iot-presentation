@@ -1,0 +1,1 @@
+../../cgi/admin/mot_detect.cgi

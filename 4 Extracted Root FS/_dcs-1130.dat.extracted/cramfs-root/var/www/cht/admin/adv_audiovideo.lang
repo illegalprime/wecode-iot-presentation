@@ -1,0 +1,106 @@
+<body>
+	<audioVideoSettings>聲音與影像</audioVideoSettings>
+	<description1>您可以在此調整夜間模式, 音量, 影像設定(4種影像設定), Profile 4 為讓手機或PDA裝置使用,  Profile 3 設定為擷取畫面。</description1>
+	<descriptionNoNightmode>您可以在此調整音量, 影像設定(4種影像設定), Profile 4 為讓手機或PDA裝置使用,  Profile 3 設定為擷取畫面。</descriptionNoNightmode>
+	<description2>三種主要的影像感應器輸出/顯示系統(VGA, XGA SXGA), 以及提供各自選項的解析度設定。</description2>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<videoSensor>影像感應器</videoSensor>
+	<sensorOutput>感應器輸出</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>解析度</resolution>
+	<kbps>千位元/秒</kbps>
+	<mbps>百萬位元/秒</mbps>
+	<low>低的</low>
+	<fair>一般</fair>
+	<standard>標準</standard>
+	<good>好的</good>
+	<excellent>優秀的</excellent>
+	<nightMode>夜間模式</nightMode>
+	<enableNightMode>啟動夜間模式</enableNightMode>
+	<shutter>快門</shutter>
+	<second>秒</second>
+	<cameraEnv>攝影機環境</cameraEnv>
+	<placedLocation>光源</placedLocation>
+	<indoor>室內</indoor>
+	<outdoor>室外</outdoor>
+	<irLed>紅外線LED</irLed>
+	<auto>自動</auto>
+	<autoPIR>自動 + PIR</autoPIR>
+	<on>開</on>
+	<off>關</off>
+	<audioSettings>聲音設定</audioSettings>
+	<enableSpeaker>啟動揚聲器</enableSpeaker>
+	<volume>音量</volume>
+	<enableMicrophone>啟動麥克風</enableMicrophone>
+	<encodeType>影像編碼方式</encodeType>
+	<resolution>解析度</resolution>
+	<FPS>FPS</FPS>
+	<BPS>bps</BPS>
+	<JPEG_Quality>Jpeg 品質</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>只支援行動裝置</mobileOnly>
+	<updateConfirm>請注意以下在選擇SXGA 模式時的一些限制:\n  1. 移動偵測及移動觸發的截圖功能將被停用。\n  2. 錄影影像將被強制套用為適中的解析度。\n  3. 非IE瀏覽器的使用者, 影像解析度將被限制於1280x1024。</updateConfirm>
+	<reboot1>監視器需要重新啟動,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<xgaText>選擇XGA 模式時, 只有Profile 1 支援 1024x768 的解析度。</xgaText>
+	<sxgaText1>選擇SXGA 模式時, 只有Profile 1 的JPEG 編碼方式支援 1280x1024 的解析度。</sxgaText1>
+	<sxgaText2>移動偵測及移動觸發的功能會被停用。</sxgaText2>
+	<nightModeText>選擇夜間模式時, 在昏暗的環境, 影像實際的速率可能會比設定的最大畫面速率還低。</nightModeText>
+	<RTSPErrorMsg1>VIDEO PROFILE </RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL 不得與VIDEO PROFILE </RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL相同</RTSPErrorMsg3>
+</body>
+<hint>
+	<FPS>FPS(每秒傳輸幀數)</FPS>
+	<FPS1> - 攝影機每秒鐘能夠輸出的圖像幀數。</FPS1>
+	<BPS>BPS(每秒傳輸位元)</BPS>
+    <BPS1> - 為您的攝影機選擇一個固定頻寬, 越高設定值代表越高的影像品質, 但會耗損更多的網路頻寬。</BPS1>
+	<JPEG_Quality>Jpeg 品質</JPEG_Quality>
+	<JPEG_Quality1> - 設定JPEG 擷取影像的畫質等級。</JPEG_Quality1>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<RTSP_URL1> - 此URL為當透過行動裝置或是PDA連結攝影機所使用之網址 。(例如： rtsp://EXAMPLE.</RTSP_URL1>
+	<RTSP_URL2>dlinkddns.com/3gpp)。</RTSP_URL2>
+	<irled>紅外線LED</irled>
+	<irled1> - 此功能可以設定在不同照度下，紅外線LED啟動的時機。</irled1>
+	<Audio_Setup>聲音設定</Audio_Setup>
+	<Audio_Setup1> - 開關外部揚聲器以及麥克風或調整音量。</Audio_Setup1>
+	<Microphone_Volume>麥克風音量</Microphone_Volume>
+	<Microphone_Volume1> - 您可以藉由調整音量設定來調整MIC埠音量。</Microphone_Volume1>
+	<Speaker_Volume>揚聲器音量</Speaker_Volume>
+	<Speaker_Volume1> - 您可以藉音量設定來調整揚聲器音量。</Speaker_Volume1>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<description1>當選擇</description1>
+	<description2>SXGA</description2>
+	<description3>模式時的一些限制:1. 移動偵測及移動觸發的截圖功能將被停用。2. 錄影影像將被強制套用為適中的解析度。3. 非IE瀏覽器的使用者, 影像解析度將被限制於1280x1024。</description3>
+	<description4>啟動揚聲器 </description4>
+	<description5> - 功能允許您從PC 端的麥克風傳送聲音至連結於攝影機的外部揚聲器。</description5>
+	<description6>啟動麥克風 </description6>
+	<description7> - 功能允許您聽見從攝影機內建的麥克風傳來的現場聲音。</description7>
+	<description8>多數的行動電話僅支援較低的影像解析度。</description8>
+	<description9>在行動電話及PDA的影像中, 我們建議您使用5 FPS 176x120解析度,及 64k BPS。</description9>
+	<description10>較高的影像大小, 畫面速率及位元速率提供更佳的影像品質, 但同時也需要更大的網路頻寬。</description10>
+	<description11>在行動電話及PDA的影像中，我們建議您使用5 FPS, 最小的解析度,及64k BPS。</description11>
+	<descriptionThreeResolution>每種'感應器'輸出提供三種'解析度'可供選擇: 
+</descriptionThreeResolution>
+<VGA>VGA</VGA>
+<VGA1> : 640x480, 320x240, 160x120</VGA1>
+<XGA>XGA</XGA>
+<XGA1> : 1024x768, 512x384, 256x192</XGA1>
+<SXGA>SXGA</SXGA>
+<SXGA1> : 1280x1024, 640x512, 320x256</SXGA1>
+	<EncodeType1>編碼方式 - </EncodeType1>
+	<EncodeType2>提供'JPEG'或'MPEG4'供選擇。</EncodeType2>
+	<Resolution1>解析度 - </Resolution1>
+	<Resolution2>三種影像顯示大小可供選擇。</Resolution2>
+	<lightsource>光源</lightsource>
+	<lightsource1> - 為網路攝影機所在位置中主要的光線來源。</lightsource1>
+	<night>夜間模式</night>
+	<night1> - 勾選夜間模式可讓您的網路攝影機位在較暗的環境時提升錄影品質。</night1>
+</hint>
+<message>
+	<ok>設定成功</ok>
+	<fail>設定失敗</fail>
+</message>

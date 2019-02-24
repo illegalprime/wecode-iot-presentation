@@ -1,0 +1,18 @@
+<leftPanel>
+	<wizard>Setup Wizard</wizard>
+	<networkSettings>Network Setup</networkSettings>
+	<wireless>Wireless Setup</wireless>
+	<ddns>Dynamic DNS</ddns>
+	<imageSettings>Image Setup</imageSettings>
+	<audioVideo>Audio and Video</audioVideo>
+	<mailFtp>Mail and FTP</mailFtp>
+	<motionDetection>Motion Detection</motionDetection>
+	<timeAndDate>Time and Date</timeAndDate>
+	<cameraControl>Preset Position</cameraControl>
+	<recording>Recording</recording>
+	<snapshot>Snapshot</snapshot>
+	<digitalOutput>Digital Output</digitalOutput>
+	<rs485>RS-485</rs485>
+	<logout>Logout</logout>
+	<titleSetup>SETUP</titleSetup>
+</leftPanel>

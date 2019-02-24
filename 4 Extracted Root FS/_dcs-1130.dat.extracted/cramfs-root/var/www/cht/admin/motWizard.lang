@@ -1,0 +1,75 @@
+<body>
+	<welcome>歡迎使用D-Link 設定精靈 - 移動偵測設定精靈</welcome>
+	<description1>透過本設定精靈, 您可以依照畫面指示一步步的完成網路攝影機移動偵測的相關設定。如果您要對網路攝影機進行網際網路相關設定的話, 請按下"上一步"按鈕, 以關閉這個設定精靈, 並另外使用"網際網路連線設定精靈"進行設定。</description1>
+	<step1>步驟 1: </step1>
+	<note1>移動偵測區域設定</note1>
+	<step2>步驟 2: </step2>
+	<note2>警告及通知</note2>
+	<step3>步驟 3: </step3>
+	<note3>完成設定</note3>
+	<back>上一步</back>
+	<next>下一步</next>
+	<cancel>取消</cancel>
+	<description2>透過本處的設定, 您可以啟用或停用移動偵測功能, 並且在這邊進行移動區域的設定, 並調整控制攝影機偵測移動的靈敏度設定。</description2>
+	<showFirefoxText>要設定偵測移動的區域, 請使用 Windows Internet Explorer。</showFirefoxText>
+	<enable>啟用</enable>
+	<enableMotion>啟動影像移動偵測</enableMotion>
+	<enablePIR>啟動PIR</enablePIR>
+	<sense>敏感度</sense>
+	<drawingMode>拖劃模式</drawingMode>
+	<drawMotion>拖劃偵測移動區域</drawMotion>
+	<eraseMotion>清除偵測移動區域</eraseMotion>
+	<clear>清除</clear>
+	<description3>最後一個步驟為指定您要透過何種方式來接收網路攝影機對事件的通知方法。您可以選擇使用E-Mail通知以及設定透過將事件上傳至FTP。您需要在這邊設定的E-Mail帳號資料或FTP 伺服器的資料。一旦完成以下設定, 請按下"下一步"按鈕。*如果您不清楚這邊要輸入什麼內容的話, 請與您的寬頻業者聯絡確認E-Mail 相關設定。與您的FTP 管理者確認FTP 相關設定。</description3>
+	<notNotify>不啟用告警及通知</notNotify>
+	<emailNotification>E-Mail 告警</emailNotification>
+	<doubleNotification>E-Mail 和 FTP 告警</doubleNotification>
+	<mailEnable>啟用 E-Mail告警</mailEnable>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<mailServer>SMTP郵件伺服器</mailServer>
+	<senderAddress>寄件者郵件位址</senderAddress>
+	<recipientAddress>接收者郵件位址</recipientAddress>
+	<port>連接阜</port>
+	<ftpNotification>FTP 告警</ftpNotification>
+	<ftpEnable>啟用 FTP 上傳</ftpEnable>
+	<hostName>FTP伺服器</hostName>
+	<path>路徑</path>
+	<prefixFileName>指定檔案名稱</prefixFileName>
+	<passiveMode>被動模式</passiveMode>
+	<description4>您已經完成您的網路攝影機設定。按下"上一步"按鈕以檢閱或修改先前的設定, 如果所有設定都正確則請按下執行按鈕。網路攝影機才會套用設定。</description4>
+	<motionDetection>移動偵測:</motionDetection>
+	<disable>關閉</disable>
+	<alertsAndNotification>告警及通知:</alertsAndNotification>
+	<apply>執行</apply>
+	<numberError>請輸入數字</numberError>
+	<rangeError>請輸入介於0~100之間的數字</rangeError>
+	<areaError>請拖劃偵測移動區域</areaError>
+	<mailNameError>E-Mail使用者名稱與密碼不能接受非ASCII與空白字元</mailNameError>
+	<ftpNameError>FTP使用者名稱與密碼不能接受非ASCII與空白字元</ftpNameError>
+	<firSmtpError>SMTP(郵件)伺服器不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP使用者名稱不能空白</firAccountError>
+	<firRecipientMailError>請確認接收者郵件位址格式</firRecipientMailError>
+	<firRecipientError>接收者郵件位址不能空白</firRecipientError>
+	<firSenderMailError>請確認寄信者郵件位址格式</firSenderMailError>
+	<firSenderError>寄信者郵件位址不能空白</firSenderError>
+	<PortError1>連接阜不能空白</PortError1>
+	<PortError2>連接阜必須是一個數字</PortError2>
+	<PortError3>連接阜必須介於1跟65535之間</PortError3>
+	<firFtpServerError>FTP伺服器不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</firFtpServerError>
+	<firFtpError>FTP伺服器</firFtpError>
+	<firFolderError>FTP伺服路徑只允許數字,英文字母以及這些特殊符號 : </firFolderError>
+	<firFixFilenameError>指定檔案名稱只允許數字,字元以及這些特殊符號 : </firFixFilenameError>
+	<interval>間隔</interval>
+	<second>秒</second>
+	<range> (範圍1到86400秒)</range>
+	<intervalError>間隔必須在1~86400秒之間</intervalError>
+	<portRange> (範圍1到65535)</portRange>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+</hint>
+<message>
+	<ok>設定成功</ok>
+</message>

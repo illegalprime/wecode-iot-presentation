@@ -1,0 +1,75 @@
+<body>
+	<welcome>welcome to d-link setup wizard - motion detection</welcome>
+	<description1>This wizard will guide you through a step-by-step process to configure your camera's motion detection functions. To setup the camera LAN or Internet settings, please click on the Back button to close this wizard and re-open the Internet Connection Setup Wizard. Otherwise click on the Next button to begin.</description1>
+	<step1>Step 1: </step1>
+	<note1>Specify Motion Detection Area Settings</note1>
+	<step2>Step 2: </step2>
+	<note2>Alerts and Notifications</note2>
+	<step3>Step 3: </step3>
+	<note3>Setup Complete</note3>
+	<back>Back</back>
+	<next>Next</next>
+	<cancel>Cancel</cancel>
+	<description2>This section will allow you to enable or disable motion detection function, draw or erase motion area, as well as configure the sensitivity setting of your camera to detect movement. </description2>
+	<showFirefoxText>To setup motion area, please use Windows Internet Explorer.</showFirefoxText>
+	<enable>Enable</enable>
+	<enableMotion>Enable Video Motion</enableMotion>
+	<enablePIR>Enable PIR</enablePIR>
+	<sense>Sensitivity</sense>
+	<drawingMode>Drawing Mode</drawingMode>
+	<drawMotion>Draw motion area</drawMotion>
+	<eraseMotion>Erase motion area</eraseMotion>
+	<clear>Clear</clear>
+	<description3>This final step allows you to specify how you will receive alert and notification of camera events. You can enable an email notification and/or a FTP Notification by input all the relevant information. Then, click on the Next button.</description3>
+	<notNotify>Do not notify me</notNotify>
+	<emailNotification>Email Notification</emailNotification>
+	<mailEnable>Enable e-mail notification</mailEnable>
+	<userName>User Name</userName>
+	<password>Password</password>
+	<mailServer>SMTP Mail Server</mailServer>
+	<senderAddress>Sender E-mail Address</senderAddress>
+	<recipientAddress>Recipient E-mail Address</recipientAddress>
+	<port>Port</port>
+	<ftpNotification>FTP Notification</ftpNotification>
+	<doubleNotification>E-Mail and FTP Notification</doubleNotification>
+	<ftpEnable>Enable FTP uploading</ftpEnable>
+	<hostName>Host Name</hostName>
+	<path>Path</path>
+	<prefixFileName>Filename Prefix</prefixFileName>
+	<passiveMode>Passive Mode</passiveMode>
+	<description4>You have completed your camera setup. Please click the Back button if you want to review or modify your settings or click on the Apply button to save and apply your settings.</description4>
+	<motionDetection>Motion Detection:</motionDetection>
+	<disable>Disable</disable>
+	<alertsAndNotification>Alerts and Notification:</alertsAndNotification>
+	<apply>Apply</apply>
+	<numberError>Please input a number</numberError>
+	<rangeError>Please input a number between 0 and 100</rangeError>
+	<areaError>Please draw motion area</areaError>
+	<mailNameError>Mail User Name and password can't accept Non-ASCII and space characters</mailNameError>
+	<ftpNameError>FTP User Name and password can't accept Non-ASCII and space characters</ftpNameError>
+	<firSmtpError>SMTP (mail) server can't be Null, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP account name can't be empty</firAccountError>
+	<firRecipientMailError>Please verify the recipient email address format.</firRecipientMailError>
+	<firRecipientError>Recipient email address can't be empty</firRecipientError>
+	<firSenderMailError>Please verify the Sender email address format.</firSenderMailError>
+	<firSenderError>Sender email address can't be empty</firSenderError>
+	<PortError1> port can't be empty</PortError1>
+	<PortError2> port must be a number</PortError2>
+	<PortError3> port must be between 1 and 65535</PortError3>
+	<firFtpServerError>FTP Host Name can't be Null, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firFtpServerError>
+	<firFtpError>FTP server</firFtpError>
+	<firFolderError>FTP path can only accept number, alphabet, and characters: </firFolderError>
+	<firFixFilenameError>Filename Prefix can only accept number, alphabet, and characters: </firFixFilenameError>
+	<interval>Interval</interval>
+	<second>Seconds</second>
+	<range> (range 1 to 86400 seconds)</range>
+	<intervalError>Interval must be 1~86400 seconds</intervalError>
+	<portRange> (range 1 to 65535)</portRange>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+</message>

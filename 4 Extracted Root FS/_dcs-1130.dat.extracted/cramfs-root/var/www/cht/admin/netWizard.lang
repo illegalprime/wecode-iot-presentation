@@ -1,0 +1,208 @@
+<body>
+	<welcome>歡迎使用D-Link設定精靈 - 網際網路連線設定精靈</welcome>
+	<description1>透過本設定精靈, 您可以依照畫面指示一步步的完成網路攝影機連結至網際網路的相關設定。如果您要對網路攝影機進行移動偵測相關設定的話, 請按下"上一步"按鈕, 以關閉這個設定精靈, 並另外使用"移動偵測設定精靈"進行設定。</description1>
+	<step1>步驟 1: </step1>
+	<note1>區域網路設定</note1>
+	<step2>步驟 2: </step2>
+	<note2>網際網路設定</note2>
+	<step3>步驟 3: </step3>
+	<note3>動態DNS(DDNS)設定</note3>
+	<step4>步驟 4: </step4>
+	<note4>網路攝影機名稱設定</note4>
+	<step5>步驟 5: </step5>
+	<note5>時區設定</note5>
+	<step6>步驟 6: </step6>
+	<note6>完成設定</note6>
+	<back>上一步</back>
+	<next>下一步</next>
+	<cancel>取消</cancel>
+	<description2>請選擇一個網路攝影機連結至網際網路的方式為DHCP(自動取得IP)連線或固定IP位址連線。如果您的網路攝影機有連結到一個寬頻路由器(IP分享器), 或是您不確定要在這邊選擇哪一種設定的話, 我們建議您保持使用的預設DHCP連線。另外, 若選擇固定IP位址的話, 請在按下"下一步"按鈕之前, 完成輸入固定IP位址設定的內容。</description2>
+	<dhcp>DHCP連線</dhcp>
+	<static>固定IP位址</static>
+	<ip>IP位址</ip>
+	<mask>子網路遮罩</mask>
+	<gateway>預設閘道</gateway>
+	<priDns>主DNS伺服器</priDns>
+	<secDns>次DNS伺服器</secDns>
+	<description3>請輸入由寬頻業者(ISP)所提供給您的ADSL PPPoE帳號/密碼後, 按下"下一步"按鈕以繼續下一步驟。如果您不清楚這邊要輸入什麼帳號/密碼內容的話, 請與您的寬頻業者聯絡確認。</description3>
+	<disable>關閉</disable>
+	<enable>啟用</enable>
+	<enabled>啟用</enabled>
+	<username>使用者名稱</username>
+	<eq>(例如: 12345678@hinet.net)</eq>
+	<password>密碼</password>
+	<description4>如果您擁有一個動態DNS服務帳號,而且您也想要網路攝影機自動地更新IP位址到動態DNS服務的話, 請啟用動態DNS功能以外, 並在下面的設定欄位中輸入您的註冊主機資訊; 完成後請按下"下一步"按鈕以繼續下一步驟。</description4>
+	<selectDDNS>選擇動態DNS伺服器</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<serverAddress>伺服器位址</serverAddress>
+	<hostName>主機名稱</hostName>
+	<usernameOrKey>使用者名稱</usernameOrKey>
+	<passwordOrKey>密碼</passwordOrKey>
+	<verifyPassword>確認密碼</verifyPassword>
+	<timeout>更新週期</timeout>
+	<hours>(小時)</hours>
+	<description5>建議您為您的網路攝影機定義一個簡單易懂的名稱。請在按下"下一步"按鈕之前, 完成輸入網路攝影機名稱設定的內容。</description5>
+	<cameraName>攝影機名稱</cameraName>
+	<description6>請在這邊設定正確的時間, 已確保所有日後的事件, 觸發通知, 擷取影像, 排程等與時間相關的設定能正確執行。請在按下"下一步"按鈕之前, 完成正確的時間設定。</description6>
+	<timeZone>時區</timeZone>
+	<daylightSaving>使用日光節約</daylightSaving>
+	<description8>下面是剛才網路攝影機的設定一覽。</description8>
+	<description7>按下"上一步"按鈕以檢閱或修改先前的設定, 如果所有設定都正確則請按下執行按鈕。網路攝影機才會套用設定。*建議您記下這些設定內容, 以便日後透過區域網路或透過網頁瀏覽器存取網路攝影機時使用。</description7>
+	<ipCameraName>網路攝影機名稱</ipCameraName>
+	<ddns>動態DNS</ddns>
+	<pppoe>網際網路</pppoe>
+	<apply>執行</apply>
+	<timeZone1>(GMT-12:00) International Date Line West</timeZone1>
+	<timeZone2>(GMT-11:00) Midway Island, Samoa</timeZone2>
+	<timeZone3>(GMT-10:00) Hawaii</timeZone3>
+	<timeZone4>(GMT-09:00) Alaska</timeZone4>
+	<timeZone5>(GMT-08:00) Pacific Time (US &amp; Canada)</timeZone5>
+	<timeZone6>(GMT-08:00) Tijuana, Baja California</timeZone6>
+	<timeZone7>(GMT-07:00) Chihuahua, La Paz, Mazatlan</timeZone7>
+	<timeZone8>(GMT-07:00) Mountain Time (US &amp; Canada)</timeZone8>
+	<timeZone9>(GMT-07:00) Arizona</timeZone9>
+	<timeZone10>(GMT-06:00) Central America</timeZone10>
+	<timeZone11>(GMT-06:00) Guadalajara, Mexico City, Monterrey</timeZone11>
+	<timeZone12>(GMT-06:00) Saskatchewan</timeZone12>
+	<timeZone13>(GMT-06:00) Central Time (US &amp; Canada)</timeZone13>
+	<timeZone14>(GMT-05:00) Bogota, Lima, Quito, Rio Branco</timeZone14>
+	<timeZone15>(GMT-05:00) Eastern Time (US &amp; Canada)</timeZone15>
+	<timeZone16>(GMT-05:00) Indiana (East)</timeZone16>
+	<timeZone17>(GMT-04:00) Caracas, La Paz</timeZone17>
+	<timeZone18>(GMT-04:00) Atlantic Time (Canada)</timeZone18>
+	<timeZone19>(GMT-04:00) Santiago</timeZone19>
+	<timeZone20>(GMT-04:00) Manaus</timeZone20>
+	<timeZone21>(GMT-03:30) Newfoundland</timeZone21>
+	<timeZone22>(GMT-03:00) Buenos Aires, Georgetown</timeZone22>
+	<timeZone23>(GMT-03:00) Brasilia</timeZone23>
+	<timeZone24>(GMT-03:00) Greenland</timeZone24>
+	<timeZone25>(GMT-03:00) Montevideo</timeZone25>
+	<timeZone26>(GMT-02:00) Mid-Atlantic</timeZone26>
+	<timeZone27>(GMT-01:00) Azores</timeZone27>
+	<timeZone28>(GMT-01:00) Cape Verde Is.</timeZone28>
+	<timeZone29>(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</timeZone29>
+	<timeZone30>(GMT) Casablanca, Monrovia, Reykjavik</timeZone30>
+	<timeZone31>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</timeZone31>
+	<timeZone32>(GMT+01:00) West Central Africa</timeZone32>
+	<timeZone33>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</timeZone33>
+	<timeZone34>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</timeZone34>
+	<timeZone35>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</timeZone35>
+	<timeZone36>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</timeZone36>
+	<timeZone37>(GMT+02:00) Athens, Bucharest, Istanbul</timeZone37>
+	<timeZone38>(GMT+02:00) Beirut</timeZone38>
+	<timeZone39>(GMT+02:00) Harare, Pretoria</timeZone39>
+	<timeZone40>(GMT+02:00) Cairo</timeZone40>
+	<timeZone41>(GMT+02:00) Minsk</timeZone41>
+	<timeZone42>(GMT+02:00) Amman</timeZone42>
+	<timeZone43>(GMT+02:00) Windhoek</timeZone43>
+	<timeZone44>(GMT+02:00) Jerusalem</timeZone44>
+	<timeZone45>(GMT+03:00) Baghdad</timeZone45>
+	<timeZone46>(GMT+03:00) Moscow, St. Petersburg, Volgograd</timeZone46>
+	<timeZone47>(GMT+03:00) Tbilisi</timeZone47>
+	<timeZone48>(GMT+03:00) Nairobi</timeZone48>
+	<timeZone49>(GMT+03:00) Kuwait, Riyadh</timeZone49>
+	<timeZone50>(GMT+03:30) Tehran</timeZone50>
+	<timeZone51>(GMT+04:00) Baku</timeZone51>
+	<timeZone52>(GMT+04:00) Abu Dhabi, Muscat</timeZone52>
+	<timeZone53>(GMT+04:00) Yerevan</timeZone53>
+	<timeZone54>(GMT+04:30) Kabul</timeZone54>
+	<timeZone55>(GMT+05:00) Ekaterinburg</timeZone55>
+	<timeZone56>(GMT+05:00) Islamabad, Karachi, Tashkent</timeZone56>
+	<timeZone57>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</timeZone57>
+	<timeZone58>(GMT+05:30) Sri Jayawardenepura</timeZone58>
+	<timeZone59>(GMT+05:45) Kathmandu</timeZone59>
+	<timeZone60>(GMT+06:00) Astana, Dhaka</timeZone60>
+	<timeZone61>(GMT+06:00) Almaty, Novosibirsk</timeZone61>
+	<timeZone62>(GMT+06:30) Yangon (Rangoon)</timeZone62>
+	<timeZone63>(GMT+07:00) Krasnoyarsk</timeZone63>
+	<timeZone64>(GMT+07:00) Bangkok, Hanoi, Jakarta</timeZone64>
+	<timeZone65>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</timeZone65>
+	<timeZone66>(GMT+08:00) Taipei</timeZone66>
+	<timeZone67>(GMT+08:00) Irkutsk, Ulaan Bataar</timeZone67>
+	<timeZone68>(GMT+08:00) Perth</timeZone68>
+	<timeZone69>(GMT+08:00) Kuala Lumpur, Singapore</timeZone69>
+	<timeZone70>(GMT+09:00) Yakutsk</timeZone70>
+	<timeZone71>(GMT+09:00) Osaka, Sapporo, Tokyo</timeZone71>
+	<timeZone72>(GMT+09:00) Seoul</timeZone72>
+	<timeZone73>(GMT+09:30) Adelaide</timeZone73>
+	<timeZone74>(GMT+09:30) Darwin</timeZone74>
+	<timeZone75>(GMT+10:00) Hobart</timeZone75>
+	<timeZone76>(GMT+10:00) Brisbane</timeZone76>
+	<timeZone77>(GMT+10:00) Vladivostok</timeZone77>
+	<timeZone78>(GMT+10:00) Canberra, Melbourne, Sydney</timeZone78>
+	<timeZone79>(GMT+10:00) Guam, Port Moresby</timeZone79>
+	<timeZone80>(GMT+11:00) Magadan, Solomon Is., New Caledonia</timeZone80>
+	<timeZone81>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</timeZone81>
+	<timeZone82>(GMT+12:00) Auckland, Wellington</timeZone82>
+	<timeZone83>(GMT+13:00) Nuku alofa</timeZone83>
+	<reboot1>重新連線中,請等待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<ipError1>IP位址不能空白</ipError1>
+	<subnetMaskError1>子網路遮罩不能空白</subnetMaskError1>
+	<routerError1>預設閘道不能空白</routerError1>
+	<pppoeError1>PPPoE使用者名稱不能空白</pppoeError1>
+	<pppoeError2>PPPoE密碼不能空白</pppoeError2>
+	<pppoeError3>PPPoE確認密碼不能空白</pppoeError3>
+	<pppoeError4>PPPoE密碼與確認密碼不相同</pppoeError4>
+	<pppoeError5>PPPoE使用者名稱與密碼不能接受非ASCII與空白字元</pppoeError5>
+	<netErrorMessage1>第</netErrorMessage1>
+	<netErrorMessage2>組</netErrorMessage2>
+	<netErrorMessage3>必須為數字</netErrorMessage3>
+	<netErrorMessage4>必須介於</netErrorMessage4>
+	<netErrorMessage5>與</netErrorMessage5>
+	<netErrorMessage6>必須為</netErrorMessage6>
+	<netError>網路設定不合法</netError>
+	<ipMessage1>IP位址</ipMessage1>
+	<ipMessage2>IP位址不合法</ipMessage2>
+	<ipMessage3>IP位址不能為零.</ipMessage3>
+	<maskMessage1>子網路遮罩</maskMessage1>
+	<maskMessage2>子網路遮罩不合法</maskMessage2>
+	<maskMessage3>子網路遮罩不能為零</maskMessage3>
+	<routerMessage1>預設閘道</routerMessage1>
+	<routerMessage2>預設閘道不合法</routerMessage2>
+	<routerMessage3>預設閘道不能為零</routerMessage3>
+	<priDnsMessage1>主DNS伺服器</priDnsMessage1>
+	<priDnsMessage2>主DNS伺服器不合法</priDnsMessage2>
+	<priDnsMessage3>主DNS伺服器不能為零</priDnsMessage3>
+	<secDnsMessage1>次DNS伺服器</secDnsMessage1>
+	<secDnsMessage2>次DNS伺服器不合法</secDnsMessage2>
+	<secDnsMessage3>次DNS伺服器不能為零</secDnsMessage3>
+	<ddnsError1>動態DNS主機名稱不允許空白,只允許數字,英文字母,\".\" ,\"-\" 和\"_\"符號</ddnsError1>
+	<ddnsError2>動態DNS使用者名稱不能為空白</ddnsError2>
+	<ddnsError3>動態DNS密碼不能為空白</ddnsError3>
+	<ddnsError4>動態DNS密碼與確認密碼不同</ddnsError4>
+	<ddnsError5>動態DNS使用者名稱與密碼不能接受非ASCII與空白字元</ddnsError5>
+	<ddnsError6>請選擇一個動態DNS伺服器</ddnsError6>
+	<ddnsError7>動態DNS更新週期必需為數字</ddnsError7>
+	<ddnsError8>動態DNS更新週期必需介於240跟65535之間</ddnsError8>
+	<signupMsg>由此登入免費的D-link DDNS 服務</signupMsg>
+	<autoDST>自動日光節約時間</autoDST>
+	<offset>偏移量</offset>
+	<hours2>時</hours2>
+	<minutes>分</minutes>
+	<seconds>秒</seconds>
+	<month>月</month>
+	<week>週</week>
+	<dayOfWeek>第幾天</dayOfWeek>
+	<startTime>起始時間</startTime>
+	<endTime>結束時間</endTime>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<manual>手動設定</manual>
+	<hourError>不合法的小時</hourError>
+	<minuteError>不合法的分鐘</minuteError>
+	<secondError>不合法的秒數</secondError>
+	<cameraNameError>網路攝影機名稱不能為空白</cameraNameError>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+</hint>
+<message>
+	<ok>設定成功</ok>
+</message>

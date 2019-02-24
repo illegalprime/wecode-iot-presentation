@@ -1,0 +1,43 @@
+<body>
+	<maintenance>System</maintenance>
+	<description1>Here you may backup, restore, and reboot your camera.</description1>
+	<rebootDevice>Reboot Device</rebootDevice>
+	<rebootText>Reboot Device</rebootText>
+	<factory>Restore To Factory Defaults</factory>
+	<factoryDefault>Restore Factory Defaults</factoryDefault>
+	<calibrateText>Calibrate The Device</calibrateText>
+	<calibrate>Calibrate the Device</calibrate>
+	<reboot1>Camera has been reboot, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<system>system</system>
+	<backupText>Save To Local Hard Drive</backupText>
+	<saveConfiguration>Save Configuration</saveConfiguration>
+	<restoreText>Load From Local Hard Drive</restoreText>
+	<privacyText>Privacy Mode</privacyText>
+	<privacy>Go To Privacy Mode</privacy>
+	<restoreConfiguration>Load Configuration</restoreConfiguration>
+	<restoreConfirm>Do you want to restore config data?</restoreConfirm>
+	<rebootConfirm>Do you want to reboot?</rebootConfirm>
+	<factoryConfirm>Do you want to factory default?</factoryConfirm>
+	
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>After the factory’s default settings have been restored, use the installation wizard software provided with your camera to search and connect to the camera.</description1>
+</hint>
+<message>
+	<updateOK>the update is successed</updateOK>
+	<uploadFail>the upload is failed</uploadFail>
+	<examFail>the upload image is damaged</examFail>
+	<infoFail>the upload image have no infomation</infoFail>
+	<invalidImage>the upload image cannot be used at this product</invalidImage>
+	<resetFail>the reset is failed</resetFail>
+	<resetOK>the reset is done</resetOK>
+	<rebootFail>the reboot is failed</rebootFail>
+	<rebootOK>the reboot is done</rebootOK>
+	<calibrationOK>calibration is successful</calibrationOK>
+	<goSleepOK>privacy mode is successful</goSleepOK>
+	<importOK>import successful, and it will reboot</importOK>
+	<invalidDB>not a valid config file</invalidDB>
+	<noDB>No config file is uploaded</noDB>
+</message>

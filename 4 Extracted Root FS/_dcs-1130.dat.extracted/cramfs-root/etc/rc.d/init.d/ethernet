@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# ethernet
+# ethernet is the tool to configure lo, and local ip. It read the 
+# configuration from TinyDB and set ethernet by uchcp or static ip
+# 
+
+RETVAL=0
+umask 077
+
+case "$1" in
+  start)
+	echo  $"Starting ethernet services:-----> "
+	/sbin/ifconfig lo 127.0.0.1 netmask 255.0.0.0
+	IPType=`/usr/bin/GetDBData 3_Network IPType 1`
+	if [ "$IPType" = "0x0" ]; then
+	    # Get IP by DHCP
+	    echo "Get IP by dhcp"
+	    /sbin/udhcpc -n -i eth0 
+	    RETVAL=$?
+	elif [ "$IPType" = "0x1" ]; then
+	    # Use Static IP 
+	    echo "Static IP"
+	    IPAddr=`/usr/bin/GetDBData 3_Network IPAddr 4`
+	    Netmask=`/usr/bin/GetDBData 3_Network Netmask 4`
+	    /sbin/ifconfig eth0 $IPAddr netmask $Netmask
+	    Gateway=`/usr/bin/GetDBData 3_Network Gateway 4`
+	    /sbin/route add default gw $Gateway
+	    DNS1=`/usr/bin/GetDBData 3_Network DNS1 4`	
+	    if [ -n $DNS1 ]; then
+		echo namserver $DNS1 >> /etc/resolv.conf
+	    fi
+	else
+	    # Use Auto IP
+	    # donothing, house keeper should set auto ip
+            # once the eth0 doesn't bind ip
+	    echo "Warning:No IPtype setting ["$IPType"]"
+
+	fi
+	/sbin/ifconfig -a
+	echo
+	exit $RETVAL
+	;;
+  stop)
+	echo $"Shutting down ethernet services: "
+	/sbin/ifdown eth0
+	RETVAL=$?
+	echo
+	exit $RETVAL
+	;;
+esac
+

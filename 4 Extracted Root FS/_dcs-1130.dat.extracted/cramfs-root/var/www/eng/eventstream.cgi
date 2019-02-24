@@ -1,0 +1,1 @@
+../cgi/eventstream.cgi
